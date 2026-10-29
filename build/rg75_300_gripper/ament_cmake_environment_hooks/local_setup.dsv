@@ -1,0 +1,4 @@
+source;share/rg75_300_gripper/environment/ament_prefix_path.sh
+source;share/rg75_300_gripper/environment/library_path.sh
+source;share/rg75_300_gripper/environment/path.sh
+source;share/rg75_300_gripper/environment/pythonpath.sh

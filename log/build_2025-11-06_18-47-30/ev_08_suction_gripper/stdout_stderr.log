@@ -1,0 +1,37 @@
+gmake[2]: *** No rule to make target '/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/libfairino/lib/libfairino.so', needed by 'suction_node'.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+[35m[1mConsolidate compiler generated dependencies of target ev_08_suction_gripper__rosidl_generator_c[0m
+[  2%] Built target ev_08_suction_gripper__cpp
+[ 12%] Built target ev_08_suction_gripper__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target ev_08_suction_gripper__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ev_08_suction_gripper__rosidl_typesupport_introspection_cpp[0m
+[ 12%] Built target ament_cmake_python_copy_ev_08_suction_gripper
+[35m[1mConsolidate compiler generated dependencies of target ev_08_suction_gripper__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ev_08_suction_gripper__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target ev_08_suction_gripper__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target ev_08_suction_gripper__rosidl_typesupport_c[0m
+[ 21%] Built target ev_08_suction_gripper__rosidl_typesupport_cpp
+[ 41%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_cpp
+[ 41%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_cpp
+[ 51%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_c
+[ 60%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_c
+[ 70%] Built target ev_08_suction_gripper__rosidl_typesupport_c
+[ 73%] [32mBuilding CXX object CMakeFiles/suction_node.dir/src/suction_node.cpp.o[0m
+[ 73%] Built target ev_08_suction_gripper
+[ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[01m[K/home/fst/test_fa_ws/src/ev_08_suction_gripper/src/suction_node.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Krobot.h: No such file or directory
+    4 | #include [01;31m[K"robot.h"[m[K   // Fairino SDK
+      |          [01;31m[K^~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/suction_node.dir/build.make:76: CMakeFiles/suction_node.dir/src/suction_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/suction_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+running egg_info
+writing ev_08_suction_gripper.egg-info/PKG-INFO
+writing dependency_links to ev_08_suction_gripper.egg-info/dependency_links.txt
+writing top-level names to ev_08_suction_gripper.egg-info/top_level.txt
+reading manifest file 'ev_08_suction_gripper.egg-info/SOURCES.txt'
+writing manifest file 'ev_08_suction_gripper.egg-info/SOURCES.txt'
+[ 75%] Built target ament_cmake_python_build_ev_08_suction_gripper_egg
+[ 75%] Built target ev_08_suction_gripper__py
+gmake: *** [Makefile:146: all] Error 2

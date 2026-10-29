@@ -1,0 +1,22 @@
+[4.702s] Invoking command in '/home/fst/test_fa_ws/src/yolo_pose_estimator': PYTHONPATH=/home/fst/test_fa_ws/build/yolo_pose_estimator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fst/test_fa_ws/install/yolo_pose_estimator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_pose_estimator build --build-base /home/fst/test_fa_ws/build/yolo_pose_estimator/build install --record /home/fst/test_fa_ws/build/yolo_pose_estimator/install.log --single-version-externally-managed install_data
+[6.027s] running egg_info
+[6.028s] writing ../../build/yolo_pose_estimator/yolo_pose_estimator.egg-info/PKG-INFO
+[6.028s] writing dependency_links to ../../build/yolo_pose_estimator/yolo_pose_estimator.egg-info/dependency_links.txt
+[6.028s] writing entry points to ../../build/yolo_pose_estimator/yolo_pose_estimator.egg-info/entry_points.txt
+[6.028s] writing requirements to ../../build/yolo_pose_estimator/yolo_pose_estimator.egg-info/requires.txt
+[6.028s] writing top-level names to ../../build/yolo_pose_estimator/yolo_pose_estimator.egg-info/top_level.txt
+[6.086s] reading manifest file '../../build/yolo_pose_estimator/yolo_pose_estimator.egg-info/SOURCES.txt'
+[6.086s] adding license file 'LICENSE'
+[6.086s] writing manifest file '../../build/yolo_pose_estimator/yolo_pose_estimator.egg-info/SOURCES.txt'
+[6.086s] running build
+[6.086s] running build_py
+[6.087s] running install
+[6.087s] running install_lib
+[6.087s] running install_data
+[6.087s] running install_egg_info
+[6.087s] removing '/home/fst/test_fa_ws/install/yolo_pose_estimator/lib/python3.10/site-packages/yolo_pose_estimator-0.0.0-py3.10.egg-info' (and everything under it)
+[6.088s] Copying ../../build/yolo_pose_estimator/yolo_pose_estimator.egg-info to /home/fst/test_fa_ws/install/yolo_pose_estimator/lib/python3.10/site-packages/yolo_pose_estimator-0.0.0-py3.10.egg-info
+[6.088s] running install_scripts
+[6.199s] Installing pose_estimator script to /home/fst/test_fa_ws/install/yolo_pose_estimator/lib/yolo_pose_estimator
+[6.207s] writing list of installed files to '/home/fst/test_fa_ws/build/yolo_pose_estimator/install.log'
+[6.390s] Invoked command in '/home/fst/test_fa_ws/src/yolo_pose_estimator' returned '0': PYTHONPATH=/home/fst/test_fa_ws/build/yolo_pose_estimator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fst/test_fa_ws/install/yolo_pose_estimator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_pose_estimator build --build-base /home/fst/test_fa_ws/build/yolo_pose_estimator/build install --record /home/fst/test_fa_ws/build/yolo_pose_estimator/install.log --single-version-externally-managed install_data

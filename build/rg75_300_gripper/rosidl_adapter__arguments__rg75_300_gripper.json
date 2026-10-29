@@ -1,0 +1,7 @@
+{
+  "package_name": "rg75_300_gripper",
+  "non_idl_tuples": [
+    "/home/fst/test_fa_ws/src/rg75_300_gripper:msg/GripperState.msg",
+    "/home/fst/test_fa_ws/src/rg75_300_gripper:srv/GripperCommand.srv"
+  ]
+}

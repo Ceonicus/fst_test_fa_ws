@@ -1,0 +1,5 @@
+[console_scripts]
+object_detect = pose_estimater.object_detect:main
+object_pose_estimate = pose_estimater.object_pose_estimate:main
+object_pose_estimate2 = pose_estimater.object_pose_estimate2:main
+

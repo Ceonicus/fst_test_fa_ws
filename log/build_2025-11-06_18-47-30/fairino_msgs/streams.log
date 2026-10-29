@@ -1,0 +1,23 @@
+[0.289s] Invoking command in '/home/fst/test_fa_ws/build/fairino_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/fairino_msgs -- -j6 -l6
+[0.881s] [  2%] Built target fairino_msgs__cpp
+[0.963s] [ 12%] Built target fairino_msgs__rosidl_generator_c
+[1.001s] [ 12%] Built target ament_cmake_python_copy_fairino_msgs
+[1.114s] [ 23%] Built target fairino_msgs__rosidl_typesupport_cpp
+[1.177s] [ 34%] Built target fairino_msgs__rosidl_typesupport_introspection_c
+[1.182s] [ 44%] Built target fairino_msgs__rosidl_typesupport_c
+[1.210s] [ 55%] Built target fairino_msgs__rosidl_typesupport_fastrtps_c
+[1.219s] [ 65%] Built target fairino_msgs__rosidl_typesupport_introspection_cpp
+[1.234s] [ 76%] Built target fairino_msgs__rosidl_typesupport_fastrtps_cpp
+[1.473s] [ 76%] Built target fairino_msgs
+[1.665s] [ 78%] Built target fairino_msgs__py
+[1.909s] [ 87%] Built target fairino_msgs__rosidl_generator_py
+[2.088s] [ 91%] Built target fairino_msgs__rosidl_typesupport_c__pyext
+[2.112s] [ 95%] Built target fairino_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.128s] [100%] Built target fairino_msgs__rosidl_typesupport_introspection_c__pyext
+[2.384s] running egg_info
+[2.387s] writing fairino_msgs.egg-info/PKG-INFO
+[2.388s] writing dependency_links to fairino_msgs.egg-info/dependency_links.txt
+[2.388s] writing top-level names to fairino_msgs.egg-info/top_level.txt
+[2.397s] reading manifest file 'fairino_msgs.egg-info/SOURCES.txt'
+[2.399s] writing manifest file 'fairino_msgs.egg-info/SOURCES.txt'
+[2.504s] [100%] Built target ament_cmake_python_build_fairino_msgs_egg

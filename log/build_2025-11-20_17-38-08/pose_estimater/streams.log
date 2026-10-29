@@ -1,0 +1,23 @@
+[6.736s] Invoking command in '/home/fst/test_fa_ws/src/pose_estimater': PYTHONPATH=/home/fst/test_fa_ws/build/pose_estimater/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pose_estimater build --build-base /home/fst/test_fa_ws/build/pose_estimater/build install --record /home/fst/test_fa_ws/build/pose_estimater/install.log --single-version-externally-managed install_data
+[7.799s] running egg_info
+[7.809s] writing ../../build/pose_estimater/pose_estimater.egg-info/PKG-INFO
+[7.814s] writing dependency_links to ../../build/pose_estimater/pose_estimater.egg-info/dependency_links.txt
+[7.815s] writing entry points to ../../build/pose_estimater/pose_estimater.egg-info/entry_points.txt
+[7.815s] writing requirements to ../../build/pose_estimater/pose_estimater.egg-info/requires.txt
+[7.815s] writing top-level names to ../../build/pose_estimater/pose_estimater.egg-info/top_level.txt
+[7.846s] reading manifest file '../../build/pose_estimater/pose_estimater.egg-info/SOURCES.txt'
+[7.849s] writing manifest file '../../build/pose_estimater/pose_estimater.egg-info/SOURCES.txt'
+[7.849s] running build
+[7.850s] running build_py
+[7.851s] running install
+[7.851s] running install_lib
+[7.854s] running install_data
+[7.855s] running install_egg_info
+[7.870s] removing '/home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater-0.0.0-py3.10.egg-info' (and everything under it)
+[7.879s] Copying ../../build/pose_estimater/pose_estimater.egg-info to /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater-0.0.0-py3.10.egg-info
+[7.879s] running install_scripts
+[7.977s] Installing object_detect script to /home/fst/test_fa_ws/install/pose_estimater/lib/pose_estimater
+[7.977s] Installing object_pose_estimate script to /home/fst/test_fa_ws/install/pose_estimater/lib/pose_estimater
+[7.978s] Installing object_pose_estimate2 script to /home/fst/test_fa_ws/install/pose_estimater/lib/pose_estimater
+[7.978s] writing list of installed files to '/home/fst/test_fa_ws/build/pose_estimater/install.log'
+[8.084s] Invoked command in '/home/fst/test_fa_ws/src/pose_estimater' returned '0': PYTHONPATH=/home/fst/test_fa_ws/build/pose_estimater/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pose_estimater build --build-base /home/fst/test_fa_ws/build/pose_estimater/build install --record /home/fst/test_fa_ws/build/pose_estimater/install.log --single-version-externally-managed install_data

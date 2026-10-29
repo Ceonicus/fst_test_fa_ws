@@ -1,0 +1,22 @@
+[0.365s] Invoking command in '/home/fst/test_fa_ws/build/easy_handeye2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/easy_handeye2_msgs -- -j6 -l6
+[1.568s] [  0%] Built target easy_handeye2_msgs__cpp
+[1.733s] [ 12%] Built target easy_handeye2_msgs__rosidl_generator_c
+[1.941s] [ 12%] Built target ament_cmake_python_copy_easy_handeye2_msgs
+[2.198s] [ 24%] Built target easy_handeye2_msgs__rosidl_typesupport_introspection_c
+[2.621s] [ 36%] Built target easy_handeye2_msgs__rosidl_typesupport_c
+[3.677s] running egg_info
+[3.680s] writing easy_handeye2_msgs.egg-info/PKG-INFO
+[3.684s] writing dependency_links to easy_handeye2_msgs.egg-info/dependency_links.txt
+[3.685s] writing top-level names to easy_handeye2_msgs.egg-info/top_level.txt
+[3.689s] reading manifest file 'easy_handeye2_msgs.egg-info/SOURCES.txt'
+[3.690s] writing manifest file 'easy_handeye2_msgs.egg-info/SOURCES.txt'
+[3.974s] [ 36%] Built target ament_cmake_python_build_easy_handeye2_msgs_egg
+[4.431s] [ 48%] Built target easy_handeye2_msgs__rosidl_typesupport_fastrtps_c
+[4.693s] [ 60%] Built target easy_handeye2_msgs__rosidl_typesupport_introspection_cpp
+[4.892s] [ 72%] Built target easy_handeye2_msgs__rosidl_typesupport_fastrtps_cpp
+[5.302s] [ 84%] Built target easy_handeye2_msgs__rosidl_typesupport_cpp
+[5.603s] [ 84%] Built target easy_handeye2_msgs
+[5.740s] gmake[2]: *** [easy_handeye2_msgs__py/CMakeFiles/easy_handeye2_msgs__py.dir/build.make:383: easy_handeye2_msgs__py/CMakeFiles/easy_handeye2_msgs__py.dir/depend] Interrupt
+[5.741s] gmake[1]: *** [CMakeFiles/Makefile2:589: easy_handeye2_msgs__py/CMakeFiles/easy_handeye2_msgs__py.dir/all] Interrupt
+[5.748s] gmake: *** [Makefile:146: all] Interrupt
+[5.837s] Invoked command in '/home/fst/test_fa_ws/build/easy_handeye2_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/easy_handeye2_msgs -- -j6 -l6

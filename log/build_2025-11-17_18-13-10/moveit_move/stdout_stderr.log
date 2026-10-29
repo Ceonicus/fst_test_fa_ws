@@ -1,0 +1,20 @@
+[ 50%] Built target moveit_move
+[100%] Built target hello_moveit
+-- Install configuration: ""
+-- Up-to-date: /home/fst/test_fa_ws/install/moveit_move/lib/moveit_move/moveit_move
+-- Up-to-date: /home/fst/test_fa_ws/install/moveit_move/lib/moveit_move/hello_moveit
+-- Up-to-date: /home/fst/test_fa_ws/install/moveit_move/share/ament_index/resource_index/package_run_dependencies/moveit_move
+-- Up-to-date: /home/fst/test_fa_ws/install/moveit_move/share/ament_index/resource_index/parent_prefix_path/moveit_move
+-- Up-to-date: /home/fst/test_fa_ws/install/moveit_move/share/moveit_move/environment/ament_prefix_path.sh
+-- Up-to-date: /home/fst/test_fa_ws/install/moveit_move/share/moveit_move/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/fst/test_fa_ws/install/moveit_move/share/moveit_move/environment/path.sh
+-- Up-to-date: /home/fst/test_fa_ws/install/moveit_move/share/moveit_move/environment/path.dsv
+-- Up-to-date: /home/fst/test_fa_ws/install/moveit_move/share/moveit_move/local_setup.bash
+-- Up-to-date: /home/fst/test_fa_ws/install/moveit_move/share/moveit_move/local_setup.sh
+-- Up-to-date: /home/fst/test_fa_ws/install/moveit_move/share/moveit_move/local_setup.zsh
+-- Up-to-date: /home/fst/test_fa_ws/install/moveit_move/share/moveit_move/local_setup.dsv
+-- Installing: /home/fst/test_fa_ws/install/moveit_move/share/moveit_move/package.dsv
+-- Up-to-date: /home/fst/test_fa_ws/install/moveit_move/share/ament_index/resource_index/packages/moveit_move
+-- Up-to-date: /home/fst/test_fa_ws/install/moveit_move/share/moveit_move/cmake/moveit_moveConfig.cmake
+-- Up-to-date: /home/fst/test_fa_ws/install/moveit_move/share/moveit_move/cmake/moveit_moveConfig-version.cmake
+-- Up-to-date: /home/fst/test_fa_ws/install/moveit_move/share/moveit_move/package.xml

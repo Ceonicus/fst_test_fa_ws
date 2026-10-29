@@ -1,0 +1,23 @@
+[  9%] Built target ev_08_suction_gripper__rosidl_generator_c
+[ 12%] Built target ev_08_suction_gripper__cpp
+[ 21%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_c
+[ 31%] Built target ev_08_suction_gripper__rosidl_typesupport_c
+[ 31%] Built target ament_cmake_python_copy_ev_08_suction_gripper
+[ 41%] Built target ev_08_suction_gripper__rosidl_typesupport_cpp
+[ 51%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_cpp
+[ 60%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_c
+[ 70%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_cpp
+[ 75%] Built target suction_node
+[ 75%] Built target ev_08_suction_gripper
+[ 78%] Built target ev_08_suction_gripper__py
+[ 85%] Built target ev_08_suction_gripper__rosidl_generator_py
+[ 90%] Built target ev_08_suction_gripper__rosidl_typesupport_c__pyext
+[ 95%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_c__pyext
+[100%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing ev_08_suction_gripper.egg-info/PKG-INFO
+writing dependency_links to ev_08_suction_gripper.egg-info/dependency_links.txt
+writing top-level names to ev_08_suction_gripper.egg-info/top_level.txt
+reading manifest file 'ev_08_suction_gripper.egg-info/SOURCES.txt'
+writing manifest file 'ev_08_suction_gripper.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_ev_08_suction_gripper_egg

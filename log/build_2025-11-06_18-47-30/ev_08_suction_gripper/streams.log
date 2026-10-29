@@ -1,0 +1,38 @@
+[0.217s] Invoking command in '/home/fst/test_fa_ws/build/ev_08_suction_gripper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/ev_08_suction_gripper -- -j6 -l6
+[1.988s] gmake[2]: *** No rule to make target '/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/libfairino/lib/libfairino.so', needed by 'suction_node'.  Stop.
+[1.988s] gmake[2]: *** Waiting for unfinished jobs....
+[1.991s] [35m[1mConsolidate compiler generated dependencies of target ev_08_suction_gripper__rosidl_generator_c[0m
+[1.991s] [  2%] Built target ev_08_suction_gripper__cpp
+[1.991s] [ 12%] Built target ev_08_suction_gripper__rosidl_generator_c
+[1.991s] [35m[1mConsolidate compiler generated dependencies of target ev_08_suction_gripper__rosidl_typesupport_cpp[0m
+[1.991s] [35m[1mConsolidate compiler generated dependencies of target ev_08_suction_gripper__rosidl_typesupport_introspection_cpp[0m
+[1.991s] [ 12%] Built target ament_cmake_python_copy_ev_08_suction_gripper
+[1.992s] [35m[1mConsolidate compiler generated dependencies of target ev_08_suction_gripper__rosidl_typesupport_fastrtps_cpp[0m
+[2.009s] [35m[1mConsolidate compiler generated dependencies of target ev_08_suction_gripper__rosidl_typesupport_introspection_c[0m
+[2.009s] [35m[1mConsolidate compiler generated dependencies of target ev_08_suction_gripper__rosidl_typesupport_fastrtps_c[0m
+[2.009s] [35m[1mConsolidate compiler generated dependencies of target ev_08_suction_gripper__rosidl_typesupport_c[0m
+[2.010s] [ 21%] Built target ev_08_suction_gripper__rosidl_typesupport_cpp
+[2.010s] [ 41%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_cpp
+[2.011s] [ 41%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_cpp
+[2.011s] [ 51%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_c
+[2.011s] [ 60%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_c
+[2.011s] [ 70%] Built target ev_08_suction_gripper__rosidl_typesupport_c
+[2.011s] [ 73%] [32mBuilding CXX object CMakeFiles/suction_node.dir/src/suction_node.cpp.o[0m
+[2.012s] [ 73%] Built target ev_08_suction_gripper
+[2.167s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.161s] [01m[K/home/fst/test_fa_ws/src/ev_08_suction_gripper/src/suction_node.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Krobot.h: No such file or directory
+[3.161s]     4 | #include [01;31m[K"robot.h"[m[K   // Fairino SDK
+[3.161s]       |          [01;31m[K^~~~~~~~~[m[K
+[3.161s] compilation terminated.
+[3.189s] gmake[2]: *** [CMakeFiles/suction_node.dir/build.make:76: CMakeFiles/suction_node.dir/src/suction_node.cpp.o] Error 1
+[3.189s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/suction_node.dir/all] Error 2
+[3.191s] gmake[1]: *** Waiting for unfinished jobs....
+[3.323s] running egg_info
+[3.323s] writing ev_08_suction_gripper.egg-info/PKG-INFO
+[3.323s] writing dependency_links to ev_08_suction_gripper.egg-info/dependency_links.txt
+[3.323s] writing top-level names to ev_08_suction_gripper.egg-info/top_level.txt
+[3.334s] reading manifest file 'ev_08_suction_gripper.egg-info/SOURCES.txt'
+[3.334s] writing manifest file 'ev_08_suction_gripper.egg-info/SOURCES.txt'
+[3.746s] [ 75%] Built target ament_cmake_python_build_ev_08_suction_gripper_egg
+[5.125s] [ 75%] Built target ev_08_suction_gripper__py
+[5.128s] gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,189 @@
+[0.314s] Invoking command in '/home/fst/test_fa_ws/build/ev_08_suction_gripper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/ev_08_suction_gripper -- -j6 -l6
+[0.535s] [  9%] Built target ev_08_suction_gripper__rosidl_generator_c
+[0.595s] [ 12%] Built target ev_08_suction_gripper__cpp
+[0.651s] [ 12%] Built target ament_cmake_python_copy_ev_08_suction_gripper
+[0.679s] [ 21%] Built target ev_08_suction_gripper__rosidl_typesupport_c
+[0.695s] [ 31%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_c
+[0.713s] [ 41%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_cpp
+[0.741s] [ 51%] Built target ev_08_suction_gripper__rosidl_typesupport_cpp
+[0.747s] [ 60%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_cpp
+[0.764s] [ 70%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_c
+[0.824s] [ 75%] Built target suction_node
+[0.844s] [ 75%] Built target ev_08_suction_gripper
+[0.924s] [ 78%] Built target ev_08_suction_gripper__py
+[0.997s] [ 85%] Built target ev_08_suction_gripper__rosidl_generator_py
+[1.107s] [ 90%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_c__pyext
+[1.131s] [ 95%] Built target ev_08_suction_gripper__rosidl_typesupport_c__pyext
+[1.140s] [100%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_c__pyext
+[1.360s] running egg_info
+[1.361s] writing ev_08_suction_gripper.egg-info/PKG-INFO
+[1.361s] writing dependency_links to ev_08_suction_gripper.egg-info/dependency_links.txt
+[1.361s] writing top-level names to ev_08_suction_gripper.egg-info/top_level.txt
+[1.367s] reading manifest file 'ev_08_suction_gripper.egg-info/SOURCES.txt'
+[1.384s] writing manifest file 'ev_08_suction_gripper.egg-info/SOURCES.txt'
+[1.609s] [100%] Built target ament_cmake_python_build_ev_08_suction_gripper_egg
+[3.458s] Invoked command in '/home/fst/test_fa_ws/build/ev_08_suction_gripper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/ev_08_suction_gripper -- -j6 -l6
+[3.464s] Invoking command in '/home/fst/test_fa_ws/build/ev_08_suction_gripper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/fst/test_fa_ws/build/ev_08_suction_gripper
+[3.499s] -- Install configuration: ""
+[3.500s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ament_index/resource_index/rosidl_interfaces/ev_08_suction_gripper
+[3.500s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper
+[3.500s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv
+[3.500s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail
+[3.501s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail/suction_command__struct.h
+[3.506s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail/suction_command__functions.h
+[3.507s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail/suction_command__functions.c
+[3.507s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail/suction_command__type_support.h
+[3.507s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/suction_command.h
+[3.507s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg
+[3.507s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/suction_state.h
+[3.507s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail
+[3.508s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail/suction_state__functions.h
+[3.508s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail/suction_state__functions.c
+[3.508s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail/suction_state__struct.h
+[3.508s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail/suction_state__type_support.h
+[3.508s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/rosidl_generator_c__visibility_control.h
+[3.508s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/environment/library_path.sh
+[3.508s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/environment/library_path.dsv
+[3.509s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/lib/libev_08_suction_gripper__rosidl_generator_c.so
+[3.509s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper
+[3.509s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv
+[3.509s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail
+[3.509s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail/suction_command__rosidl_typesupport_fastrtps_c.h
+[3.510s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg
+[3.510s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.510s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail
+[3.510s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail/suction_state__rosidl_typesupport_fastrtps_c.h
+[3.510s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/lib/libev_08_suction_gripper__rosidl_typesupport_fastrtps_c.so
+[3.510s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper
+[3.511s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv
+[3.511s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/suction_command.hpp
+[3.511s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail
+[3.511s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail/suction_command__type_support.hpp
+[3.511s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail/suction_command__builder.hpp
+[3.511s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail/suction_command__struct.hpp
+[3.512s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail/suction_command__traits.hpp
+[3.512s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg
+[3.512s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.512s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/suction_state.hpp
+[3.522s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail
+[3.522s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail/suction_state__traits.hpp
+[3.522s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail/suction_state__builder.hpp
+[3.522s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail/suction_state__type_support.hpp
+[3.523s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail/suction_state__struct.hpp
+[3.523s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper
+[3.523s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv
+[3.523s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail
+[3.523s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail/suction_command__rosidl_typesupport_fastrtps_cpp.hpp
+[3.523s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail/dds_fastrtps
+[3.523s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg
+[3.523s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail
+[3.524s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail/suction_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.524s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail/dds_fastrtps
+[3.524s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.524s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/lib/libev_08_suction_gripper__rosidl_typesupport_fastrtps_cpp.so
+[3.524s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper
+[3.524s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv
+[3.524s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail
+[3.524s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail/suction_command__type_support.c
+[3.525s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail/suction_command__rosidl_typesupport_introspection_c.h
+[3.525s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg
+[3.525s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.525s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail
+[3.526s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail/suction_state__rosidl_typesupport_introspection_c.h
+[3.526s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail/suction_state__type_support.c
+[3.526s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/lib/libev_08_suction_gripper__rosidl_typesupport_introspection_c.so
+[3.526s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/lib/libev_08_suction_gripper__rosidl_typesupport_c.so
+[3.526s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper
+[3.526s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv
+[3.526s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail
+[3.526s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail/suction_command__type_support.cpp
+[3.526s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/srv/detail/suction_command__rosidl_typesupport_introspection_cpp.hpp
+[3.527s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg
+[3.527s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail
+[3.527s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail/suction_state__type_support.cpp
+[3.527s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/include/ev_08_suction_gripper/ev_08_suction_gripper/msg/detail/suction_state__rosidl_typesupport_introspection_cpp.hpp
+[3.527s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/lib/libev_08_suction_gripper__rosidl_typesupport_introspection_cpp.so
+[3.527s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/lib/libev_08_suction_gripper__rosidl_typesupport_cpp.so
+[3.527s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/environment/pythonpath.sh
+[3.527s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/environment/pythonpath.dsv
+[3.528s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper-0.1.0-py3.10.egg-info
+[3.528s] -- Installing: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper-0.1.0-py3.10.egg-info/SOURCES.txt
+[3.528s] -- Installing: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper-0.1.0-py3.10.egg-info/PKG-INFO
+[3.528s] -- Installing: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper-0.1.0-py3.10.egg-info/dependency_links.txt
+[3.528s] -- Installing: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper-0.1.0-py3.10.egg-info/top_level.txt
+[3.528s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper
+[3.528s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/libev_08_suction_gripper__rosidl_generator_py.so
+[3.528s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/_ev_08_suction_gripper_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.528s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/_ev_08_suction_gripper_s.ep.rosidl_typesupport_introspection_c.c
+[3.529s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/srv
+[3.529s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/srv/__init__.py
+[3.529s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/srv/_suction_command_s.c
+[3.529s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/srv/_suction_command.py
+[3.529s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/ev_08_suction_gripper_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.529s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/ev_08_suction_gripper_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.529s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/msg
+[3.529s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/msg/__init__.py
+[3.529s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/msg/_suction_state_s.c
+[3.530s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/msg/_suction_state.py
+[3.530s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/__init__.py
+[3.530s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/_ev_08_suction_gripper_s.ep.rosidl_typesupport_c.c
+[3.530s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/ev_08_suction_gripper_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.647s] Listing '/home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper'...
+[3.647s] Listing '/home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/msg'...
+[3.647s] Listing '/home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/srv'...
+[3.682s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/ev_08_suction_gripper_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.682s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/ev_08_suction_gripper_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.683s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages/ev_08_suction_gripper/ev_08_suction_gripper_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.683s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/lib/libev_08_suction_gripper__rosidl_generator_py.so
+[3.683s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/msg/SuctionState.idl
+[3.684s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/srv/SuctionCommand.idl
+[3.684s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/msg/SuctionState.msg
+[3.684s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/srv/SuctionCommand.srv
+[3.684s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/srv/SuctionCommand_Request.msg
+[3.684s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/srv/SuctionCommand_Response.msg
+[3.684s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/lib/ev_08_suction_gripper/suction_node
+[3.685s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/package.xml
+[3.685s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/msg
+[3.685s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/msg/SuctionState.msg
+[3.686s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/srv
+[3.686s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/srv/SuctionCommand.srv
+[3.686s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ament_index/resource_index/package_run_dependencies/ev_08_suction_gripper
+[3.686s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ament_index/resource_index/parent_prefix_path/ev_08_suction_gripper
+[3.686s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/environment/ament_prefix_path.sh
+[3.686s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/environment/ament_prefix_path.dsv
+[3.687s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/environment/path.sh
+[3.687s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/environment/path.dsv
+[3.687s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/local_setup.bash
+[3.687s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/local_setup.sh
+[3.687s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/local_setup.zsh
+[3.687s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/local_setup.dsv
+[3.688s] -- Installing: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/package.dsv
+[3.688s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ament_index/resource_index/packages/ev_08_suction_gripper
+[3.688s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/export_ev_08_suction_gripper__rosidl_generator_cExport.cmake
+[3.688s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/export_ev_08_suction_gripper__rosidl_generator_cExport-noconfig.cmake
+[3.688s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/export_ev_08_suction_gripper__rosidl_typesupport_fastrtps_cExport.cmake
+[3.688s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/export_ev_08_suction_gripper__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.689s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/export_ev_08_suction_gripper__rosidl_generator_cppExport.cmake
+[3.689s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/export_ev_08_suction_gripper__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.689s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/export_ev_08_suction_gripper__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.689s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/ev_08_suction_gripper__rosidl_typesupport_introspection_cExport.cmake
+[3.689s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/ev_08_suction_gripper__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.689s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/ev_08_suction_gripper__rosidl_typesupport_cExport.cmake
+[3.689s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/ev_08_suction_gripper__rosidl_typesupport_cExport-noconfig.cmake
+[3.689s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/ev_08_suction_gripper__rosidl_typesupport_introspection_cppExport.cmake
+[3.690s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/ev_08_suction_gripper__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.690s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/ev_08_suction_gripper__rosidl_typesupport_cppExport.cmake
+[3.690s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/ev_08_suction_gripper__rosidl_typesupport_cppExport-noconfig.cmake
+[3.692s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/export_ev_08_suction_gripper__rosidl_generator_pyExport.cmake
+[3.692s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/export_ev_08_suction_gripper__rosidl_generator_pyExport-noconfig.cmake
+[3.693s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/rosidl_cmake-extras.cmake
+[3.693s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.693s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.693s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/ament_cmake_export_libraries-extras.cmake
+[3.693s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/ament_cmake_export_targets-extras.cmake
+[3.693s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.693s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.694s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/ev_08_suction_gripperConfig.cmake
+[3.694s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/cmake/ev_08_suction_gripperConfig-version.cmake
+[3.694s] -- Up-to-date: /home/fst/test_fa_ws/install/ev_08_suction_gripper/share/ev_08_suction_gripper/package.xml
+[4.669s] Invoked command in '/home/fst/test_fa_ws/build/ev_08_suction_gripper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/fst/test_fa_ws/build/ev_08_suction_gripper

@@ -1,0 +1,4 @@
+gmake[2]: *** No rule to make target '/home/fst/test_fa_ws/src/rg75_300_gripper/../frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/libfairino/lib/libfairino.so', needed by 'gripper_node'.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/gripper_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

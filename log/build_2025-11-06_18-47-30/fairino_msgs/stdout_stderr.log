@@ -1,0 +1,22 @@
+[  2%] Built target fairino_msgs__cpp
+[ 12%] Built target fairino_msgs__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_fairino_msgs
+[ 23%] Built target fairino_msgs__rosidl_typesupport_cpp
+[ 34%] Built target fairino_msgs__rosidl_typesupport_introspection_c
+[ 44%] Built target fairino_msgs__rosidl_typesupport_c
+[ 55%] Built target fairino_msgs__rosidl_typesupport_fastrtps_c
+[ 65%] Built target fairino_msgs__rosidl_typesupport_introspection_cpp
+[ 76%] Built target fairino_msgs__rosidl_typesupport_fastrtps_cpp
+[ 76%] Built target fairino_msgs
+[ 78%] Built target fairino_msgs__py
+[ 87%] Built target fairino_msgs__rosidl_generator_py
+[ 91%] Built target fairino_msgs__rosidl_typesupport_c__pyext
+[ 95%] Built target fairino_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target fairino_msgs__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing fairino_msgs.egg-info/PKG-INFO
+writing dependency_links to fairino_msgs.egg-info/dependency_links.txt
+writing top-level names to fairino_msgs.egg-info/top_level.txt
+reading manifest file 'fairino_msgs.egg-info/SOURCES.txt'
+writing manifest file 'fairino_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_fairino_msgs_egg

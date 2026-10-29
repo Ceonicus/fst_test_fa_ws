@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rg75_300_gripper__py",
+		"source" : "/home/fst/test_fa_ws/build/rg75_300_gripper/rg75_300_gripper__py"
+	}
+}

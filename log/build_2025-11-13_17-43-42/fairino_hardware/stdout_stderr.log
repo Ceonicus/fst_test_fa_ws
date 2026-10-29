@@ -1,0 +1,93 @@
+[ 37%] Built target ros2_cmd_server
+[ 50%] [32mBuilding CXX object CMakeFiles/fairino_hardware.dir/src/fairino_hardware_interface.cpp.o[0m
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:184:5:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+  184 |     [01;35m[K/[m[K/RCLCPP_INFO(rclcpp::get_logger("FairinoHardwareInterface"), "System successfully read: %f,%f,%f,%f,%f,%f",_jnt_position_state[0],\
+      |     [01;35m[K^[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:203:9:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+  203 |         [01;35m[K/[m[K/RCLCPP_INFO(rclcpp::get_logger("FairinoHardwareInterface"), "ServoJ下发位置:%f,%f,%f,%f,%f,%f",\
+      |         [01;35m[K^[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn fairino_hardware::FairinoHardwareInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:105:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  105 | hardware_interface::CallbackReturn FairinoHardwareInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K)
+      |                                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn fairino_hardware::FairinoHardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:160:107:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  160 | hardware_interface::CallbackReturn FairinoHardwareInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K)
+      |                                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type fairino_hardware::FairinoHardwareInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:182:42:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  182 |         [01;35m[Khardware_interface::return_type::ERROR[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:172:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  172 | hardware_interface::return_type FairinoHardwareInterface::read([01;35m[Kconst rclcpp::Time& time[m[K,const rclcpp::Duration& period)
+      |                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:172:113:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  172 | hardware_interface::return_type FairinoHardwareInterface::read(const rclcpp::Time& time,[01;35m[Kconst rclcpp::Duration& period[m[K)
+      |                                                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type fairino_hardware::FairinoHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:191:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  191 | hardware_interface::return_type FairinoHardwareInterface::write([01;35m[Kconst rclcpp::Time& time[m[K,const rclcpp::Duration& period)
+      |                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:191:114:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  191 | hardware_interface::return_type FairinoHardwareInterface::write(const rclcpp::Time& time,[01;35m[Kconst rclcpp::Duration& period[m[K)
+      |                                                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn fairino_hardware::FairinoHardwareInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:140:34:[m[K [01;35m[Kwarning: [m[Karray subscript 6 is above array bounds of ‘[01m[Kdouble [6][m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds]8;;[m[K]
+  140 |         [01;35m[K_jnt_position_command[6] += -0.02[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:1[m[K:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/include/fairino_hardware/fairino_hardware_interface.hpp:60:10:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Kfairino_hardware::FairinoHardwareInterface::_jnt_position_command[m[K’
+   60 |   double [01;36m[K_jnt_position_command[m[K[6];
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:140:34:[m[K [01;35m[Kwarning: [m[Karray subscript 6 is above array bounds of ‘[01m[Kdouble [6][m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds]8;;[m[K]
+  140 |         [01;35m[K_jnt_position_command[6] += -0.02[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:1[m[K:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/include/fairino_hardware/fairino_hardware_interface.hpp:60:10:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Kfairino_hardware::FairinoHardwareInterface::_jnt_position_command[m[K’
+   60 |   double [01;36m[K_jnt_position_command[m[K[6];
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:141:34:[m[K [01;35m[Kwarning: [m[Karray subscript 7 is above array bounds of ‘[01m[Kdouble [6][m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds]8;;[m[K]
+  141 |         [01;35m[K_jnt_position_command[7] += 0.02[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:1[m[K:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/include/fairino_hardware/fairino_hardware_interface.hpp:60:10:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Kfairino_hardware::FairinoHardwareInterface::_jnt_position_command[m[K’
+   60 |   double [01;36m[K_jnt_position_command[m[K[6];
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:141:34:[m[K [01;35m[Kwarning: [m[Karray subscript 7 is above array bounds of ‘[01m[Kdouble [6][m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Warray-bounds-Warray-bounds]8;;[m[K]
+  141 |         [01;35m[K_jnt_position_command[7] += 0.02[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:1[m[K:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/include/fairino_hardware/fairino_hardware_interface.hpp:60:10:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Kfairino_hardware::FairinoHardwareInterface::_jnt_position_command[m[K’
+   60 |   double [01;36m[K_jnt_position_command[m[K[6];
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[ 62%] [32m[1mLinking CXX shared library libfairino_hardware.so[0m
+[ 62%] Built target fairino_hardware
+[100%] Built target srv_test_client
+-- Install configuration: "Release"
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/fairino_hardware.xml
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/lib/fairino_hardware/ros2_cmd_server
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/lib/fairino_hardware/srv_test_client
+-- Installing: /home/fst/test_fa_ws/install/fairino_hardware/lib/fairino_hardware/libfairino_hardware.so
+-- Set runtime path of "/home/fst/test_fa_ws/install/fairino_hardware/lib/fairino_hardware/libfairino_hardware.so" to ""
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/environment/library_path.sh
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/environment/library_path.dsv
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/ament_index/resource_index/package_run_dependencies/fairino_hardware
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/ament_index/resource_index/parent_prefix_path/fairino_hardware
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/environment/ament_prefix_path.sh
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/environment/path.sh
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/environment/path.dsv
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/local_setup.bash
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/local_setup.sh
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/local_setup.zsh
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/local_setup.dsv
+-- Installing: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/package.dsv
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/ament_index/resource_index/packages/fairino_hardware
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/fairino_hardware
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareExport.cmake
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareExport-release.cmake
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareConfig.cmake
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareConfig-version.cmake
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/package.xml

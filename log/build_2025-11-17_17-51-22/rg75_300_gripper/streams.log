@@ -1,0 +1,189 @@
+[0.178s] Invoking command in '/home/fst/test_fa_ws/build/rg75_300_gripper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/rg75_300_gripper -- -j6 -l6
+[2.335s] [  2%] Built target rg75_300_gripper__cpp
+[2.336s] [ 12%] Built target rg75_300_gripper__rosidl_generator_c
+[2.336s] [ 12%] Built target ament_cmake_python_copy_rg75_300_gripper
+[2.336s] [ 21%] Built target rg75_300_gripper__rosidl_typesupport_cpp
+[2.336s] [ 31%] Built target rg75_300_gripper__rosidl_typesupport_fastrtps_cpp
+[2.336s] [ 41%] Built target rg75_300_gripper__rosidl_typesupport_introspection_cpp
+[2.337s] [ 51%] Built target rg75_300_gripper__rosidl_typesupport_introspection_c
+[2.337s] [ 60%] Built target rg75_300_gripper__rosidl_typesupport_fastrtps_c
+[2.337s] [ 70%] Built target rg75_300_gripper__rosidl_typesupport_c
+[2.337s] [ 75%] Built target gripper_node
+[2.337s] [ 75%] Built target rg75_300_gripper
+[2.337s] [ 78%] Built target rg75_300_gripper__py
+[2.338s] [ 85%] Built target rg75_300_gripper__rosidl_generator_py
+[2.563s] [ 95%] Built target rg75_300_gripper__rosidl_typesupport_fastrtps_c__pyext
+[2.563s] [ 95%] Built target rg75_300_gripper__rosidl_typesupport_c__pyext
+[2.701s] [100%] Built target rg75_300_gripper__rosidl_typesupport_introspection_c__pyext
+[3.194s] running egg_info
+[3.195s] writing rg75_300_gripper.egg-info/PKG-INFO
+[3.195s] writing dependency_links to rg75_300_gripper.egg-info/dependency_links.txt
+[3.195s] writing top-level names to rg75_300_gripper.egg-info/top_level.txt
+[3.203s] reading manifest file 'rg75_300_gripper.egg-info/SOURCES.txt'
+[3.204s] writing manifest file 'rg75_300_gripper.egg-info/SOURCES.txt'
+[3.462s] [100%] Built target ament_cmake_python_build_rg75_300_gripper_egg
+[4.302s] Invoked command in '/home/fst/test_fa_ws/build/rg75_300_gripper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/rg75_300_gripper -- -j6 -l6
+[4.319s] Invoking command in '/home/fst/test_fa_ws/build/rg75_300_gripper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/fst/test_fa_ws/build/rg75_300_gripper
+[4.477s] -- Install configuration: ""
+[4.477s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/ament_index/resource_index/rosidl_interfaces/rg75_300_gripper
+[4.478s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper
+[4.478s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv
+[4.478s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail
+[4.478s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail/gripper_command__type_support.h
+[4.479s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail/gripper_command__functions.c
+[4.479s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail/gripper_command__functions.h
+[4.480s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail/gripper_command__struct.h
+[4.482s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/gripper_command.h
+[4.482s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg
+[4.483s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail
+[4.483s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail/gripper_state__functions.h
+[4.483s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail/gripper_state__functions.c
+[4.483s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail/gripper_state__type_support.h
+[4.483s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail/gripper_state__struct.h
+[4.496s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/rosidl_generator_c__visibility_control.h
+[4.496s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/gripper_state.h
+[4.496s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/environment/library_path.sh
+[4.496s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/environment/library_path.dsv
+[4.496s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/lib/librg75_300_gripper__rosidl_generator_c.so
+[4.496s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper
+[4.497s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv
+[4.497s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail
+[4.497s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail/gripper_command__rosidl_typesupport_fastrtps_c.h
+[4.497s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg
+[4.497s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.497s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail
+[4.497s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail/gripper_state__rosidl_typesupport_fastrtps_c.h
+[4.497s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/lib/librg75_300_gripper__rosidl_typesupport_fastrtps_c.so
+[4.498s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper
+[4.498s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv
+[4.498s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail
+[4.498s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail/gripper_command__type_support.hpp
+[4.498s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail/gripper_command__struct.hpp
+[4.498s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail/gripper_command__traits.hpp
+[4.498s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail/gripper_command__builder.hpp
+[4.498s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/gripper_command.hpp
+[4.498s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg
+[4.499s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.499s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/gripper_state.hpp
+[4.499s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail
+[4.499s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail/gripper_state__type_support.hpp
+[4.499s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail/gripper_state__builder.hpp
+[4.499s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail/gripper_state__struct.hpp
+[4.499s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail/gripper_state__traits.hpp
+[4.500s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper
+[4.500s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv
+[4.500s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail
+[4.500s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail/dds_fastrtps
+[4.500s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail/gripper_command__rosidl_typesupport_fastrtps_cpp.hpp
+[4.500s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg
+[4.500s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail
+[4.501s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail/gripper_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.501s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail/dds_fastrtps
+[4.501s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.501s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/lib/librg75_300_gripper__rosidl_typesupport_fastrtps_cpp.so
+[4.501s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper
+[4.501s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv
+[4.501s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail
+[4.501s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail/gripper_command__type_support.c
+[4.502s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail/gripper_command__rosidl_typesupport_introspection_c.h
+[4.502s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg
+[4.502s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.502s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail
+[4.502s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail/gripper_state__type_support.c
+[4.502s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail/gripper_state__rosidl_typesupport_introspection_c.h
+[4.502s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/lib/librg75_300_gripper__rosidl_typesupport_introspection_c.so
+[4.502s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/lib/librg75_300_gripper__rosidl_typesupport_c.so
+[4.503s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper
+[4.503s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv
+[4.503s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail
+[4.503s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail/gripper_command__rosidl_typesupport_introspection_cpp.hpp
+[4.503s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/srv/detail/gripper_command__type_support.cpp
+[4.503s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg
+[4.503s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail
+[4.503s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail/gripper_state__rosidl_typesupport_introspection_cpp.hpp
+[4.503s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/include/rg75_300_gripper/rg75_300_gripper/msg/detail/gripper_state__type_support.cpp
+[4.504s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/lib/librg75_300_gripper__rosidl_typesupport_introspection_cpp.so
+[4.504s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/lib/librg75_300_gripper__rosidl_typesupport_cpp.so
+[4.504s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/environment/pythonpath.sh
+[4.504s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/environment/pythonpath.dsv
+[4.504s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper-0.1.0-py3.10.egg-info
+[4.504s] -- Installing: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper-0.1.0-py3.10.egg-info/SOURCES.txt
+[4.504s] -- Installing: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper-0.1.0-py3.10.egg-info/PKG-INFO
+[4.505s] -- Installing: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper-0.1.0-py3.10.egg-info/dependency_links.txt
+[4.505s] -- Installing: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper-0.1.0-py3.10.egg-info/top_level.txt
+[4.505s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper
+[4.505s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/rg75_300_gripper_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.505s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/rg75_300_gripper_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.505s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/librg75_300_gripper__rosidl_generator_py.so
+[4.505s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/srv
+[4.505s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/srv/_gripper_command_s.c
+[4.506s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/srv/__init__.py
+[4.511s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/srv/_gripper_command.py
+[4.511s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/_rg75_300_gripper_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.512s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/rg75_300_gripper_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.512s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/_rg75_300_gripper_s.ep.rosidl_typesupport_introspection_c.c
+[4.512s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/msg
+[4.512s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/msg/_gripper_state.py
+[4.512s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/msg/_gripper_state_s.c
+[4.521s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/msg/__init__.py
+[4.521s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/__init__.py
+[4.521s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/_rg75_300_gripper_s.ep.rosidl_typesupport_c.c
+[4.775s] Listing '/home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper'...
+[4.775s] Listing '/home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/msg'...
+[4.775s] Listing '/home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/srv'...
+[4.838s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/rg75_300_gripper_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.839s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/rg75_300_gripper_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.839s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages/rg75_300_gripper/rg75_300_gripper_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.840s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/lib/librg75_300_gripper__rosidl_generator_py.so
+[4.842s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/msg/GripperState.idl
+[4.842s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/srv/GripperCommand.idl
+[4.842s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/msg/GripperState.msg
+[4.843s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/srv/GripperCommand.srv
+[4.843s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/srv/GripperCommand_Request.msg
+[4.843s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/srv/GripperCommand_Response.msg
+[4.851s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/lib/rg75_300_gripper/gripper_node
+[4.851s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/package.xml
+[4.852s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/msg
+[4.852s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/msg/GripperState.msg
+[4.852s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/srv
+[4.852s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/srv/GripperCommand.srv
+[4.852s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/ament_index/resource_index/package_run_dependencies/rg75_300_gripper
+[4.852s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/ament_index/resource_index/parent_prefix_path/rg75_300_gripper
+[4.853s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/environment/ament_prefix_path.sh
+[4.853s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/environment/ament_prefix_path.dsv
+[4.853s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/environment/path.sh
+[4.853s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/environment/path.dsv
+[4.854s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/local_setup.bash
+[4.854s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/local_setup.sh
+[4.854s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/local_setup.zsh
+[4.854s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/local_setup.dsv
+[4.855s] -- Installing: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/package.dsv
+[4.855s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/ament_index/resource_index/packages/rg75_300_gripper
+[4.857s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/export_rg75_300_gripper__rosidl_generator_cExport.cmake
+[4.857s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/export_rg75_300_gripper__rosidl_generator_cExport-noconfig.cmake
+[4.857s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/export_rg75_300_gripper__rosidl_typesupport_fastrtps_cExport.cmake
+[4.857s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/export_rg75_300_gripper__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.857s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/export_rg75_300_gripper__rosidl_generator_cppExport.cmake
+[4.865s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/export_rg75_300_gripper__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.865s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/export_rg75_300_gripper__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.865s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/rg75_300_gripper__rosidl_typesupport_introspection_cExport.cmake
+[4.865s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/rg75_300_gripper__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.866s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/rg75_300_gripper__rosidl_typesupport_cExport.cmake
+[4.874s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/rg75_300_gripper__rosidl_typesupport_cExport-noconfig.cmake
+[4.874s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/rg75_300_gripper__rosidl_typesupport_introspection_cppExport.cmake
+[4.875s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/rg75_300_gripper__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.875s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/rg75_300_gripper__rosidl_typesupport_cppExport.cmake
+[4.875s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/rg75_300_gripper__rosidl_typesupport_cppExport-noconfig.cmake
+[4.875s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/export_rg75_300_gripper__rosidl_generator_pyExport.cmake
+[4.875s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/export_rg75_300_gripper__rosidl_generator_pyExport-noconfig.cmake
+[4.876s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/rosidl_cmake-extras.cmake
+[4.877s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.877s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.877s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/ament_cmake_export_libraries-extras.cmake
+[4.877s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/ament_cmake_export_targets-extras.cmake
+[4.878s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.879s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.879s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/rg75_300_gripperConfig.cmake
+[4.879s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/cmake/rg75_300_gripperConfig-version.cmake
+[4.879s] -- Up-to-date: /home/fst/test_fa_ws/install/rg75_300_gripper/share/rg75_300_gripper/package.xml
+[6.377s] Invoked command in '/home/fst/test_fa_ws/build/rg75_300_gripper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/fst/test_fa_ws/build/rg75_300_gripper

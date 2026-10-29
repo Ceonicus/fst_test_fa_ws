@@ -1,0 +1,24 @@
+[3.314s] Invoking command in '/home/fst/test_fa_ws/src/yolo_ros/yolo_ros': PYTHONPATH=/home/fst/test_fa_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fst/test_fa_ws/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/fst/test_fa_ws/build/yolo_ros/build install --record /home/fst/test_fa_ws/build/yolo_ros/install.log --single-version-externally-managed install_data
+[4.052s] running egg_info
+[4.055s] writing ../../../build/yolo_ros/yolo_ros.egg-info/PKG-INFO
+[4.056s] writing dependency_links to ../../../build/yolo_ros/yolo_ros.egg-info/dependency_links.txt
+[4.056s] writing entry points to ../../../build/yolo_ros/yolo_ros.egg-info/entry_points.txt
+[4.057s] writing requirements to ../../../build/yolo_ros/yolo_ros.egg-info/requires.txt
+[4.058s] writing top-level names to ../../../build/yolo_ros/yolo_ros.egg-info/top_level.txt
+[4.064s] reading manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[4.066s] writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[4.066s] running build
+[4.066s] running build_py
+[4.068s] running install
+[4.070s] running install_lib
+[4.074s] running install_data
+[4.075s] running install_egg_info
+[4.081s] removing '/home/fst/test_fa_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[4.082s] Copying ../../../build/yolo_ros/yolo_ros.egg-info to /home/fst/test_fa_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros-0.0.0-py3.10.egg-info
+[4.085s] running install_scripts
+[4.138s] Installing debug_node script to /home/fst/test_fa_ws/install/yolo_ros/lib/yolo_ros
+[4.140s] Installing detect_3d_node script to /home/fst/test_fa_ws/install/yolo_ros/lib/yolo_ros
+[4.141s] Installing tracking_node script to /home/fst/test_fa_ws/install/yolo_ros/lib/yolo_ros
+[4.142s] Installing yolo_node script to /home/fst/test_fa_ws/install/yolo_ros/lib/yolo_ros
+[4.143s] writing list of installed files to '/home/fst/test_fa_ws/build/yolo_ros/install.log'
+[4.295s] Invoked command in '/home/fst/test_fa_ws/src/yolo_ros/yolo_ros' returned '0': PYTHONPATH=/home/fst/test_fa_ws/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fst/test_fa_ws/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/fst/test_fa_ws/build/yolo_ros/build install --record /home/fst/test_fa_ws/build/yolo_ros/install.log --single-version-externally-managed install_data

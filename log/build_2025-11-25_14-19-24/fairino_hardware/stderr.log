@@ -1,0 +1,28 @@
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn fairino_hardware::FairinoHardwareInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:128:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::unique_ptr<FRRobot>[m[K’ has no member named ‘[01m[KGetGripperActivateStatus[m[K’
+  128 |                 int ret = _ptr_robot.[01;31m[KGetGripperActivateStatus[m[K(&fault, &status);
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:76:109:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   76 |     hardware_interface::CallbackReturn FairinoHardwareInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn fairino_hardware::FairinoHardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:180:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  180 |     hardware_interface::CallbackReturn FairinoHardwareInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type fairino_hardware::FairinoHardwareInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:195:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  195 |     hardware_interface::return_type FairinoHardwareInterface::read([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &period)
+      |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:195:118:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  195 |     hardware_interface::return_type FairinoHardwareInterface::read(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &period[m[K)
+      |                                                                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type fairino_hardware::FairinoHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:261:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  261 |     hardware_interface::return_type FairinoHardwareInterface::write([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &period)
+      |                                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:261:119:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  261 |     hardware_interface::return_type FairinoHardwareInterface::write(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &period[m[K)
+      |                                                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/fairino_hardware.dir/build.make:76: CMakeFiles/fairino_hardware.dir/src/fairino_hardware_interface3.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/fairino_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

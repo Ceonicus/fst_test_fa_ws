@@ -1,0 +1,8 @@
+gmake[2]: *** No rule to make target '/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/libfairino/lib/libfairino.so', needed by 'suction_node'.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/fst/test_fa_ws/src/ev_08_suction_gripper/src/suction_node.cpp:[m[K In member function ‘[01m[Kvoid SuctionNode::rerun()[m[K’:
+[01m[K/home/fst/test_fa_ws/src/ev_08_suction_gripper/src/suction_node.cpp:30:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpkg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   30 |         ROBOT_STATE_PKG [01;35m[Kpkg[m[K = {};
+      |                         [01;35m[K^~~[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/suction_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,13 @@
+[0.262s] Invoking command in '/home/fst/test_fa_ws/build/rg75_300_gripper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/rg75_300_gripper -- -j6 -l6
+[3.091s] [  2%] Built target rg75_300_gripper__cpp
+[3.091s] [  2%] Built target ament_cmake_python_copy_rg75_300_gripper
+[3.091s] [ 12%] Built target rg75_300_gripper__rosidl_typesupport_introspection_cpp
+[3.436s] running egg_info
+[3.439s] writing rg75_300_gripper.egg-info/PKG-INFO
+[3.439s] writing dependency_links to rg75_300_gripper.egg-info/dependency_links.txt
+[3.439s] writing top-level names to rg75_300_gripper.egg-info/top_level.txt
+[3.446s] reading manifest file 'rg75_300_gripper.egg-info/SOURCES.txt'
+[3.449s] writing manifest file 'rg75_300_gripper.egg-info/SOURCES.txt'
+[3.464s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_rg75_300_gripper_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_rg75_300_gripper_egg] Interrupt
+[3.464s] gmake[1]: *** [CMakeFiles/Makefile2:449: CMakeFiles/ament_cmake_python_build_rg75_300_gripper_egg.dir/all] Interrupt
+[3.465s] gmake: *** [Makefile:146: all] Interrupt

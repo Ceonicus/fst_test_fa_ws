@@ -1,0 +1,30 @@
+[  2%] Built target ev_08_suction_gripper__cpp
+[ 12%] Built target ev_08_suction_gripper__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_ev_08_suction_gripper
+[ 21%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_cpp
+[ 31%] Built target ev_08_suction_gripper__rosidl_typesupport_cpp
+[ 41%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_cpp
+[ 51%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_c
+[ 60%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_c
+[ 70%] Built target ev_08_suction_gripper__rosidl_typesupport_c
+[ 73%] [32mBuilding CXX object CMakeFiles/suction_node.dir/src/suction_node.cpp.o[0m
+[ 73%] Built target ev_08_suction_gripper
+[ 75%] Built target ev_08_suction_gripper__py
+[35m[1mConsolidate compiler generated dependencies of target ev_08_suction_gripper__rosidl_generator_py[0m
+[ 82%] Built target ev_08_suction_gripper__rosidl_generator_py
+[ 85%] [32mBuilding C object CMakeFiles/ev_08_suction_gripper__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ev_08_suction_gripper/_ev_08_suction_gripper_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/ev_08_suction_gripper__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ev_08_suction_gripper/_ev_08_suction_gripper_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/ev_08_suction_gripper__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ev_08_suction_gripper/_ev_08_suction_gripper_s.ep.rosidl_typesupport_c.c.o[0m
+[ 92%] [32m[1mLinking C shared library rosidl_generator_py/ev_08_suction_gripper/ev_08_suction_gripper_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+running egg_info
+writing ev_08_suction_gripper.egg-info/PKG-INFO
+writing dependency_links to ev_08_suction_gripper.egg-info/dependency_links.txt
+writing top-level names to ev_08_suction_gripper.egg-info/top_level.txt
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/ev_08_suction_gripper/ev_08_suction_gripper_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+reading manifest file 'ev_08_suction_gripper.egg-info/SOURCES.txt'
+writing manifest file 'ev_08_suction_gripper.egg-info/SOURCES.txt'
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/ev_08_suction_gripper/ev_08_suction_gripper_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 97%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target ament_cmake_python_build_ev_08_suction_gripper_egg
+[ 97%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target ev_08_suction_gripper__rosidl_typesupport_c__pyext

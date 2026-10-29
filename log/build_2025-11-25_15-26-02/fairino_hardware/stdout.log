@@ -1,0 +1,3 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/fairino_hardware.dir/src/fairino_hardware_interface3.cpp.o[0m
+[ 87%] Built target srv_test_client
+[ 87%] Built target ros2_cmd_server

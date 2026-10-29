@@ -1,0 +1,10 @@
+gmake[2]: *** No rule to make target '/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/libfairino/lib/libfairino.so', needed by 'suction_node'.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/fst/test_fa_ws/src/ev_08_suction_gripper/src/suction_node.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Krobot.h: No such file or directory
+    4 | #include [01;31m[K"robot.h"[m[K   // Fairino SDK
+      |          [01;31m[K^~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/suction_node.dir/build.make:76: CMakeFiles/suction_node.dir/src/suction_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/suction_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

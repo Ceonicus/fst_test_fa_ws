@@ -1,0 +1,60 @@
+[0.144s] Invoking command in '/home/fst/test_fa_ws/build/yolo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/yolo_msgs -- -j6 -l6
+[0.513s] [  0%] Built target yolo_msgs__cpp
+[0.725s] [  0%] Built target ament_cmake_python_copy_yolo_msgs
+[0.751s] [ 12%] Built target yolo_msgs__rosidl_generator_c
+[0.929s] [ 24%] Built target yolo_msgs__rosidl_typesupport_cpp
+[0.944s] [ 36%] Built target yolo_msgs__rosidl_typesupport_fastrtps_cpp
+[1.059s] [ 48%] Built target yolo_msgs__rosidl_typesupport_fastrtps_c
+[1.092s] [ 60%] Built target yolo_msgs__rosidl_typesupport_introspection_c
+[1.093s] [ 72%] Built target yolo_msgs__rosidl_typesupport_introspection_cpp
+[1.317s] [ 84%] Built target yolo_msgs__rosidl_typesupport_c
+[1.439s] [ 84%] Built target yolo_msgs
+[1.729s] [ 85%] Built target yolo_msgs__py
+[1.868s] Traceback (most recent call last):
+[1.869s]   File "/home/fst/test_fa_ws/build/yolo_msgs/ament_cmake_python/yolo_msgs/setup.py", line 1, in <module>
+[1.870s]     from setuptools import find_packages
+[1.870s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[1.875s]     import setuptools.version
+[1.881s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[1.881s]     import pkg_resources
+[1.882s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 77, in <module>
+[1.882s]     __import__('pkg_resources.extern.packaging.specifiers')
+[1.882s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/specifiers.py", line 317, in <module>
+[1.882s]     class Specifier(_IndividualSpecifier):
+[1.882s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/specifiers.py", line 412, in Specifier
+[1.882s]     _regex = re.compile(r"^\s*" + _regex_str + r"\s*$", re.VERBOSE | re.IGNORECASE)
+[1.882s]   File "/usr/lib/python3.10/re.py", line 251, in compile
+[1.883s]     return _compile(pattern, flags)
+[1.883s]   File "/usr/lib/python3.10/re.py", line 303, in _compile
+[1.883s]     p = sre_compile.compile(pattern, flags)
+[1.883s]   File "/usr/lib/python3.10/sre_compile.py", line 788, in compile
+[1.883s] gmake[2]: *** [CMakeFiles/yolo_msgs__rosidl_generator_py.dir/build.make:315: CMakeFiles/yolo_msgs__rosidl_generator_py.dir/depend] Interrupt
+[1.883s] gmake[1]: *** [CMakeFiles/Makefile2:474: CMakeFiles/yolo_msgs__rosidl_generator_py.dir/all] Interrupt
+[1.883s]     p = sre_parse.parse(p, flags)
+[1.884s]   File "/usr/lib/python3.10/sre_parse.py", line 955, in parse
+[1.892s]     p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+[1.893s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[1.893s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[1.893s]   File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+[1.893s]     p = _parse_sub(source, state, sub_verbose, nested + 1)
+[1.894s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[1.894s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[1.894s]   File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+[1.894s]     p = _parse_sub(source, state, sub_verbose, nested + 1)
+[1.894s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[1.895s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[1.895s]   File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+[1.895s]     p = _parse_sub(source, state, sub_verbose, nested + 1)
+[1.895s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[1.895s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[1.896s]   File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+[1.896s]     p = _parse_sub(source, state, sub_verbose, nested + 1)
+[1.896s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[1.896s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[1.897s]   File "/usr/lib/python3.10/sre_parse.py", line 496, in _parse
+[1.897s]     subpattern = SubPattern(state)
+[1.897s] KeyboardInterrupt
+[1.926s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_yolo_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_yolo_msgs_egg] Interrupt
+[1.926s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_yolo_msgs_egg.dir/all] Interrupt
+[1.927s] gmake: *** [Makefile:146: all] Interrupt
+[1.933s] Invoked command in '/home/fst/test_fa_ws/build/yolo_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/yolo_msgs -- -j6 -l6

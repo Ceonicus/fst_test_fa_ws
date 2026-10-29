@@ -1,0 +1,24 @@
+[0.314s] Invoking command in '/home/fst/test_fa_ws/build/rg75_300_gripper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/rg75_300_gripper -- -j6 -l6
+[1.208s] [  2%] Built target rg75_300_gripper__cpp
+[1.235s] [ 12%] Built target rg75_300_gripper__rosidl_generator_c
+[1.305s] [ 12%] Built target ament_cmake_python_copy_rg75_300_gripper
+[1.408s] [ 21%] Built target rg75_300_gripper__rosidl_typesupport_cpp
+[1.428s] [ 31%] Built target rg75_300_gripper__rosidl_typesupport_fastrtps_cpp
+[1.494s] [ 41%] Built target rg75_300_gripper__rosidl_typesupport_introspection_cpp
+[1.518s] [ 51%] Built target rg75_300_gripper__rosidl_typesupport_introspection_c
+[1.567s] [35m[1mConsolidate compiler generated dependencies of target gripper_node[0m
+[1.580s] [ 60%] Built target rg75_300_gripper__rosidl_typesupport_c
+[1.627s] [ 70%] Built target rg75_300_gripper__rosidl_typesupport_fastrtps_c
+[1.641s] gmake[2]: *** No rule to make target '/home/fst/test_fa_ws/src/rg75_300_gripper/../frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/libfairino/lib/libfairino.so', needed by 'gripper_node'.  Stop.
+[1.641s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/gripper_node.dir/all] Error 2
+[1.641s] gmake[1]: *** Waiting for unfinished jobs....
+[1.890s] [ 70%] Built target rg75_300_gripper
+[2.979s] running egg_info
+[2.980s] writing rg75_300_gripper.egg-info/PKG-INFO
+[2.998s] writing dependency_links to rg75_300_gripper.egg-info/dependency_links.txt
+[2.999s] writing top-level names to rg75_300_gripper.egg-info/top_level.txt
+[2.999s] reading manifest file 'rg75_300_gripper.egg-info/SOURCES.txt'
+[2.999s] writing manifest file 'rg75_300_gripper.egg-info/SOURCES.txt'
+[3.317s] [ 70%] Built target ament_cmake_python_build_rg75_300_gripper_egg
+[3.328s] gmake: *** [Makefile:146: all] Error 2
+[4.141s] Invoked command in '/home/fst/test_fa_ws/build/rg75_300_gripper' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/rg75_300_gripper -- -j6 -l6

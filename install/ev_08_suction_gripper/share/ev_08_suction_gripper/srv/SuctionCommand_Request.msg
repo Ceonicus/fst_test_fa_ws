@@ -1,0 +1,1 @@
+int8 command             # 1=A_ON, 2=A_OFF, 3=B_ON, 4=B_OFF, 5=BOTH_ON

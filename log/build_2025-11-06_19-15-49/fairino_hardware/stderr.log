@@ -1,0 +1,312 @@
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:114:71:[m[K [01;35m[Kwarning: [m[Kbackslash and newline separated by space
+  114 |         const std::shared_ptr<remote_cmd_server_srv_msg::Request> req,\
+      |                                                                        
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:448:5:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+  448 |     [01;35m[K/[m[K/RCLCPP_INFO(rclcpp::get_logger(LOGGER_NAME),"settoolcoord:%d,%f,%f,%f,%f,%f,%f,%d,%d",\
+      |     [01;35m[K^[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1887:5:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+ 1887 |     [01;35m[K/[m[K/ RCLCPP_INFO(rclcpp::get_logger(LOGGER_NAME),"焊接状态参数:%i,%i",\
+      |     [01;35m[K^[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1890:5:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+ 1890 |     [01;35m[K/[m[K/ return std::string(std::to_string(res) + "," + std::to_string(state.breakOffState) + \
+      |     [01;35m[K^[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:2029:51:[m[K [01;35m[Kwarning: [m[Kbackslash and newline separated by space
+ 2029 |                 std::to_string(pos.rpy.ry) + "," +\
+      |                                                    
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kvoid robot_command_thread::_fillJointPose(std::__cxx11::list<std::__cxx11::basic_string<char> >&, JointPos)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:224:81:[m[K [01;35m[Kwarning: [m[Kparameter ‘[01m[Kpos[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-parameter-Wunused-but-set-parameter]8;;[m[K]
+  224 | void robot_command_thread::_fillJointPose(std::list<std::string>& data,[01;35m[KJointPos pos[m[K){
+      |                                                                        [01;35m[K~~~~~~~~~^~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::defJntPosition(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:258:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  258 |         if([01;35m[Kidx > _cmd_jnt_pos_list.size()+1[m[K || idx <= 0){//如果大于当前容器最大值+1,那么要报错,因为序列容器中间无法留空
+      |            [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:261:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  261 |         }else if([01;35m[Kidx <= _cmd_jnt_pos_list.size()[m[K){//如果是小于等于当前的容量,那么就是点位信息覆盖
+      |                  [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:266:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  266 |         }else if([01;35m[Kidx == _cmd_jnt_pos_list.size()+1[m[K){//添加元素
+      |                  [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::defCartPosition(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:309:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  309 |         if([01;35m[Kidx > _cmd_cart_pos_list.size()+1[m[K || idx <= 0){//如果大于当前容器最大值+1,那么要报错,因为序列容器中间无法留空
+      |            [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:312:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  312 |         }else if([01;35m[Kidx <= _cmd_cart_pos_list.size()[m[K){//如果是小于等于当前的容量,那么就是点位信息覆盖
+      |                  [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:320:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  320 |         }else if([01;35m[Kidx == _cmd_cart_pos_list.size()+1[m[K){//添加元素
+      |                  [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::getVariable(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:351:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  351 |             if([01;35m[Kidx <= _cmd_jnt_pos_list.size()[m[K && idx > 0){
+      |                [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:365:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  365 |                 if([01;35m[Kidx <= _cmd_cart_pos_list.size()[m[K && idx > 0){
+      |                    [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::SetCollisionStrategy(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:655:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstrategy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  655 |     int [01;35m[Kstrategy[m[K = std::stoi(list.front().c_str());list.pop_front();
+      |         [01;35m[K^~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveJ(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1120:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1120 |         if([01;35m[Kindex > _cmd_jnt_pos_list.size()[m[K){
+      |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1131:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1131 |         if([01;35m[Kindex > _cmd_cart_pos_list.size()[m[K){
+      |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveL(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1205:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1205 |         if([01;35m[Kindex > _cmd_jnt_pos_list.size()[m[K){
+      |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1216:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1216 |         if([01;35m[Kindex > _cmd_cart_pos_list.size()[m[K){
+      |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveC(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1294:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1294 |         if([01;35m[Kindex > _cmd_jnt_pos_list.size()[m[K || index2 > _cmd_jnt_pos_list.size()){
+      |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1294:55:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1294 |         if(index > _cmd_jnt_pos_list.size() || [01;35m[Kindex2 > _cmd_jnt_pos_list.size()[m[K){
+      |                                                [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1310:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1310 |         if([01;35m[Kindex > _cmd_cart_pos_list.size()[m[K || index2 > _cmd_cart_pos_list.size()){
+      |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1310:56:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1310 |         if(index > _cmd_cart_pos_list.size() || [01;35m[Kindex2 > _cmd_cart_pos_list.size()[m[K){
+      |                                                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1269:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksearch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1269 |     uint8_t [01;35m[Ksearch[m[K = this->get_parameter("MoveL_search").as_int();
+      |             [01;35m[K^~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::Circle(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1348:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1348 | std::string robot_command_thread::Circle([01;35m[Kstd::string para[m[K){
+      |                                          [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::SplinePTP(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1415:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1415 |         if([01;35m[Kindex > _cmd_jnt_pos_list.size()[m[K){
+      |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::NewSplinePoint(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1503:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1503 |         if([01;35m[Kindex > _cmd_cart_pos_list.size()[m[K){
+      |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::PointsOffsetDisable(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1584:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1584 | std::string robot_command_thread::PointsOffsetDisable([01;35m[Kstd::string para[m[K){
+      |                                                       [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ScriptStart(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1766:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1766 | std::string robot_command_thread::ScriptStart([01;35m[Kstd::string para[m[K){
+      |                                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ScriptStop(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1775:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1775 | std::string robot_command_thread::ScriptStop([01;35m[Kstd::string para[m[K){
+      |                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ScriptPause(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1785:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1785 | std::string robot_command_thread::ScriptPause([01;35m[Kstd::string para[m[K){
+      |                                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ScriptResume(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1795:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1795 | std::string robot_command_thread::ScriptResume([01;35m[Kstd::string para[m[K){
+      |                                                [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetVersion(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1805:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1805 | std::string robot_command_thread::GetVersion([01;35m[Kstd::string para[m[K){
+      |                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetMsgVersion(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1816:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1816 | std::string robot_command_thread::GetMsgVersion([01;35m[Kstd::string para[m[K){
+      |                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetRobotVersion(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1826:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1826 | std::string robot_command_thread::GetRobotVersion([01;35m[Kstd::string para[m[K){
+      |                                                   [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetControllerVersion(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1837:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1837 | std::string robot_command_thread::GetControllerVersion([01;35m[Kstd::string para[m[K){
+      |                                                        [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetDHCompensation(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1866:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1866 | std::string robot_command_thread::GetDHCompensation([01;35m[Kstd::string para[m[K){
+      |                                                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetWeldingBreakOffState(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1892:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+ 1892 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1883:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1883 | std::string robot_command_thread::GetWeldingBreakOffState([01;35m[Kstd::string para[m[K){
+      |                                                           [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::TractorHoming(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1913:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1913 | std::string robot_command_thread::TractorHoming([01;35m[Kstd::string para[m[K){
+      |                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::TractorStop(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1956:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1956 | std::string robot_command_thread::TractorStop([01;35m[Kstd::string para[m[K){
+      |                                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveTrajectoryJ(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:2005:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 2005 | std::string robot_command_thread::MoveTrajectoryJ([01;35m[Kstd::string para[m[K){
+      |                                                   [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetTrajectoryPointNum(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:2041:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 2041 | std::string robot_command_thread::GetTrajectoryPointNum([01;35m[Kstd::string para[m[K){
+      |                                                         [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetLuaList(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:2109:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 2109 | std::string robot_command_thread::GetLuaList([01;35m[Kstd::string para[m[K){
+      |                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::WeldingGetCheckArcInterruptionParam(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:2189:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 2189 | std::string robot_command_thread::WeldingGetCheckArcInterruptionParam([01;35m[Kstd::string para[m[K){
+      |                                                                       [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::WeldingGetReWeldAfterBreakOffParam(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:2221:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 2221 | std::string robot_command_thread::WeldingGetReWeldAfterBreakOffParam([01;35m[Kstd::string para[m[K){
+      |                                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::WeldingStartReWeldAfterBreakOff(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:2235:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 2235 | std::string robot_command_thread::WeldingStartReWeldAfterBreakOff([01;35m[Kstd::string para[m[K){
+      |                                                                   [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::WeldingAbortWeldAfterBreakOff(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:2244:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 2244 | std::string robot_command_thread::WeldingAbortWeldAfterBreakOff([01;35m[Kstd::string para[m[K){
+      |                                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kvoid robot_recv_thread::_state_recv_callback()[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:2477:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 2477 |         if([01;35m[K*ptr_frame_length < (_CTRL_STATE_SIZE-14)[m[K){//帧长度小于等于预期，直接填装
+      |            [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/include/fairino_hardware/command_server.hpp:5[m[K,
+                 from [01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1[m[K:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In lambda function:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:2480:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+ 2480 |                     [01;35m[K"反馈状态数据帧长度小于预期,差距为%i,请对齐fairino_hardware功能包与机械臂软件版本。"[m[K,\
+      |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:2480:56:[m[K [01;36m[Knote: [m[Kformat string is defined here
+ 2480 |                     "反馈状态数据帧长度小于预期,差距为[01;36m[K%i[m[K,请对齐fairino_hardware功能包与机械臂软件版本。",\
+      |                                                       [01;36m[K~^[m[K
+      |                                                        [01;36m[K|[m[K
+      |                                                        [01;36m[Kint[m[K
+      |                                                       [32m[K%li[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kvoid robot_recv_thread::_state_recv_callback()[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:2485:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 2485 |         }else if([01;35m[K*ptr_frame_length > (_CTRL_STATE_SIZE-14)[m[K){//帧长度大于预期，需要削去多余数据，默认削去尾部数据
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/include/fairino_hardware/command_server.hpp:5[m[K,
+                 from [01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1[m[K:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In lambda function:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:2488:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+ 2488 |                     [01;35m[K"反馈状态数据帧长度大于预期,差距为%i,请对齐fairino_hardware功能包与机械臂软件版本。"[m[K,\
+      |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 2489 |                     [32m[K*ptr_frame_length - _CTRL_STATE_SIZE+14[m[K
+      |                     [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                         [32m[K|[m[K
+      |                                                         [32m[Klong unsigned int[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:2488:56:[m[K [01;36m[Knote: [m[Kformat string is defined here
+ 2488 |                     "反馈状态数据帧长度大于预期,差距为[01;36m[K%i[m[K,请对齐fairino_hardware功能包与机械臂软件版本。",\
+      |                                                       [01;36m[K~^[m[K
+      |                                                        [01;36m[K|[m[K
+      |                                                        [01;36m[Kint[m[K
+      |                                                       [32m[K%li[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kvoid robot_recv_thread::_state_recv_callback()[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:2498:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Koneshot_buff[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+ 2498 |         char [01;35m[Koneshot_buff[m[K[future_len] = {0};
+      |              [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:2523:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kconcatante_buff[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+ 2523 |         char [01;35m[Kconcatante_buff[m[K[length_left] = {0};
+      |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::getVariable(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:383:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  383 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveJ(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1164:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuser[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+ 1164 |         ovl,&extpos,blendT,offset_flag,&offsetpos)[01;35m[K)[m[K;
+      |                                                   [01;35m[K^[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1164:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktool[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1164:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kspeed[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveL(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1247:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuser[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+ 1247 |         &extpos,search,offset_flag,&offsetpos)[01;35m[K)[m[K;
+      |                                               [01;35m[K^[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1247:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktool[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1247:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kspeed[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveC(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1345:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuser[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+ 1345 |         offset_flag,&offsetpos,ovl,blendR)[01;35m[K)[m[K;
+      |                                           [01;35m[K^[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1345:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktool[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1345:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kspeed[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::SplinePTP(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1444:57:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuser[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+ 1444 |                                 tool,user,speed,acc,ovl)[01;35m[K)[m[K;
+      |                                                         [01;35m[K^[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1444:57:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktool[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1444:57:[m[K [01;35m[Kwarning: [m[K‘[01m[Kspeed[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::NewSplinePoint(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1532:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Klastflag[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+ 1532 |             acc,ovl,blendR,lastflag)[01;35m[K)[m[K;
+      |                                     [01;35m[K^[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1532:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuser[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1532:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktool[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/command_server.cpp:1532:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kspeed[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:182:5:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+  182 |     [01;35m[K/[m[K/RCLCPP_INFO(rclcpp::get_logger("FairinoHardwareInterface"), "System successfully read: %f,%f,%f,%f,%f,%f",_jnt_position_state[0],\
+      |     [01;35m[K^[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:201:9:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+  201 |         [01;35m[K/[m[K/RCLCPP_INFO(rclcpp::get_logger("FairinoHardwareInterface"), "ServoJ下发位置:%f,%f,%f,%f,%f,%f",\
+      |         [01;35m[K^[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn fairino_hardware::FairinoHardwareInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:105:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  105 | hardware_interface::CallbackReturn FairinoHardwareInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K)
+      |                                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn fairino_hardware::FairinoHardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:158:107:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  158 | hardware_interface::CallbackReturn FairinoHardwareInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K)
+      |                                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type fairino_hardware::FairinoHardwareInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:180:42:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  180 |         [01;35m[Khardware_interface::return_type::ERROR[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:170:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  170 | hardware_interface::return_type FairinoHardwareInterface::read([01;35m[Kconst rclcpp::Time& time[m[K,const rclcpp::Duration& period)
+      |                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:170:113:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  170 | hardware_interface::return_type FairinoHardwareInterface::read(const rclcpp::Time& time,[01;35m[Kconst rclcpp::Duration& period[m[K)
+      |                                                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type fairino_hardware::FairinoHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:189:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  189 | hardware_interface::return_type FairinoHardwareInterface::write([01;35m[Kconst rclcpp::Time& time[m[K,const rclcpp::Duration& period)
+      |                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface.cpp:189:114:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  189 | hardware_interface::return_type FairinoHardwareInterface::write(const rclcpp::Time& time,[01;35m[Kconst rclcpp::Duration& period[m[K)
+      |                                                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/examples/src/srv_test_client.cpp:[m[K In constructor ‘[01m[Ksrv_test_node::srv_test_node(std::string)[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/examples/src/srv_test_client.cpp:5:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+    5 |     static int [01;35m[Kcount[m[K = 0;
+      |                [01;35m[K^~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/examples/src/srv_test_client.cpp:[m[K At global scope:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/examples/src/srv_test_client.cpp:5:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcount[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]

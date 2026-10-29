@@ -1,0 +1,33 @@
+[0.158s] Invoking command in '/home/fst/test_fa_ws/build/easy_handeye2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/easy_handeye2_msgs -- -j6 -l6
+[0.774s] [  0%] Built target easy_handeye2_msgs__cpp
+[0.774s] [ 12%] Built target easy_handeye2_msgs__rosidl_generator_c
+[0.996s] [ 24%] Built target easy_handeye2_msgs__rosidl_typesupport_cpp
+[1.080s] [ 36%] Built target easy_handeye2_msgs__rosidl_typesupport_fastrtps_cpp
+[1.094s] [ 36%] Built target ament_cmake_python_copy_easy_handeye2_msgs
+[1.110s] [ 48%] Built target easy_handeye2_msgs__rosidl_typesupport_introspection_cpp
+[1.232s] [ 60%] Built target easy_handeye2_msgs__rosidl_typesupport_c
+[1.316s] [ 72%] Built target easy_handeye2_msgs__rosidl_typesupport_fastrtps_c
+[1.340s] [ 84%] Built target easy_handeye2_msgs__rosidl_typesupport_introspection_c
+[1.655s] [ 84%] Built target easy_handeye2_msgs
+[1.821s] Traceback (most recent call last):
+[1.822s]   File "/home/fst/test_fa_ws/build/easy_handeye2_msgs/ament_cmake_python/easy_handeye2_msgs/setup.py", line 1, in <module>
+[1.822s]     from setuptools import find_packages
+[1.822s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[1.828s] gmake[1]: *** [CMakeFiles/Makefile2:590: easy_handeye2_msgs__py/CMakeFiles/easy_handeye2_msgs__py.dir/all] Interrupt
+[1.844s]     import setuptools.version
+[1.845s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[1.845s]     import pkg_resources
+[1.845s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 78, in <module>
+[1.845s]     __import__('pkg_resources.extern.packaging.requirements')
+[1.845s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/requirements.py", line 23, in <module>
+[1.854s]     from .markers import MARKER_EXPR, Marker
+[1.854s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[1.855s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[1.855s]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[1.855s]   File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+[1.855s]   File "<frozen importlib._bootstrap_external>", line 1012, in get_code
+[1.855s]   File "<frozen importlib._bootstrap_external>", line 672, in _compile_bytecode
+[1.857s] KeyboardInterrupt
+[1.951s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_easy_handeye2_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_easy_handeye2_msgs_egg] Interrupt
+[1.951s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_easy_handeye2_msgs_egg.dir/all] Interrupt
+[1.954s] gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,204 @@
+[0.140s] Invoking command in '/home/fst/test_fa_ws/build/fairino_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/fairino_msgs -- -j6 -l6
+[0.731s] [  2%] Built target fairino_msgs__cpp
+[0.804s] [ 12%] Built target fairino_msgs__rosidl_generator_c
+[1.074s] [ 12%] Built target ament_cmake_python_copy_fairino_msgs
+[1.126s] [ 23%] Built target fairino_msgs__rosidl_typesupport_introspection_cpp
+[1.275s] [ 34%] Built target fairino_msgs__rosidl_typesupport_introspection_c
+[1.365s] [ 44%] Built target fairino_msgs__rosidl_typesupport_c
+[1.579s] [ 55%] Built target fairino_msgs__rosidl_typesupport_fastrtps_c
+[1.882s] [ 65%] Built target fairino_msgs__rosidl_typesupport_fastrtps_cpp
+[2.645s] running egg_info
+[2.649s] writing fairino_msgs.egg-info/PKG-INFO
+[2.650s] writing dependency_links to fairino_msgs.egg-info/dependency_links.txt
+[2.651s] writing top-level names to fairino_msgs.egg-info/top_level.txt
+[2.661s] reading manifest file 'fairino_msgs.egg-info/SOURCES.txt'
+[2.661s] writing manifest file 'fairino_msgs.egg-info/SOURCES.txt'
+[2.841s] [ 65%] Built target ament_cmake_python_build_fairino_msgs_egg
+[3.017s] [ 76%] Built target fairino_msgs__rosidl_typesupport_cpp
+[3.136s] [ 76%] Built target fairino_msgs
+[3.382s] [ 78%] Built target fairino_msgs__py
+[3.606s] [ 87%] Built target fairino_msgs__rosidl_generator_py
+[3.681s] [ 91%] Built target fairino_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.796s] [ 95%] Built target fairino_msgs__rosidl_typesupport_c__pyext
+[3.903s] [100%] Built target fairino_msgs__rosidl_typesupport_introspection_c__pyext
+[5.034s] Invoked command in '/home/fst/test_fa_ws/build/fairino_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/fairino_msgs -- -j6 -l6
+[5.035s] Invoking command in '/home/fst/test_fa_ws/build/fairino_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/fst/test_fa_ws/build/fairino_msgs
+[5.118s] -- Install configuration: ""
+[5.119s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/ament_index/resource_index/rosidl_interfaces/fairino_msgs
+[5.119s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+[5.119s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+[5.119s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+[5.120s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__functions.c
+[5.120s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__functions.h
+[5.120s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.h
+[5.120s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__struct.h
+[5.121s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__functions.h
+[5.121s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__struct.h
+[5.121s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__functions.c
+[5.121s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.h
+[5.122s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/remote_cmd_interface.h
+[5.122s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/remote_script_content.h
+[5.122s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+[5.122s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+[5.123s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__functions.c
+[5.123s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__functions.h
+[5.123s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__struct.h
+[5.123s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.h
+[5.124s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.124s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/robot_nonrt_state.h
+[5.124s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/environment/library_path.sh
+[5.124s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/environment/library_path.dsv
+[5.125s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_generator_c.so
+[5.148s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+[5.149s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+[5.150s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+[5.150s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__rosidl_typesupport_fastrtps_c.h
+[5.150s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__rosidl_typesupport_fastrtps_c.h
+[5.151s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+[5.154s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.155s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+[5.159s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__rosidl_typesupport_fastrtps_c.h
+[5.161s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_fastrtps_c.so
+[5.162s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+[5.162s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+[5.171s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+[5.173s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__rosidl_typesupport_introspection_c.h
+[5.174s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.c
+[5.175s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__rosidl_typesupport_introspection_c.h
+[5.189s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.c
+[5.189s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+[5.189s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.189s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+[5.189s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__rosidl_typesupport_introspection_c.h
+[5.189s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.c
+[5.189s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_introspection_c.so
+[5.190s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_c.so
+[5.190s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+[5.190s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+[5.190s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/remote_script_content.hpp
+[5.190s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+[5.190s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__struct.hpp
+[5.190s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__builder.hpp
+[5.190s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.hpp
+[5.190s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__traits.hpp
+[5.191s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__struct.hpp
+[5.191s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.hpp
+[5.191s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__traits.hpp
+[5.191s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__builder.hpp
+[5.191s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/remote_cmd_interface.hpp
+[5.191s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+[5.191s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.191s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+[5.191s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.hpp
+[5.192s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__builder.hpp
+[5.192s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__traits.hpp
+[5.192s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__struct.hpp
+[5.192s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/robot_nonrt_state.hpp
+[5.192s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+[5.192s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+[5.192s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+[5.193s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__rosidl_typesupport_fastrtps_cpp.hpp
+[5.193s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__rosidl_typesupport_fastrtps_cpp.hpp
+[5.193s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/dds_fastrtps
+[5.193s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+[5.193s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+[5.193s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/dds_fastrtps
+[5.193s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.193s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.193s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.193s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+[5.194s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+[5.194s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+[5.194s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__rosidl_typesupport_introspection_cpp.hpp
+[5.194s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__rosidl_typesupport_introspection_cpp.hpp
+[5.194s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.cpp
+[5.194s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.cpp
+[5.194s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+[5.194s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+[5.194s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__rosidl_typesupport_introspection_cpp.hpp
+[5.195s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.cpp
+[5.195s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_introspection_cpp.so
+[5.195s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_cpp.so
+[5.195s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/environment/pythonpath.sh
+[5.195s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/environment/pythonpath.dsv
+[5.195s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs-0.0.0-py3.10.egg-info
+[5.195s] -- Installing: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.195s] -- Installing: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[5.195s] -- Installing: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.196s] -- Installing: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[5.196s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs
+[5.196s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.196s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.196s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.196s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/_fairino_msgs_s.ep.rosidl_typesupport_c.c
+[5.196s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv
+[5.196s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv/_remote_script_content_s.c
+[5.196s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv/_remote_script_content.py
+[5.197s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv/_remote_cmd_interface.py
+[5.197s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv/_remote_cmd_interface_s.c
+[5.197s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv/__init__.py
+[5.197s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/_fairino_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.197s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/_fairino_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.197s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/msg
+[5.197s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/msg/_robot_nonrt_state_s.c
+[5.197s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/msg/__init__.py
+[5.197s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/msg/_robot_nonrt_state.py
+[5.197s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/__init__.py
+[5.198s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/libfairino_msgs__rosidl_generator_py.so
+[5.345s] Listing '/home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs'...
+[5.345s] Listing '/home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/msg'...
+[5.345s] Listing '/home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv'...
+[5.399s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.399s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.400s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.401s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_generator_py.so
+[5.402s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/srv/RemoteCmdInterface.idl
+[5.402s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/srv/RemoteScriptContent.idl
+[5.402s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/msg/RobotNonrtState.idl
+[5.403s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/srv/RemoteCmdInterface.srv
+[5.403s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/srv/RemoteCmdInterface_Request.msg
+[5.403s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/srv/RemoteCmdInterface_Response.msg
+[5.403s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/srv/RemoteScriptContent.srv
+[5.405s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/srv/RemoteScriptContent_Request.msg
+[5.405s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/srv/RemoteScriptContent_Response.msg
+[5.406s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/msg/RobotNonrtState.msg
+[5.406s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/ament_index/resource_index/package_run_dependencies/fairino_msgs
+[5.406s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/ament_index/resource_index/parent_prefix_path/fairino_msgs
+[5.406s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/environment/ament_prefix_path.sh
+[5.407s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/environment/ament_prefix_path.dsv
+[5.407s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/environment/path.sh
+[5.407s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/environment/path.dsv
+[5.407s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/local_setup.bash
+[5.408s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/local_setup.sh
+[5.408s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/local_setup.zsh
+[5.408s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/local_setup.dsv
+[5.408s] -- Installing: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/package.dsv
+[5.409s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/ament_index/resource_index/packages/fairino_msgs
+[5.409s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_cExport.cmake
+[5.409s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.410s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.410s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.410s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.410s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.411s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_cExport.cmake
+[5.411s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.412s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_cppExport.cmake
+[5.412s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.412s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.413s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.414s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.414s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_cppExport.cmake
+[5.414s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.425s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_pyExport.cmake
+[5.425s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.425s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/rosidl_cmake-extras.cmake
+[5.425s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.426s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.426s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.426s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.426s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.426s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.427s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgsConfig.cmake
+[5.427s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgsConfig-version.cmake
+[5.427s] -- Up-to-date: /home/fst/test_fa_ws/install/fairino_msgs/share/fairino_msgs/package.xml
+[6.494s] Invoked command in '/home/fst/test_fa_ws/build/fairino_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/fst/test_fa_ws/build/fairino_msgs

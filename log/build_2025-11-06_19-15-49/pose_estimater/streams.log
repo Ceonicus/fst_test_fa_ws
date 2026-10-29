@@ -1,0 +1,51 @@
+[6.759s] Invoking command in '/home/fst/test_fa_ws/src/pose_estimater': PYTHONPATH=/home/fst/test_fa_ws/build/pose_estimater/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pose_estimater build --build-base /home/fst/test_fa_ws/build/pose_estimater/build install --record /home/fst/test_fa_ws/build/pose_estimater/install.log --single-version-externally-managed install_data
+[8.932s] running egg_info
+[8.936s] creating ../../build/pose_estimater/pose_estimater.egg-info
+[8.937s] writing ../../build/pose_estimater/pose_estimater.egg-info/PKG-INFO
+[8.946s] writing dependency_links to ../../build/pose_estimater/pose_estimater.egg-info/dependency_links.txt
+[8.950s] writing entry points to ../../build/pose_estimater/pose_estimater.egg-info/entry_points.txt
+[8.953s] writing requirements to ../../build/pose_estimater/pose_estimater.egg-info/requires.txt
+[8.953s] writing top-level names to ../../build/pose_estimater/pose_estimater.egg-info/top_level.txt
+[8.954s] writing manifest file '../../build/pose_estimater/pose_estimater.egg-info/SOURCES.txt'
+[8.962s] reading manifest file '../../build/pose_estimater/pose_estimater.egg-info/SOURCES.txt'
+[8.962s] writing manifest file '../../build/pose_estimater/pose_estimater.egg-info/SOURCES.txt'
+[8.963s] running build
+[8.963s] running build_py
+[8.963s] creating /home/fst/test_fa_ws/build/pose_estimater/build
+[8.963s] creating /home/fst/test_fa_ws/build/pose_estimater/build/lib
+[8.963s] creating /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater
+[8.963s] copying pose_estimater/object_pose_estimate.py -> /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater
+[8.969s] copying pose_estimater/pointsx_to_image.py -> /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater
+[8.969s] copying pose_estimater/send_goal_pose.py -> /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater
+[8.973s] copying pose_estimater/object_detect.py -> /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater
+[8.973s] copying pose_estimater/__init__.py -> /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater
+[8.974s] copying pose_estimater/object_pose_estimate2.py -> /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater
+[8.981s] running install
+[8.982s] running install_lib
+[8.984s] creating /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater
+[8.985s] copying /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater/object_pose_estimate.py -> /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater
+[8.985s] copying /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater/pointsx_to_image.py -> /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater
+[8.993s] copying /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater/send_goal_pose.py -> /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater
+[8.993s] copying /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater/object_detect.py -> /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater
+[8.993s] copying /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater/__init__.py -> /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater
+[8.993s] copying /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater/object_pose_estimate2.py -> /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater
+[8.995s] byte-compiling /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater/object_pose_estimate.py to object_pose_estimate.cpython-310.pyc
+[8.998s] byte-compiling /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater/pointsx_to_image.py to pointsx_to_image.cpython-310.pyc
+[8.999s] byte-compiling /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater/send_goal_pose.py to send_goal_pose.cpython-310.pyc
+[9.000s] byte-compiling /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater/object_detect.py to object_detect.cpython-310.pyc
+[9.018s] byte-compiling /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater/__init__.py to __init__.cpython-310.pyc
+[9.018s] byte-compiling /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater/object_pose_estimate2.py to object_pose_estimate2.cpython-310.pyc
+[9.022s] running install_data
+[9.022s] creating /home/fst/test_fa_ws/install/pose_estimater/share/ament_index
+[9.022s] creating /home/fst/test_fa_ws/install/pose_estimater/share/ament_index/resource_index
+[9.022s] creating /home/fst/test_fa_ws/install/pose_estimater/share/ament_index/resource_index/packages
+[9.022s] copying resource/pose_estimater -> /home/fst/test_fa_ws/install/pose_estimater/share/ament_index/resource_index/packages
+[9.023s] copying package.xml -> /home/fst/test_fa_ws/install/pose_estimater/share/pose_estimater
+[9.023s] running install_egg_info
+[9.029s] Copying ../../build/pose_estimater/pose_estimater.egg-info to /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater-0.0.0-py3.10.egg-info
+[9.045s] running install_scripts
+[9.193s] Installing object_detect script to /home/fst/test_fa_ws/install/pose_estimater/lib/pose_estimater
+[9.193s] Installing object_pose_estimate script to /home/fst/test_fa_ws/install/pose_estimater/lib/pose_estimater
+[9.193s] Installing object_pose_estimate2 script to /home/fst/test_fa_ws/install/pose_estimater/lib/pose_estimater
+[9.193s] writing list of installed files to '/home/fst/test_fa_ws/build/pose_estimater/install.log'
+[9.509s] Invoked command in '/home/fst/test_fa_ws/src/pose_estimater' returned '0': PYTHONPATH=/home/fst/test_fa_ws/build/pose_estimater/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pose_estimater build --build-base /home/fst/test_fa_ws/build/pose_estimater/build install --record /home/fst/test_fa_ws/build/pose_estimater/install.log --single-version-externally-managed install_data

@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ev_08_suction_gripper/msg/SuctionState.msg
+// generated code does not contain a copyright notice
+
+
+module ev_08_suction_gripper {
+  module msg {
+    struct SuctionState {
+      boolean suction_a_on;
+
+      boolean suction_b_on;
+
+      @verbatim (language="comment", text=
+        "optional, 0 if no sensor")
+      float force_a;
+
+      @verbatim (language="comment", text=
+        "optional, 0 if no sensor")
+      float force_b;
+
+      @verbatim (language="comment", text=
+        "\"ok\", \"error\", etc.")
+      string status;
+    };
+  };
+};

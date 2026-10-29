@@ -1,0 +1,49 @@
+running egg_info
+creating ../../build/pose_estimater/pose_estimater.egg-info
+writing ../../build/pose_estimater/pose_estimater.egg-info/PKG-INFO
+writing dependency_links to ../../build/pose_estimater/pose_estimater.egg-info/dependency_links.txt
+writing entry points to ../../build/pose_estimater/pose_estimater.egg-info/entry_points.txt
+writing requirements to ../../build/pose_estimater/pose_estimater.egg-info/requires.txt
+writing top-level names to ../../build/pose_estimater/pose_estimater.egg-info/top_level.txt
+writing manifest file '../../build/pose_estimater/pose_estimater.egg-info/SOURCES.txt'
+reading manifest file '../../build/pose_estimater/pose_estimater.egg-info/SOURCES.txt'
+writing manifest file '../../build/pose_estimater/pose_estimater.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fst/test_fa_ws/build/pose_estimater/build
+creating /home/fst/test_fa_ws/build/pose_estimater/build/lib
+creating /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater
+copying pose_estimater/object_pose_estimate.py -> /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater
+copying pose_estimater/pointsx_to_image.py -> /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater
+copying pose_estimater/send_goal_pose.py -> /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater
+copying pose_estimater/object_detect.py -> /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater
+copying pose_estimater/__init__.py -> /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater
+copying pose_estimater/object_pose_estimate2.py -> /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater
+running install
+running install_lib
+creating /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater
+copying /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater/object_pose_estimate.py -> /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater
+copying /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater/pointsx_to_image.py -> /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater
+copying /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater/send_goal_pose.py -> /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater
+copying /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater/object_detect.py -> /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater
+copying /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater/__init__.py -> /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater
+copying /home/fst/test_fa_ws/build/pose_estimater/build/lib/pose_estimater/object_pose_estimate2.py -> /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater
+byte-compiling /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater/object_pose_estimate.py to object_pose_estimate.cpython-310.pyc
+byte-compiling /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater/pointsx_to_image.py to pointsx_to_image.cpython-310.pyc
+byte-compiling /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater/send_goal_pose.py to send_goal_pose.cpython-310.pyc
+byte-compiling /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater/object_detect.py to object_detect.cpython-310.pyc
+byte-compiling /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater/object_pose_estimate2.py to object_pose_estimate2.cpython-310.pyc
+running install_data
+creating /home/fst/test_fa_ws/install/pose_estimater/share/ament_index
+creating /home/fst/test_fa_ws/install/pose_estimater/share/ament_index/resource_index
+creating /home/fst/test_fa_ws/install/pose_estimater/share/ament_index/resource_index/packages
+copying resource/pose_estimater -> /home/fst/test_fa_ws/install/pose_estimater/share/ament_index/resource_index/packages
+copying package.xml -> /home/fst/test_fa_ws/install/pose_estimater/share/pose_estimater
+running install_egg_info
+Copying ../../build/pose_estimater/pose_estimater.egg-info to /home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages/pose_estimater-0.0.0-py3.10.egg-info
+running install_scripts
+Installing object_detect script to /home/fst/test_fa_ws/install/pose_estimater/lib/pose_estimater
+Installing object_pose_estimate script to /home/fst/test_fa_ws/install/pose_estimater/lib/pose_estimater
+Installing object_pose_estimate2 script to /home/fst/test_fa_ws/install/pose_estimater/lib/pose_estimater
+writing list of installed files to '/home/fst/test_fa_ws/build/pose_estimater/install.log'

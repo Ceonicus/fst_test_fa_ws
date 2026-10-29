@@ -1,0 +1,23 @@
+[100%] Built target mtc_node
+-- Install configuration: ""
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_mtc_demo/lib/fairino_mtc_demo/mtc_node
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/launch
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/launch/mtc.rviz
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/launch/mtc_demo_env.launch.py
+-- Installing: /home/fst/test_fa_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/launch/mtc_fairino.launch.py
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/launch/mtc_demo_app.launch.py
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_mtc_demo/share/ament_index/resource_index/package_run_dependencies/fairino_mtc_demo
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_mtc_demo/share/ament_index/resource_index/parent_prefix_path/fairino_mtc_demo
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/environment/path.sh
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/environment/path.dsv
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/local_setup.bash
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/local_setup.sh
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/local_setup.zsh
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/local_setup.dsv
+-- Installing: /home/fst/test_fa_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/package.dsv
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_mtc_demo/share/ament_index/resource_index/packages/fairino_mtc_demo
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/cmake/fairino_mtc_demoConfig.cmake
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/cmake/fairino_mtc_demoConfig-version.cmake
+-- Up-to-date: /home/fst/test_fa_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/package.xml

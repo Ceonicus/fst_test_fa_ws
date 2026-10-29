@@ -1,0 +1,12 @@
+[  2%] Built target rg75_300_gripper__cpp
+[  2%] Built target ament_cmake_python_copy_rg75_300_gripper
+[ 12%] Built target rg75_300_gripper__rosidl_typesupport_introspection_cpp
+running egg_info
+writing rg75_300_gripper.egg-info/PKG-INFO
+writing dependency_links to rg75_300_gripper.egg-info/dependency_links.txt
+writing top-level names to rg75_300_gripper.egg-info/top_level.txt
+reading manifest file 'rg75_300_gripper.egg-info/SOURCES.txt'
+writing manifest file 'rg75_300_gripper.egg-info/SOURCES.txt'
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_rg75_300_gripper_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_rg75_300_gripper_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:449: CMakeFiles/ament_cmake_python_build_rg75_300_gripper_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

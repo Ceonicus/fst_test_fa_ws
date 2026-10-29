@@ -1,0 +1,27 @@
+[4.024s] Invoking command in '/home/fst/test_fa_ws/src/easy_handeye2/easy_handeye2': AMENT_PREFIX_PATH=/home/fst/test_fa_ws/install/easy_handeye2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fst/test_fa_ws/install/easy_handeye2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/fst/test_fa_ws/install/easy_handeye2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fst/test_fa_ws/build/easy_handeye2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages:/home/fst/test_fa_ws/install/easy_handeye2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/easy_handeye2 build --build-base /home/fst/test_fa_ws/build/easy_handeye2/build install --record /home/fst/test_fa_ws/build/easy_handeye2/install.log --single-version-externally-managed install_data
+[5.150s] running egg_info
+[5.152s] writing ../../../build/easy_handeye2/easy_handeye2.egg-info/PKG-INFO
+[5.154s] writing dependency_links to ../../../build/easy_handeye2/easy_handeye2.egg-info/dependency_links.txt
+[5.154s] writing entry points to ../../../build/easy_handeye2/easy_handeye2.egg-info/entry_points.txt
+[5.155s] writing requirements to ../../../build/easy_handeye2/easy_handeye2.egg-info/requires.txt
+[5.155s] writing top-level names to ../../../build/easy_handeye2/easy_handeye2.egg-info/top_level.txt
+[5.164s] reading manifest file '../../../build/easy_handeye2/easy_handeye2.egg-info/SOURCES.txt'
+[5.173s] writing manifest file '../../../build/easy_handeye2/easy_handeye2.egg-info/SOURCES.txt'
+[5.173s] running build
+[5.173s] running build_py
+[5.201s] running build_scripts
+[5.202s] running install
+[5.202s] running install_lib
+[5.202s] running install_data
+[5.203s] running install_egg_info
+[5.216s] removing '/home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2-0.5.0-py3.10.egg-info' (and everything under it)
+[5.218s] Copying ../../../build/easy_handeye2/easy_handeye2.egg-info to /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2-0.5.0-py3.10.egg-info
+[5.221s] running install_scripts
+[5.318s] changing mode of /home/fst/test_fa_ws/install/easy_handeye2/lib/easy_handeye2/rqt_calibrator.py to 775
+[5.319s] changing mode of /home/fst/test_fa_ws/install/easy_handeye2/lib/easy_handeye2/rqt_evaluator.py to 775
+[5.320s] Installing handeye_calibration_commander script to /home/fst/test_fa_ws/install/easy_handeye2/lib/easy_handeye2
+[5.320s] Installing handeye_publisher script to /home/fst/test_fa_ws/install/easy_handeye2/lib/easy_handeye2
+[5.320s] Installing handeye_server script to /home/fst/test_fa_ws/install/easy_handeye2/lib/easy_handeye2
+[5.320s] Installing handeye_server_robot script to /home/fst/test_fa_ws/install/easy_handeye2/lib/easy_handeye2
+[5.322s] writing list of installed files to '/home/fst/test_fa_ws/build/easy_handeye2/install.log'
+[5.615s] Invoked command in '/home/fst/test_fa_ws/src/easy_handeye2/easy_handeye2' returned '0': AMENT_PREFIX_PATH=/home/fst/test_fa_ws/install/easy_handeye2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fst/test_fa_ws/install/easy_handeye2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/fst/test_fa_ws/install/easy_handeye2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fst/test_fa_ws/build/easy_handeye2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages:/home/fst/test_fa_ws/install/easy_handeye2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/easy_handeye2 build --build-base /home/fst/test_fa_ws/build/easy_handeye2/build install --record /home/fst/test_fa_ws/build/easy_handeye2/install.log --single-version-externally-managed install_data

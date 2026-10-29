@@ -1,0 +1,6 @@
+msg/SuctionState.idl
+msg/SuctionState.msg
+srv/SuctionCommand.idl
+srv/SuctionCommand.srv
+srv/SuctionCommand_Request.msg
+srv/SuctionCommand_Response.msg

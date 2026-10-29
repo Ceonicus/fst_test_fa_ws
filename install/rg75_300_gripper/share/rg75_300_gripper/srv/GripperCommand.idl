@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from rg75_300_gripper/srv/GripperCommand.srv
+// generated code does not contain a copyright notice
+
+
+module rg75_300_gripper {
+  module srv {
+    struct GripperCommand_Request {
+      float position;
+
+      float force;
+
+      int8 activated;
+    };
+    struct GripperCommand_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

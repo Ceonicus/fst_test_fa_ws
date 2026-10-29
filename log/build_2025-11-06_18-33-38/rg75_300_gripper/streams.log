@@ -1,0 +1,90 @@
+[0.111s] Invoking command in '/home/fst/test_fa_ws/build/rg75_300_gripper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/fst/test_fa_ws/src/rg75_300_gripper -DCMAKE_INSTALL_PREFIX=/home/fst/test_fa_ws/install/rg75_300_gripper
+[3.938s] -- The C compiler identification is GNU 11.4.0
+[3.949s] -- The CXX compiler identification is GNU 11.4.0
+[3.949s] -- Detecting C compiler ABI info
+[3.949s] -- Detecting C compiler ABI info - done
+[3.949s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.950s] -- Detecting C compile features
+[3.950s] -- Detecting C compile features - done
+[3.950s] -- Detecting CXX compiler ABI info
+[3.950s] -- Detecting CXX compiler ABI info - done
+[3.950s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.950s] -- Detecting CXX compile features
+[3.950s] -- Detecting CXX compile features - done
+[3.950s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.950s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.200s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[4.749s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.870s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.981s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.089s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.280s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.964s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.015s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.042s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.382s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.949s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.184s] -- Looking for pthread.h
+[9.044s] -- Looking for pthread.h - found
+[9.044s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.885s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.888s] -- Found Threads: TRUE  
+[10.531s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[12.796s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[15.071s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.890s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.115s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[16.135s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[16.363s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[16.363s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[16.363s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[16.384s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[16.547s] -- Found PythonExtra: .so  
+[17.090s] -- Configuring done
+[17.661s] -- Generating done
+[17.749s] -- Build files have been written to: /home/fst/test_fa_ws/build/rg75_300_gripper
+[17.884s] Invoked command in '/home/fst/test_fa_ws/build/rg75_300_gripper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/fst/test_fa_ws/src/rg75_300_gripper -DCMAKE_INSTALL_PREFIX=/home/fst/test_fa_ws/install/rg75_300_gripper
+[17.906s] Invoking command in '/home/fst/test_fa_ws/build/rg75_300_gripper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/rg75_300_gripper -- -j6 -l6
+[34.535s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[34.536s] [  2%] Built target rg75_300_gripper__cpp
+[34.536s] [  2%] Built target ament_cmake_python_copy_rg75_300_gripper
+[34.536s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[34.536s] [  7%] [32mBuilding CXX object CMakeFiles/rg75_300_gripper__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rg75_300_gripper/msg/detail/gripper_state__type_support.cpp.o[0m
+[34.536s] [  9%] [32mBuilding CXX object CMakeFiles/rg75_300_gripper__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rg75_300_gripper/srv/detail/gripper_command__type_support.cpp.o[0m
+[34.536s] [ 12%] [32m[1mLinking CXX shared library librg75_300_gripper__rosidl_typesupport_introspection_cpp.so[0m
+[34.536s] [ 12%] Built target rg75_300_gripper__rosidl_typesupport_introspection_cpp
+[34.536s] running egg_info
+[34.537s] creating rg75_300_gripper.egg-info
+[34.537s] writing rg75_300_gripper.egg-info/PKG-INFO
+[34.537s] writing dependency_links to rg75_300_gripper.egg-info/dependency_links.txt
+[34.537s] writing top-level names to rg75_300_gripper.egg-info/top_level.txt
+[34.537s] writing manifest file 'rg75_300_gripper.egg-info/SOURCES.txt'
+[34.537s] reading manifest file 'rg75_300_gripper.egg-info/SOURCES.txt'
+[34.537s] writing manifest file 'rg75_300_gripper.egg-info/SOURCES.txt'
+[34.537s] [ 12%] Built target ament_cmake_python_build_rg75_300_gripper_egg
+[34.537s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[34.538s] [ 17%] [32mBuilding CXX object CMakeFiles/rg75_300_gripper__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rg75_300_gripper/msg/detail/dds_fastrtps/gripper_state__type_support.cpp.o[0m
+[34.538s] [ 19%] [32mBuilding CXX object CMakeFiles/rg75_300_gripper__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rg75_300_gripper/srv/detail/dds_fastrtps/gripper_command__type_support.cpp.o[0m
+[34.538s] [ 21%] [32m[1mLinking CXX shared library librg75_300_gripper__rosidl_typesupport_fastrtps_cpp.so[0m
+[34.701s] [ 21%] Built target rg75_300_gripper__rosidl_typesupport_fastrtps_cpp
+[34.784s] [ 24%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[35.996s] [ 26%] [32mBuilding CXX object CMakeFiles/rg75_300_gripper__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rg75_300_gripper/msg/gripper_state__type_support.cpp.o[0m
+[37.344s] [ 29%] [32mBuilding CXX object CMakeFiles/rg75_300_gripper__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rg75_300_gripper/srv/gripper_command__type_support.cpp.o[0m
+[38.663s] [ 31%] [32m[1mLinking CXX shared library librg75_300_gripper__rosidl_typesupport_cpp.so[0m
+[38.944s] [ 31%] Built target rg75_300_gripper__rosidl_typesupport_cpp
+[39.103s] [ 34%] [34m[1mGenerating C code for ROS interfaces[0m
+[41.126s] [ 36%] [32mBuilding C object CMakeFiles/rg75_300_gripper__rosidl_generator_c.dir/rosidl_generator_c/rg75_300_gripper/msg/detail/gripper_state__functions.c.o[0m
+[41.366s] [ 39%] [32mBuilding C object CMakeFiles/rg75_300_gripper__rosidl_generator_c.dir/rosidl_generator_c/rg75_300_gripper/srv/detail/gripper_command__functions.c.o[0m
+[41.673s] [ 41%] [32m[1mLinking C shared library librg75_300_gripper__rosidl_generator_c.so[0m
+[41.774s] [ 41%] Built target rg75_300_gripper__rosidl_generator_c
+[41.814s] gmake[2]: *** No rule to make target '/home/fst/test_fa_ws/src/rg75_300_gripper/../frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/libfairino/lib/libfairino.so', needed by 'gripper_node'.  Stop.
+[41.815s] gmake[2]: *** Waiting for unfinished jobs....
+[41.838s] [ 43%] [32mBuilding CXX object CMakeFiles/gripper_node.dir/src/gripper_node.cpp.o[0m
+[42.396s] [01m[K/home/fst/test_fa_ws/src/rg75_300_gripper/src/gripper_node.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Krobot.h: No such file or directory
+[42.396s]     4 | #include [01;31m[K"robot.h"[m[K
+[42.396s]       |          [01;31m[K^~~~~~~~~[m[K
+[42.396s] compilation terminated.
+[42.419s] gmake[2]: *** [CMakeFiles/gripper_node.dir/build.make:76: CMakeFiles/gripper_node.dir/src/gripper_node.cpp.o] Error 1
+[42.420s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/gripper_node.dir/all] Error 2
+[42.420s] gmake: *** [Makefile:146: all] Error 2
+[42.430s] Invoked command in '/home/fst/test_fa_ws/build/rg75_300_gripper' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/rg75_300_gripper -- -j6 -l6

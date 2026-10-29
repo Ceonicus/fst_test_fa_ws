@@ -1,0 +1,10 @@
+setup.py
+rg75_300_gripper/__init__.py
+rg75_300_gripper.egg-info/PKG-INFO
+rg75_300_gripper.egg-info/SOURCES.txt
+rg75_300_gripper.egg-info/dependency_links.txt
+rg75_300_gripper.egg-info/top_level.txt
+rg75_300_gripper/msg/__init__.py
+rg75_300_gripper/msg/_gripper_state.py
+rg75_300_gripper/srv/__init__.py
+rg75_300_gripper/srv/_gripper_command.py

@@ -1,0 +1,4 @@
+[  1%] [34m[1mAutomatic MOC for target moveit_task_visualization_tools[0m
+gmake[2]: *** [visualization_tools/CMakeFiles/moveit_task_visualization_tools_autogen.dir/build.make:71: visualization_tools/CMakeFiles/moveit_task_visualization_tools_autogen] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:317: visualization_tools/CMakeFiles/moveit_task_visualization_tools_autogen.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

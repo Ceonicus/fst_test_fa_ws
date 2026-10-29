@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target fairino_hardware[0m
+[ 37%] Built target srv_test_client
+[ 75%] Built target ros2_cmd_server
+[ 87%] [32mBuilding CXX object CMakeFiles/fairino_hardware.dir/src/fairino_hardware_interface3.cpp.o[0m
+gmake[2]: *** [CMakeFiles/fairino_hardware.dir/build.make:76: CMakeFiles/fairino_hardware.dir/src/fairino_hardware_interface3.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/fairino_hardware.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

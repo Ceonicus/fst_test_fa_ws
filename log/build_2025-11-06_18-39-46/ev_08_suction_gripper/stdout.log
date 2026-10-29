@@ -1,0 +1,48 @@
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  4%] Built target ament_cmake_python_copy_ev_08_suction_gripper
+running egg_info
+creating ev_08_suction_gripper.egg-info
+writing ev_08_suction_gripper.egg-info/PKG-INFO
+writing dependency_links to ev_08_suction_gripper.egg-info/dependency_links.txt
+writing top-level names to ev_08_suction_gripper.egg-info/top_level.txt
+writing manifest file 'ev_08_suction_gripper.egg-info/SOURCES.txt'
+reading manifest file 'ev_08_suction_gripper.egg-info/SOURCES.txt'
+writing manifest file 'ev_08_suction_gripper.egg-info/SOURCES.txt'
+[  4%] Built target ev_08_suction_gripper__cpp
+[  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 12%] Built target ament_cmake_python_build_ev_08_suction_gripper_egg
+[ 14%] [32mBuilding C object CMakeFiles/ev_08_suction_gripper__rosidl_generator_c.dir/rosidl_generator_c/ev_08_suction_gripper/msg/detail/suction_state__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/ev_08_suction_gripper__rosidl_generator_c.dir/rosidl_generator_c/ev_08_suction_gripper/srv/detail/suction_command__functions.c.o[0m
+[ 19%] [32m[1mLinking C shared library libev_08_suction_gripper__rosidl_generator_c.so[0m
+[ 19%] Built target ev_08_suction_gripper__rosidl_generator_c
+[ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/ev_08_suction_gripper__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ev_08_suction_gripper/msg/detail/suction_state__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/ev_08_suction_gripper__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ev_08_suction_gripper/msg/suction_state__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/ev_08_suction_gripper__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ev_08_suction_gripper/msg/detail/dds_fastrtps/suction_state__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/ev_08_suction_gripper__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ev_08_suction_gripper/msg/detail/suction_state__type_support_c.cpp.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/ev_08_suction_gripper__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ev_08_suction_gripper/msg/detail/suction_state__type_support.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/ev_08_suction_gripper__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ev_08_suction_gripper/srv/detail/suction_command__type_support.c.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/ev_08_suction_gripper__rosidl_typesupport_c.dir/rosidl_typesupport_c/ev_08_suction_gripper/msg/suction_state__type_support.cpp.o[0m
+[ 46%] [32m[1mLinking C shared library libev_08_suction_gripper__rosidl_typesupport_introspection_c.so[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/ev_08_suction_gripper__rosidl_typesupport_c.dir/rosidl_typesupport_c/ev_08_suction_gripper/srv/suction_command__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/ev_08_suction_gripper__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ev_08_suction_gripper/srv/suction_command__type_support.cpp.o[0m
+[ 51%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_c
+[ 53%] [32m[1mLinking CXX shared library libev_08_suction_gripper__rosidl_typesupport_c.so[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/ev_08_suction_gripper__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ev_08_suction_gripper/srv/detail/dds_fastrtps/suction_command__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/ev_08_suction_gripper__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ev_08_suction_gripper/srv/detail/suction_command__type_support.cpp.o[0m
+[ 58%] Built target ev_08_suction_gripper__rosidl_typesupport_c
+[ 60%] [32mBuilding CXX object CMakeFiles/ev_08_suction_gripper__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ev_08_suction_gripper/srv/detail/suction_command__type_support_c.cpp.o[0m
+[ 63%] [32m[1mLinking CXX shared library libev_08_suction_gripper__rosidl_typesupport_cpp.so[0m
+[ 63%] Built target ev_08_suction_gripper__rosidl_typesupport_cpp
+[ 65%] [32mBuilding CXX object CMakeFiles/suction_node.dir/src/suction_node.cpp.o[0m
+[ 68%] [32m[1mLinking CXX shared library libev_08_suction_gripper__rosidl_typesupport_fastrtps_c.so[0m
+[ 70%] [32m[1mLinking CXX shared library libev_08_suction_gripper__rosidl_typesupport_introspection_cpp.so[0m
+[ 73%] [32m[1mLinking CXX shared library libev_08_suction_gripper__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 73%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_c
+[ 73%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_cpp
+[ 73%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_cpp

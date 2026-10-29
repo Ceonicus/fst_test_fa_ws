@@ -1,0 +1,326 @@
+[0.000000] (-) TimerEvent: {}
+[0.001124] (-) JobUnselected: {'identifier': 'easy_handeye2'}
+[0.001227] (-) JobUnselected: {'identifier': 'easy_handeye2_msgs'}
+[0.001274] (-) JobUnselected: {'identifier': 'ev_08_suction_gripper'}
+[0.001313] (-) JobUnselected: {'identifier': 'fairino10_v6_moveit2_config'}
+[0.001349] (-) JobUnselected: {'identifier': 'fairino16_v6_moveit2_config'}
+[0.001383] (-) JobUnselected: {'identifier': 'fairino20_v6_moveit2_config'}
+[0.001413] (-) JobUnselected: {'identifier': 'fairino30_v6_moveit2_config'}
+[0.001442] (-) JobUnselected: {'identifier': 'fairino3_v6_moveit2_config'}
+[0.001472] (-) JobUnselected: {'identifier': 'fairino3mt_v6_moveit2_config'}
+[0.001502] (-) JobUnselected: {'identifier': 'fairino5_v6_moveit2_config'}
+[0.001532] (-) JobUnselected: {'identifier': 'fairino_description'}
+[0.001561] (-) JobUnselected: {'identifier': 'fairino_msgs'}
+[0.001592] (-) JobUnselected: {'identifier': 'fairino_mtc_demo'}
+[0.001621] (-) JobUnselected: {'identifier': 'moveit_move'}
+[0.001650] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.001681] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.001711] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.001740] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.001771] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.001802] (-) JobUnselected: {'identifier': 'pose_estimater'}
+[0.001832] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.001862] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.001891] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.001920] (-) JobUnselected: {'identifier': 'rg75_300_gripper'}
+[0.001950] (-) JobUnselected: {'identifier': 'robot5_v6_moveit2_config'}
+[0.001979] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.002008] (-) JobUnselected: {'identifier': 'yolo_bringup'}
+[0.002037] (-) JobUnselected: {'identifier': 'yolo_msgs'}
+[0.002066] (-) JobUnselected: {'identifier': 'yolo_pose_estimator'}
+[0.002095] (-) JobUnselected: {'identifier': 'yolo_ros'}
+[0.002137] (fairino_hardware) JobQueued: {'identifier': 'fairino_hardware', 'dependencies': OrderedDict([('fairino_msgs', '/home/fst/test_fa_ws/install/fairino_msgs')])}
+[0.007550] (fairino_hardware) JobStarted: {'identifier': 'fairino_hardware'}
+[0.057652] (fairino_hardware) JobProgress: {'identifier': 'fairino_hardware', 'progress': 'cmake'}
+[0.059069] (fairino_hardware) JobProgress: {'identifier': 'fairino_hardware', 'progress': 'build'}
+[0.060849] (fairino_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fst/test_fa_ws/build/fairino_hardware', '--', '-j6', '-l6'], 'cwd': '/home/fst/test_fa_ws/build/fairino_hardware', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'fst'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fst/test_fa_ws/install/fairino_msgs/lib:/usr/local/cuda-12.6/lib64:/home/fst/test_fa_ws/install/yolo_msgs/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_visualization/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_demo/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_capabilities/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_core/lib:/home/fst/test_fa_ws/install/rviz_marker_tools/lib:/home/fst/test_fa_ws/install/rg75_300_gripper/lib:/home/fst/test_fa_ws/install/realsense2_camera/lib:/home/fst/test_fa_ws/install/realsense2_camera_msgs/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_msgs/lib:/home/fst/test_fa_ws/install/fairino_hardware/lib:/home/fst/test_fa_ws/install/ev_08_suction_gripper/lib:/home/fst/test_fa_ws/install/easy_handeye2_msgs/lib:/home/fst/moveit_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/fst/moveit_ws/install/pilz_industrial_motion_planner/lib:/home/fst/moveit_ws/install/moveit_visual_tools/lib:/home/fst/moveit_ws/install/moveit_task_constructor_visualization/lib:/home/fst/moveit_ws/install/moveit_task_constructor_demo/lib:/home/fst/moveit_ws/install/moveit_task_constructor_capabilities/lib:/home/fst/moveit_ws/install/moveit_task_constructor_core/lib:/home/fst/moveit_ws/install/moveit_ros_control_interface/lib:/home/fst/moveit_ws/install/moveit_simple_controller_manager/lib:/home/fst/moveit_ws/install/moveit_setup_assistant/lib:/home/fst/moveit_ws/install/moveit_setup_srdf_plugins/lib:/home/fst/moveit_ws/install/moveit_setup_core_plugins/lib:/home/fst/moveit_ws/install/moveit_setup_controllers/lib:/home/fst/moveit_ws/install/moveit_setup_app_plugins/lib:/home/fst/moveit_ws/install/moveit_setup_framework/lib:/home/fst/moveit_ws/install/moveit_servo/lib:/home/fst/moveit_ws/install/moveit_ros_visualization/lib:/home/fst/moveit_ws/install/moveit_hybrid_planning/lib:/home/fst/moveit_ws/install/moveit_ros_planning_interface/lib:/home/fst/moveit_ws/install/moveit_ros_benchmarks/lib:/home/fst/moveit_ws/install/moveit_ros_warehouse/lib:/home/fst/moveit_ws/install/moveit_ros_robot_interaction/lib:/home/fst/moveit_ws/install/moveit_ros_perception/lib:/home/fst/moveit_ws/install/moveit_ros_move_group/lib:/home/fst/moveit_ws/install/moveit_planners_ompl/lib:/home/fst/moveit_ws/install/moveit_ros_planning/lib:/home/fst/moveit_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/fst/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/fst/moveit_ws/install/moveit_planners_chomp/lib:/home/fst/moveit_ws/install/moveit_kinematics/lib:/home/fst/moveit_ws/install/moveit_chomp_optimizer_adapter/lib:/home/fst/moveit_ws/install/chomp_motion_planner/lib:/home/fst/moveit_ws/install/moveit_core/lib:/home/fst/moveit_ws/install/srdfdom/lib:/home/fst/moveit_ws/install/rviz_marker_tools/lib:/home/fst/moveit_ws/install/rosparam_shortcuts/lib:/home/fst/moveit_ws/install/moveit_task_constructor_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fst'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.7'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1940'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2290'), ('BUNDLED_DEBUGPY_PATH', '/home/fst/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5990'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/fst/ros2_pose_estimate_ws/install:/home/fst/test_fa_ws/install:/home/fst/moveit_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fst'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422125010779'), ('JOURNAL_STREAM', '8:38873'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-12.6/bin:/home/fst/.local/bin:/home/fst/moveit_ws/install/moveit_core/bin:/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/home/fst/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fst/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-arm64/bundled/scripts/noConfigScripts:/home/fst/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/fst-desktop:@/tmp/.ICE-unix/2264,unix/fst-desktop:/tmp/.ICE-unix/2264'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', 'c9bc00e4b92d4b02847da74b2532b26e'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fst/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-3481b4bdae18a450.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/fst/.config/Code/User/workspaceStorage/daf9f8cb8fced1711243d81be0698937/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/fst/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6dad676543.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/fst'), ('AMENT_PREFIX_PATH', '/home/fst/test_fa_ws/install/yolo_bringup:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/yolo_msgs:/home/fst/test_fa_ws/install/moveit_task_constructor_visualization:/home/fst/test_fa_ws/install/moveit_task_constructor_demo:/home/fst/test_fa_ws/install/moveit_task_constructor_capabilities:/home/fst/test_fa_ws/install/fairino_mtc_demo:/home/fst/test_fa_ws/install/moveit_task_constructor_core:/home/fst/test_fa_ws/install/rviz_marker_tools:/home/fst/test_fa_ws/install/robot5_v6_moveit2_config:/home/fst/test_fa_ws/install/moveit_move:/home/fst/test_fa_ws/install/rg75_300_gripper:/home/fst/test_fa_ws/install/realsense2_description:/home/fst/test_fa_ws/install/realsense2_camera:/home/fst/test_fa_ws/install/realsense2_camera_msgs:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/moveit_task_constructor_msgs:/home/fst/test_fa_ws/install/fairino_hardware:/home/fst/test_fa_ws/install/fairino_msgs:/home/fst/test_fa_ws/install/fairino5_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino3mt_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino3_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino30_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino20_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino16_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino10_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino_description:/home/fst/test_fa_ws/install/ev_08_suction_gripper:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/test_fa_ws/install/easy_handeye2_msgs:/home/fst/moveit_ws/install/pilz_industrial_motion_planner_testutils:/home/fst/moveit_ws/install/moveit_runtime:/home/fst/moveit_ws/install/moveit2_tutorials:/home/fst/moveit_ws/install/moveit:/home/fst/moveit_ws/install/moveit_planners:/home/fst/moveit_ws/install/pilz_industrial_motion_planner:/home/fst/moveit_ws/install/moveit_visual_tools:/home/fst/moveit_ws/install/moveit_task_constructor_visualization:/home/fst/moveit_ws/install/moveit_task_constructor_demo:/home/fst/moveit_ws/install/moveit_task_constructor_capabilities:/home/fst/moveit_ws/install/moveit_task_constructor_core:/home/fst/moveit_ws/install/moveit_ros_control_interface:/home/fst/moveit_ws/install/moveit_plugins:/home/fst/moveit_ws/install/moveit_simple_controller_manager:/home/fst/moveit_ws/install/moveit_setup_assistant:/home/fst/moveit_ws/install/moveit_setup_srdf_plugins:/home/fst/moveit_ws/install/moveit_setup_core_plugins:/home/fst/moveit_ws/install/moveit_setup_controllers:/home/fst/moveit_ws/install/moveit_setup_app_plugins:/home/fst/moveit_ws/install/moveit_setup_framework:/home/fst/moveit_ws/install/moveit_servo:/home/fst/moveit_ws/install/moveit_ros:/home/fst/moveit_ws/install/moveit_ros_visualization:/home/fst/moveit_ws/install/moveit_hybrid_planning:/home/fst/moveit_ws/install/moveit_ros_planning_interface:/home/fst/moveit_ws/install/moveit_ros_benchmarks:/home/fst/moveit_ws/install/moveit_ros_warehouse:/home/fst/moveit_ws/install/moveit_ros_robot_interaction:/home/fst/moveit_ws/install/moveit_ros_perception:/home/fst/moveit_ws/install/moveit_resources_prbt_pg70_support:/home/fst/moveit_ws/install/moveit_resources_prbt_moveit_config:/home/fst/moveit_ws/install/moveit_ros_move_group:/home/fst/moveit_ws/install/moveit_planners_ompl:/home/fst/moveit_ws/install/moveit_ros_planning:/home/fst/moveit_ws/install/moveit_ros_occupancy_map_monitor:/home/fst/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/fst/moveit_ws/install/moveit_planners_chomp:/home/fst/moveit_ws/install/moveit_kinematics:/home/fst/moveit_ws/install/moveit_chomp_optimizer_adapter:/home/fst/moveit_ws/install/chomp_motion_planner:/home/fst/moveit_ws/install/moveit_core:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/srdfdom:/home/fst/moveit_ws/install/rviz_marker_tools:/home/fst/moveit_ws/install/rosparam_shortcuts:/home/fst/moveit_ws/install/moveit_task_constructor_msgs:/home/fst/moveit_ws/install/moveit_resources_prbt_support:/home/fst/moveit_ws/install/moveit_resources:/home/fst/moveit_ws/install/moveit_resources_pr2_description:/home/fst/moveit_ws/install/moveit_resources_panda_moveit_config:/home/fst/moveit_ws/install/moveit_resources_panda_description:/home/fst/moveit_ws/install/moveit_resources_fanuc_moveit_config:/home/fst/moveit_ws/install/moveit_resources_fanuc_description:/home/fst/moveit_ws/install/moveit_common:/home/fst/moveit_ws/install/launch_param_builder:/home/fst/ros2_pose_estimate_ws/install/mtc_tutorial:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_moveit_config:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_config:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_description:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/home/fst/test_fa_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake:/home/fst/moveit_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/fst/test_fa_ws/build/fairino_hardware'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fst/test_fa_ws/install/yolo_ros/lib/python3.10/site-packages:/home/fst/test_fa_ws/install/yolo_pose_estimator/lib/python3.10/site-packages:/home/fst/test_fa_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/fst/test_fa_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages:/home/fst/test_fa_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages:/home/fst/test_fa_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages:/home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages:/home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages:/home/fst/test_fa_ws/install/easy_handeye2_msgs/local/lib/python3.10/dist-packages:/home/fst/moveit_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/fst/moveit_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/fst/moveit_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/fst/moveit_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/fst/moveit_ws/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/fst/test_fa_ws/install/fairino_msgs:/home/fst/test_fa_ws/install/yolo_bringup:/home/fst/test_fa_ws/install/yolo_msgs:/home/fst/test_fa_ws/install/moveit_task_constructor_visualization:/home/fst/test_fa_ws/install/moveit_task_constructor_demo:/home/fst/test_fa_ws/install/moveit_task_constructor_capabilities:/home/fst/test_fa_ws/install/fairino_mtc_demo:/home/fst/test_fa_ws/install/moveit_task_constructor_core:/home/fst/test_fa_ws/install/rviz_marker_tools:/home/fst/test_fa_ws/install/robot5_v6_moveit2_config:/home/fst/test_fa_ws/install/moveit_move:/home/fst/test_fa_ws/install/rg75_300_gripper:/home/fst/test_fa_ws/install/realsense2_description:/home/fst/test_fa_ws/install/realsense2_camera:/home/fst/test_fa_ws/install/realsense2_camera_msgs:/home/fst/test_fa_ws/install/moveit_task_constructor_msgs:/home/fst/test_fa_ws/install/fairino_hardware:/home/fst/test_fa_ws/install/fairino5_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino3mt_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino3_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino30_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino20_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino16_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino10_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino_description:/home/fst/test_fa_ws/install/ev_08_suction_gripper:/home/fst/test_fa_ws/install/easy_handeye2_msgs:/home/fst/moveit_ws/install/pilz_industrial_motion_planner_testutils:/home/fst/moveit_ws/install/moveit_runtime:/home/fst/moveit_ws/install/moveit2_tutorials:/home/fst/moveit_ws/install/moveit:/home/fst/moveit_ws/install/moveit_planners:/home/fst/moveit_ws/install/pilz_industrial_motion_planner:/home/fst/moveit_ws/install/moveit_visual_tools:/home/fst/moveit_ws/install/moveit_task_constructor_visualization:/home/fst/moveit_ws/install/moveit_task_constructor_demo:/home/fst/moveit_ws/install/moveit_task_constructor_capabilities:/home/fst/moveit_ws/install/moveit_task_constructor_core:/home/fst/moveit_ws/install/moveit_ros_control_interface:/home/fst/moveit_ws/install/moveit_plugins:/home/fst/moveit_ws/install/moveit_simple_controller_manager:/home/fst/moveit_ws/install/moveit_setup_assistant:/home/fst/moveit_ws/install/moveit_setup_srdf_plugins:/home/fst/moveit_ws/install/moveit_setup_core_plugins:/home/fst/moveit_ws/install/moveit_setup_controllers:/home/fst/moveit_ws/install/moveit_setup_app_plugins:/home/fst/moveit_ws/install/moveit_setup_framework:/home/fst/moveit_ws/install/moveit_servo:/home/fst/moveit_ws/install/moveit_ros:/home/fst/moveit_ws/install/moveit_ros_visualization:/home/fst/moveit_ws/install/moveit_hybrid_planning:/home/fst/moveit_ws/install/moveit_ros_planning_interface:/home/fst/moveit_ws/install/moveit_ros_benchmarks:/home/fst/moveit_ws/install/moveit_ros_warehouse:/home/fst/moveit_ws/install/moveit_ros_robot_interaction:/home/fst/moveit_ws/install/moveit_ros_perception:/home/fst/moveit_ws/install/moveit_resources_prbt_pg70_support:/home/fst/moveit_ws/install/moveit_resources_prbt_moveit_config:/home/fst/moveit_ws/install/moveit_ros_move_group:/home/fst/moveit_ws/install/moveit_planners_ompl:/home/fst/moveit_ws/install/moveit_ros_planning:/home/fst/moveit_ws/install/moveit_ros_occupancy_map_monitor:/home/fst/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/fst/moveit_ws/install/moveit_planners_chomp:/home/fst/moveit_ws/install/moveit_kinematics:/home/fst/moveit_ws/install/moveit_chomp_optimizer_adapter:/home/fst/moveit_ws/install/chomp_motion_planner:/home/fst/moveit_ws/install/moveit_core:/home/fst/moveit_ws/install/srdfdom:/home/fst/moveit_ws/install/rviz_marker_tools:/home/fst/moveit_ws/install/rosparam_shortcuts:/home/fst/moveit_ws/install/moveit_task_constructor_msgs:/home/fst/moveit_ws/install/moveit_resources_prbt_support:/home/fst/moveit_ws/install/moveit_resources:/home/fst/moveit_ws/install/moveit_resources_pr2_description:/home/fst/moveit_ws/install/moveit_resources_panda_moveit_config:/home/fst/moveit_ws/install/moveit_resources_panda_description:/home/fst/moveit_ws/install/moveit_resources_fanuc_moveit_config:/home/fst/moveit_ws/install/moveit_resources_fanuc_description:/home/fst/moveit_ws/install/moveit_common:/home/fst/ros2_pose_estimate_ws/install/mtc_tutorial:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_moveit_config:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_config:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_description:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.079787] (-) TimerEvent: {}
+[0.180800] (-) TimerEvent: {}
+[0.281480] (-) TimerEvent: {}
+[0.382165] (-) TimerEvent: {}
+[0.466074] (fairino_hardware) StdoutLine: {'line': b'[ 37%] Built target ros2_cmd_server\n'}
+[0.482339] (-) TimerEvent: {}
+[0.587760] (-) TimerEvent: {}
+[0.611343] (fairino_hardware) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/fairino_hardware.dir/src/fairino_hardware_interface3.cpp.o\x1b[0m\n'}
+[0.687945] (-) TimerEvent: {}
+[0.788644] (-) TimerEvent: {}
+[0.889303] (-) TimerEvent: {}
+[0.991873] (-) TimerEvent: {}
+[1.092600] (-) TimerEvent: {}
+[1.199641] (-) TimerEvent: {}
+[1.300360] (-) TimerEvent: {}
+[1.401267] (-) TimerEvent: {}
+[1.501950] (-) TimerEvent: {}
+[1.610818] (-) TimerEvent: {}
+[1.711510] (-) TimerEvent: {}
+[1.812199] (-) TimerEvent: {}
+[1.913047] (-) TimerEvent: {}
+[2.013719] (-) TimerEvent: {}
+[2.114673] (-) TimerEvent: {}
+[2.215603] (-) TimerEvent: {}
+[2.317165] (-) TimerEvent: {}
+[2.417930] (-) TimerEvent: {}
+[2.518619] (-) TimerEvent: {}
+[2.619302] (-) TimerEvent: {}
+[2.720003] (-) TimerEvent: {}
+[2.820681] (-) TimerEvent: {}
+[2.927827] (-) TimerEvent: {}
+[3.028561] (-) TimerEvent: {}
+[3.129253] (-) TimerEvent: {}
+[3.229997] (-) TimerEvent: {}
+[3.330765] (-) TimerEvent: {}
+[3.431471] (-) TimerEvent: {}
+[3.532184] (-) TimerEvent: {}
+[3.632880] (-) TimerEvent: {}
+[3.733592] (-) TimerEvent: {}
+[3.834388] (-) TimerEvent: {}
+[3.935145] (-) TimerEvent: {}
+[4.035918] (-) TimerEvent: {}
+[4.136660] (-) TimerEvent: {}
+[4.237401] (-) TimerEvent: {}
+[4.338263] (-) TimerEvent: {}
+[4.438964] (-) TimerEvent: {}
+[4.539731] (-) TimerEvent: {}
+[4.640459] (-) TimerEvent: {}
+[4.741289] (-) TimerEvent: {}
+[4.842058] (-) TimerEvent: {}
+[4.942854] (-) TimerEvent: {}
+[5.043717] (-) TimerEvent: {}
+[5.144483] (-) TimerEvent: {}
+[5.245218] (-) TimerEvent: {}
+[5.346037] (-) TimerEvent: {}
+[5.446758] (-) TimerEvent: {}
+[5.547643] (-) TimerEvent: {}
+[5.648399] (-) TimerEvent: {}
+[5.749147] (-) TimerEvent: {}
+[5.849884] (-) TimerEvent: {}
+[5.950588] (-) TimerEvent: {}
+[6.051315] (-) TimerEvent: {}
+[6.152056] (-) TimerEvent: {}
+[6.252754] (-) TimerEvent: {}
+[6.353454] (-) TimerEvent: {}
+[6.454331] (-) TimerEvent: {}
+[6.555862] (-) TimerEvent: {}
+[6.656634] (-) TimerEvent: {}
+[6.757387] (-) TimerEvent: {}
+[6.858090] (-) TimerEvent: {}
+[6.958817] (-) TimerEvent: {}
+[7.059546] (-) TimerEvent: {}
+[7.160301] (-) TimerEvent: {}
+[7.263103] (-) TimerEvent: {}
+[7.365225] (-) TimerEvent: {}
+[7.465940] (-) TimerEvent: {}
+[7.566655] (-) TimerEvent: {}
+[7.667355] (-) TimerEvent: {}
+[7.768081] (-) TimerEvent: {}
+[7.871182] (-) TimerEvent: {}
+[7.972083] (-) TimerEvent: {}
+[8.072791] (-) TimerEvent: {}
+[8.174278] (-) TimerEvent: {}
+[8.275300] (-) TimerEvent: {}
+[8.381743] (-) TimerEvent: {}
+[8.482557] (-) TimerEvent: {}
+[8.583881] (-) TimerEvent: {}
+[8.685444] (-) TimerEvent: {}
+[8.790254] (-) TimerEvent: {}
+[8.891844] (-) TimerEvent: {}
+[8.994390] (-) TimerEvent: {}
+[9.095484] (-) TimerEvent: {}
+[9.196630] (-) TimerEvent: {}
+[9.297406] (-) TimerEvent: {}
+[9.398375] (-) TimerEvent: {}
+[9.499231] (-) TimerEvent: {}
+[9.599938] (-) TimerEvent: {}
+[9.602850] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn fairino_hardware::FairinoHardwareInterface::on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.603405] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:64:105:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.603581] (fairino_hardware) StderrLine: {'line': b'   64 | hardware_interface::CallbackReturn FairinoHardwareInterface::on_activate(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State& previous_state\x1b[m\x1b[K) {\n'}
+[9.604850] (fairino_hardware) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.608390] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn fairino_hardware::FairinoHardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.608922] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:149:107:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.609146] (fairino_hardware) StderrLine: {'line': b'  149 | hardware_interface::CallbackReturn FairinoHardwareInterface::on_deactivate(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State& previous_state\x1b[m\x1b[K) {\n'}
+[9.609350] (fairino_hardware) StderrLine: {'line': b'      |                                                                            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.611993] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type fairino_hardware::FairinoHardwareInterface::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.612242] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:162:84:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.612396] (fairino_hardware) StderrLine: {'line': b'  162 | hardware_interface::return_type FairinoHardwareInterface::read(\x1b[01;35m\x1b[Kconst rclcpp::Time& time\x1b[m\x1b[K, const rclcpp::Duration& period) {\n'}
+[9.612530] (fairino_hardware) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[9.612659] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:162:114:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.612790] (fairino_hardware) StderrLine: {'line': b'  162 | hardware_interface::return_type FairinoHardwareInterface::read(const rclcpp::Time& time, \x1b[01;35m\x1b[Kconst rclcpp::Duration& period\x1b[m\x1b[K) {\n'}
+[9.612913] (fairino_hardware) StderrLine: {'line': b'      |                                                                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[9.619816] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type fairino_hardware::FairinoHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.620384] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:208:85:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.620675] (fairino_hardware) StderrLine: {'line': b'  208 | hardware_interface::return_type FairinoHardwareInterface::write(\x1b[01;35m\x1b[Kconst rclcpp::Time& time\x1b[m\x1b[K, const rclcpp::Duration& period) {\n'}
+[9.620906] (fairino_hardware) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[9.621086] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:208:115:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.621266] (fairino_hardware) StderrLine: {'line': b'  208 | hardware_interface::return_type FairinoHardwareInterface::write(const rclcpp::Time& time, \x1b[01;35m\x1b[Kconst rclcpp::Duration& period\x1b[m\x1b[K) {\n'}
+[9.621434] (fairino_hardware) StderrLine: {'line': b'      |                                                                                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[9.700114] (-) TimerEvent: {}
+[9.800832] (-) TimerEvent: {}
+[9.901587] (-) TimerEvent: {}
+[10.002330] (-) TimerEvent: {}
+[10.103085] (-) TimerEvent: {}
+[10.203834] (-) TimerEvent: {}
+[10.304600] (-) TimerEvent: {}
+[10.405319] (-) TimerEvent: {}
+[10.506019] (-) TimerEvent: {}
+[10.606768] (-) TimerEvent: {}
+[10.707504] (-) TimerEvent: {}
+[10.808248] (-) TimerEvent: {}
+[10.908987] (-) TimerEvent: {}
+[11.009664] (-) TimerEvent: {}
+[11.110385] (-) TimerEvent: {}
+[11.211105] (-) TimerEvent: {}
+[11.311826] (-) TimerEvent: {}
+[11.412506] (-) TimerEvent: {}
+[11.520843] (-) TimerEvent: {}
+[11.621616] (-) TimerEvent: {}
+[11.722304] (-) TimerEvent: {}
+[11.822977] (-) TimerEvent: {}
+[11.924193] (-) TimerEvent: {}
+[12.024884] (-) TimerEvent: {}
+[12.127841] (-) TimerEvent: {}
+[12.228659] (-) TimerEvent: {}
+[12.333027] (-) TimerEvent: {}
+[12.433719] (-) TimerEvent: {}
+[12.534655] (-) TimerEvent: {}
+[12.635388] (-) TimerEvent: {}
+[12.736144] (-) TimerEvent: {}
+[12.837084] (-) TimerEvent: {}
+[12.937762] (-) TimerEvent: {}
+[13.038449] (-) TimerEvent: {}
+[13.139163] (-) TimerEvent: {}
+[13.240590] (-) TimerEvent: {}
+[13.343868] (-) TimerEvent: {}
+[13.451965] (-) TimerEvent: {}
+[13.552916] (-) TimerEvent: {}
+[13.653879] (-) TimerEvent: {}
+[13.754583] (-) TimerEvent: {}
+[13.855745] (-) TimerEvent: {}
+[13.960532] (-) TimerEvent: {}
+[14.061692] (-) TimerEvent: {}
+[14.162648] (-) TimerEvent: {}
+[14.271844] (-) TimerEvent: {}
+[14.372786] (-) TimerEvent: {}
+[14.475875] (-) TimerEvent: {}
+[14.577739] (-) TimerEvent: {}
+[14.679631] (-) TimerEvent: {}
+[14.780666] (-) TimerEvent: {}
+[14.882123] (-) TimerEvent: {}
+[14.985282] (-) TimerEvent: {}
+[15.086031] (-) TimerEvent: {}
+[15.186711] (-) TimerEvent: {}
+[15.293076] (-) TimerEvent: {}
+[15.393808] (-) TimerEvent: {}
+[15.494534] (-) TimerEvent: {}
+[15.595221] (-) TimerEvent: {}
+[15.695943] (-) TimerEvent: {}
+[15.796660] (-) TimerEvent: {}
+[15.897383] (-) TimerEvent: {}
+[15.998085] (-) TimerEvent: {}
+[16.098786] (-) TimerEvent: {}
+[16.200521] (-) TimerEvent: {}
+[16.302270] (-) TimerEvent: {}
+[16.403025] (-) TimerEvent: {}
+[16.503751] (-) TimerEvent: {}
+[16.604910] (-) TimerEvent: {}
+[16.706320] (-) TimerEvent: {}
+[16.807433] (-) TimerEvent: {}
+[16.909268] (-) TimerEvent: {}
+[17.010127] (-) TimerEvent: {}
+[17.111057] (-) TimerEvent: {}
+[17.212059] (-) TimerEvent: {}
+[17.319849] (-) TimerEvent: {}
+[17.420691] (-) TimerEvent: {}
+[17.521376] (-) TimerEvent: {}
+[17.622258] (-) TimerEvent: {}
+[17.723138] (-) TimerEvent: {}
+[17.823897] (-) TimerEvent: {}
+[17.924677] (-) TimerEvent: {}
+[18.025825] (-) TimerEvent: {}
+[18.126554] (-) TimerEvent: {}
+[18.227332] (-) TimerEvent: {}
+[18.328239] (-) TimerEvent: {}
+[18.429077] (-) TimerEvent: {}
+[18.529811] (-) TimerEvent: {}
+[18.630609] (-) TimerEvent: {}
+[18.731301] (-) TimerEvent: {}
+[18.832292] (-) TimerEvent: {}
+[18.932969] (-) TimerEvent: {}
+[19.033738] (-) TimerEvent: {}
+[19.134563] (-) TimerEvent: {}
+[19.235264] (-) TimerEvent: {}
+[19.339691] (-) TimerEvent: {}
+[19.443496] (-) TimerEvent: {}
+[19.559017] (-) TimerEvent: {}
+[19.659810] (-) TimerEvent: {}
+[19.760620] (-) TimerEvent: {}
+[19.861399] (-) TimerEvent: {}
+[19.963302] (-) TimerEvent: {}
+[20.064158] (-) TimerEvent: {}
+[20.164829] (-) TimerEvent: {}
+[20.265529] (-) TimerEvent: {}
+[20.366215] (-) TimerEvent: {}
+[20.466922] (-) TimerEvent: {}
+[20.567626] (-) TimerEvent: {}
+[20.668426] (-) TimerEvent: {}
+[20.769119] (-) TimerEvent: {}
+[20.873795] (-) TimerEvent: {}
+[20.974929] (-) TimerEvent: {}
+[21.075615] (-) TimerEvent: {}
+[21.176315] (-) TimerEvent: {}
+[21.277720] (-) TimerEvent: {}
+[21.378421] (-) TimerEvent: {}
+[21.479122] (-) TimerEvent: {}
+[21.579950] (-) TimerEvent: {}
+[21.680706] (-) TimerEvent: {}
+[21.781769] (-) TimerEvent: {}
+[21.884712] (-) TimerEvent: {}
+[21.985763] (-) TimerEvent: {}
+[22.089946] (-) TimerEvent: {}
+[22.098798] (fairino_hardware) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libfairino_hardware.so\x1b[0m\n'}
+[22.190449] (-) TimerEvent: {}
+[22.291986] (-) TimerEvent: {}
+[22.392716] (-) TimerEvent: {}
+[22.493401] (-) TimerEvent: {}
+[22.594130] (-) TimerEvent: {}
+[22.695857] (-) TimerEvent: {}
+[22.796560] (-) TimerEvent: {}
+[22.868585] (fairino_hardware) StdoutLine: {'line': b'[ 62%] Built target fairino_hardware\n'}
+[22.896679] (-) TimerEvent: {}
+[22.997479] (-) TimerEvent: {}
+[23.014283] (fairino_hardware) StdoutLine: {'line': b'[100%] Built target srv_test_client\n'}
+[23.101121] (fairino_hardware) CommandEnded: {'returncode': 0}
+[23.104153] (-) TimerEvent: {}
+[23.107347] (fairino_hardware) JobProgress: {'identifier': 'fairino_hardware', 'progress': 'install'}
+[23.136006] (fairino_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fst/test_fa_ws/build/fairino_hardware'], 'cwd': '/home/fst/test_fa_ws/build/fairino_hardware', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'fst'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fst/test_fa_ws/install/fairino_msgs/lib:/usr/local/cuda-12.6/lib64:/home/fst/test_fa_ws/install/yolo_msgs/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_visualization/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_demo/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_capabilities/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_core/lib:/home/fst/test_fa_ws/install/rviz_marker_tools/lib:/home/fst/test_fa_ws/install/rg75_300_gripper/lib:/home/fst/test_fa_ws/install/realsense2_camera/lib:/home/fst/test_fa_ws/install/realsense2_camera_msgs/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_msgs/lib:/home/fst/test_fa_ws/install/fairino_hardware/lib:/home/fst/test_fa_ws/install/ev_08_suction_gripper/lib:/home/fst/test_fa_ws/install/easy_handeye2_msgs/lib:/home/fst/moveit_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/fst/moveit_ws/install/pilz_industrial_motion_planner/lib:/home/fst/moveit_ws/install/moveit_visual_tools/lib:/home/fst/moveit_ws/install/moveit_task_constructor_visualization/lib:/home/fst/moveit_ws/install/moveit_task_constructor_demo/lib:/home/fst/moveit_ws/install/moveit_task_constructor_capabilities/lib:/home/fst/moveit_ws/install/moveit_task_constructor_core/lib:/home/fst/moveit_ws/install/moveit_ros_control_interface/lib:/home/fst/moveit_ws/install/moveit_simple_controller_manager/lib:/home/fst/moveit_ws/install/moveit_setup_assistant/lib:/home/fst/moveit_ws/install/moveit_setup_srdf_plugins/lib:/home/fst/moveit_ws/install/moveit_setup_core_plugins/lib:/home/fst/moveit_ws/install/moveit_setup_controllers/lib:/home/fst/moveit_ws/install/moveit_setup_app_plugins/lib:/home/fst/moveit_ws/install/moveit_setup_framework/lib:/home/fst/moveit_ws/install/moveit_servo/lib:/home/fst/moveit_ws/install/moveit_ros_visualization/lib:/home/fst/moveit_ws/install/moveit_hybrid_planning/lib:/home/fst/moveit_ws/install/moveit_ros_planning_interface/lib:/home/fst/moveit_ws/install/moveit_ros_benchmarks/lib:/home/fst/moveit_ws/install/moveit_ros_warehouse/lib:/home/fst/moveit_ws/install/moveit_ros_robot_interaction/lib:/home/fst/moveit_ws/install/moveit_ros_perception/lib:/home/fst/moveit_ws/install/moveit_ros_move_group/lib:/home/fst/moveit_ws/install/moveit_planners_ompl/lib:/home/fst/moveit_ws/install/moveit_ros_planning/lib:/home/fst/moveit_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/fst/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/fst/moveit_ws/install/moveit_planners_chomp/lib:/home/fst/moveit_ws/install/moveit_kinematics/lib:/home/fst/moveit_ws/install/moveit_chomp_optimizer_adapter/lib:/home/fst/moveit_ws/install/chomp_motion_planner/lib:/home/fst/moveit_ws/install/moveit_core/lib:/home/fst/moveit_ws/install/srdfdom/lib:/home/fst/moveit_ws/install/rviz_marker_tools/lib:/home/fst/moveit_ws/install/rosparam_shortcuts/lib:/home/fst/moveit_ws/install/moveit_task_constructor_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fst'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.7'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1940'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2290'), ('BUNDLED_DEBUGPY_PATH', '/home/fst/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5990'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/fst/ros2_pose_estimate_ws/install:/home/fst/test_fa_ws/install:/home/fst/moveit_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fst'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422125010779'), ('JOURNAL_STREAM', '8:38873'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-12.6/bin:/home/fst/.local/bin:/home/fst/moveit_ws/install/moveit_core/bin:/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/home/fst/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/fst/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-arm64/bundled/scripts/noConfigScripts:/home/fst/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/fst-desktop:@/tmp/.ICE-unix/2264,unix/fst-desktop:/tmp/.ICE-unix/2264'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', 'c9bc00e4b92d4b02847da74b2532b26e'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/fst/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-3481b4bdae18a450.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/fst/.config/Code/User/workspaceStorage/daf9f8cb8fced1711243d81be0698937/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/fst/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6dad676543.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/fst'), ('AMENT_PREFIX_PATH', '/home/fst/test_fa_ws/install/yolo_bringup:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/yolo_msgs:/home/fst/test_fa_ws/install/moveit_task_constructor_visualization:/home/fst/test_fa_ws/install/moveit_task_constructor_demo:/home/fst/test_fa_ws/install/moveit_task_constructor_capabilities:/home/fst/test_fa_ws/install/fairino_mtc_demo:/home/fst/test_fa_ws/install/moveit_task_constructor_core:/home/fst/test_fa_ws/install/rviz_marker_tools:/home/fst/test_fa_ws/install/robot5_v6_moveit2_config:/home/fst/test_fa_ws/install/moveit_move:/home/fst/test_fa_ws/install/rg75_300_gripper:/home/fst/test_fa_ws/install/realsense2_description:/home/fst/test_fa_ws/install/realsense2_camera:/home/fst/test_fa_ws/install/realsense2_camera_msgs:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/moveit_task_constructor_msgs:/home/fst/test_fa_ws/install/fairino_hardware:/home/fst/test_fa_ws/install/fairino_msgs:/home/fst/test_fa_ws/install/fairino5_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino3mt_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino3_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino30_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino20_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino16_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino10_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino_description:/home/fst/test_fa_ws/install/ev_08_suction_gripper:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/test_fa_ws/install/easy_handeye2_msgs:/home/fst/moveit_ws/install/pilz_industrial_motion_planner_testutils:/home/fst/moveit_ws/install/moveit_runtime:/home/fst/moveit_ws/install/moveit2_tutorials:/home/fst/moveit_ws/install/moveit:/home/fst/moveit_ws/install/moveit_planners:/home/fst/moveit_ws/install/pilz_industrial_motion_planner:/home/fst/moveit_ws/install/moveit_visual_tools:/home/fst/moveit_ws/install/moveit_task_constructor_visualization:/home/fst/moveit_ws/install/moveit_task_constructor_demo:/home/fst/moveit_ws/install/moveit_task_constructor_capabilities:/home/fst/moveit_ws/install/moveit_task_constructor_core:/home/fst/moveit_ws/install/moveit_ros_control_interface:/home/fst/moveit_ws/install/moveit_plugins:/home/fst/moveit_ws/install/moveit_simple_controller_manager:/home/fst/moveit_ws/install/moveit_setup_assistant:/home/fst/moveit_ws/install/moveit_setup_srdf_plugins:/home/fst/moveit_ws/install/moveit_setup_core_plugins:/home/fst/moveit_ws/install/moveit_setup_controllers:/home/fst/moveit_ws/install/moveit_setup_app_plugins:/home/fst/moveit_ws/install/moveit_setup_framework:/home/fst/moveit_ws/install/moveit_servo:/home/fst/moveit_ws/install/moveit_ros:/home/fst/moveit_ws/install/moveit_ros_visualization:/home/fst/moveit_ws/install/moveit_hybrid_planning:/home/fst/moveit_ws/install/moveit_ros_planning_interface:/home/fst/moveit_ws/install/moveit_ros_benchmarks:/home/fst/moveit_ws/install/moveit_ros_warehouse:/home/fst/moveit_ws/install/moveit_ros_robot_interaction:/home/fst/moveit_ws/install/moveit_ros_perception:/home/fst/moveit_ws/install/moveit_resources_prbt_pg70_support:/home/fst/moveit_ws/install/moveit_resources_prbt_moveit_config:/home/fst/moveit_ws/install/moveit_ros_move_group:/home/fst/moveit_ws/install/moveit_planners_ompl:/home/fst/moveit_ws/install/moveit_ros_planning:/home/fst/moveit_ws/install/moveit_ros_occupancy_map_monitor:/home/fst/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/fst/moveit_ws/install/moveit_planners_chomp:/home/fst/moveit_ws/install/moveit_kinematics:/home/fst/moveit_ws/install/moveit_chomp_optimizer_adapter:/home/fst/moveit_ws/install/chomp_motion_planner:/home/fst/moveit_ws/install/moveit_core:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/srdfdom:/home/fst/moveit_ws/install/rviz_marker_tools:/home/fst/moveit_ws/install/rosparam_shortcuts:/home/fst/moveit_ws/install/moveit_task_constructor_msgs:/home/fst/moveit_ws/install/moveit_resources_prbt_support:/home/fst/moveit_ws/install/moveit_resources:/home/fst/moveit_ws/install/moveit_resources_pr2_description:/home/fst/moveit_ws/install/moveit_resources_panda_moveit_config:/home/fst/moveit_ws/install/moveit_resources_panda_description:/home/fst/moveit_ws/install/moveit_resources_fanuc_moveit_config:/home/fst/moveit_ws/install/moveit_resources_fanuc_description:/home/fst/moveit_ws/install/moveit_common:/home/fst/moveit_ws/install/launch_param_builder:/home/fst/ros2_pose_estimate_ws/install/mtc_tutorial:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_moveit_config:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_config:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_description:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/home/fst/test_fa_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake:/home/fst/moveit_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/fst/test_fa_ws/build/fairino_hardware'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fst/test_fa_ws/install/yolo_ros/lib/python3.10/site-packages:/home/fst/test_fa_ws/install/yolo_pose_estimator/lib/python3.10/site-packages:/home/fst/test_fa_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:/home/fst/test_fa_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/fst/test_fa_ws/install/rg75_300_gripper/local/lib/python3.10/dist-packages:/home/fst/test_fa_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/fst/test_fa_ws/install/pose_estimater/lib/python3.10/site-packages:/home/fst/test_fa_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/fst/test_fa_ws/install/fairino_msgs/local/lib/python3.10/dist-packages:/home/fst/test_fa_ws/install/ev_08_suction_gripper/local/lib/python3.10/dist-packages:/home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages:/home/fst/test_fa_ws/install/easy_handeye2_msgs/local/lib/python3.10/dist-packages:/home/fst/moveit_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/fst/moveit_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/fst/moveit_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/fst/moveit_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/fst/moveit_ws/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/fst/test_fa_ws/install/fairino_msgs:/home/fst/test_fa_ws/install/yolo_bringup:/home/fst/test_fa_ws/install/yolo_msgs:/home/fst/test_fa_ws/install/moveit_task_constructor_visualization:/home/fst/test_fa_ws/install/moveit_task_constructor_demo:/home/fst/test_fa_ws/install/moveit_task_constructor_capabilities:/home/fst/test_fa_ws/install/fairino_mtc_demo:/home/fst/test_fa_ws/install/moveit_task_constructor_core:/home/fst/test_fa_ws/install/rviz_marker_tools:/home/fst/test_fa_ws/install/robot5_v6_moveit2_config:/home/fst/test_fa_ws/install/moveit_move:/home/fst/test_fa_ws/install/rg75_300_gripper:/home/fst/test_fa_ws/install/realsense2_description:/home/fst/test_fa_ws/install/realsense2_camera:/home/fst/test_fa_ws/install/realsense2_camera_msgs:/home/fst/test_fa_ws/install/moveit_task_constructor_msgs:/home/fst/test_fa_ws/install/fairino_hardware:/home/fst/test_fa_ws/install/fairino5_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino3mt_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino3_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino30_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino20_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino16_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino10_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino_description:/home/fst/test_fa_ws/install/ev_08_suction_gripper:/home/fst/test_fa_ws/install/easy_handeye2_msgs:/home/fst/moveit_ws/install/pilz_industrial_motion_planner_testutils:/home/fst/moveit_ws/install/moveit_runtime:/home/fst/moveit_ws/install/moveit2_tutorials:/home/fst/moveit_ws/install/moveit:/home/fst/moveit_ws/install/moveit_planners:/home/fst/moveit_ws/install/pilz_industrial_motion_planner:/home/fst/moveit_ws/install/moveit_visual_tools:/home/fst/moveit_ws/install/moveit_task_constructor_visualization:/home/fst/moveit_ws/install/moveit_task_constructor_demo:/home/fst/moveit_ws/install/moveit_task_constructor_capabilities:/home/fst/moveit_ws/install/moveit_task_constructor_core:/home/fst/moveit_ws/install/moveit_ros_control_interface:/home/fst/moveit_ws/install/moveit_plugins:/home/fst/moveit_ws/install/moveit_simple_controller_manager:/home/fst/moveit_ws/install/moveit_setup_assistant:/home/fst/moveit_ws/install/moveit_setup_srdf_plugins:/home/fst/moveit_ws/install/moveit_setup_core_plugins:/home/fst/moveit_ws/install/moveit_setup_controllers:/home/fst/moveit_ws/install/moveit_setup_app_plugins:/home/fst/moveit_ws/install/moveit_setup_framework:/home/fst/moveit_ws/install/moveit_servo:/home/fst/moveit_ws/install/moveit_ros:/home/fst/moveit_ws/install/moveit_ros_visualization:/home/fst/moveit_ws/install/moveit_hybrid_planning:/home/fst/moveit_ws/install/moveit_ros_planning_interface:/home/fst/moveit_ws/install/moveit_ros_benchmarks:/home/fst/moveit_ws/install/moveit_ros_warehouse:/home/fst/moveit_ws/install/moveit_ros_robot_interaction:/home/fst/moveit_ws/install/moveit_ros_perception:/home/fst/moveit_ws/install/moveit_resources_prbt_pg70_support:/home/fst/moveit_ws/install/moveit_resources_prbt_moveit_config:/home/fst/moveit_ws/install/moveit_ros_move_group:/home/fst/moveit_ws/install/moveit_planners_ompl:/home/fst/moveit_ws/install/moveit_ros_planning:/home/fst/moveit_ws/install/moveit_ros_occupancy_map_monitor:/home/fst/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/fst/moveit_ws/install/moveit_planners_chomp:/home/fst/moveit_ws/install/moveit_kinematics:/home/fst/moveit_ws/install/moveit_chomp_optimizer_adapter:/home/fst/moveit_ws/install/chomp_motion_planner:/home/fst/moveit_ws/install/moveit_core:/home/fst/moveit_ws/install/srdfdom:/home/fst/moveit_ws/install/rviz_marker_tools:/home/fst/moveit_ws/install/rosparam_shortcuts:/home/fst/moveit_ws/install/moveit_task_constructor_msgs:/home/fst/moveit_ws/install/moveit_resources_prbt_support:/home/fst/moveit_ws/install/moveit_resources:/home/fst/moveit_ws/install/moveit_resources_pr2_description:/home/fst/moveit_ws/install/moveit_resources_panda_moveit_config:/home/fst/moveit_ws/install/moveit_resources_panda_description:/home/fst/moveit_ws/install/moveit_resources_fanuc_moveit_config:/home/fst/moveit_ws/install/moveit_resources_fanuc_description:/home/fst/moveit_ws/install/moveit_common:/home/fst/ros2_pose_estimate_ws/install/mtc_tutorial:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_moveit_config:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_config:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_description:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[23.172122] (fairino_hardware) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[23.172653] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/fairino_hardware.xml\n'}
+[23.172828] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/lib/fairino_hardware/ros2_cmd_server\n'}
+[23.173084] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/lib/fairino_hardware/srv_test_client\n'}
+[23.173687] (fairino_hardware) StdoutLine: {'line': b'-- Installing: /home/fst/test_fa_ws/install/fairino_hardware/lib/fairino_hardware/libfairino_hardware.so\n'}
+[23.182881] (fairino_hardware) StdoutLine: {'line': b'-- Set runtime path of "/home/fst/test_fa_ws/install/fairino_hardware/lib/fairino_hardware/libfairino_hardware.so" to ""\n'}
+[23.183445] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/environment/library_path.sh\n'}
+[23.183897] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/environment/library_path.dsv\n'}
+[23.184184] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/ament_index/resource_index/package_run_dependencies/fairino_hardware\n'}
+[23.184401] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/ament_index/resource_index/parent_prefix_path/fairino_hardware\n'}
+[23.184713] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/environment/ament_prefix_path.sh\n'}
+[23.185503] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/environment/ament_prefix_path.dsv\n'}
+[23.185737] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/environment/path.sh\n'}
+[23.185873] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/environment/path.dsv\n'}
+[23.186026] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/local_setup.bash\n'}
+[23.186145] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/local_setup.sh\n'}
+[23.186258] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/local_setup.zsh\n'}
+[23.200905] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/local_setup.dsv\n'}
+[23.201149] (fairino_hardware) StdoutLine: {'line': b'-- Installing: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/package.dsv\n'}
+[23.201289] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/ament_index/resource_index/packages/fairino_hardware\n'}
+[23.201426] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/fairino_hardware\n'}
+[23.201560] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareExport.cmake\n'}
+[23.201697] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareExport-release.cmake\n'}
+[23.201868] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[23.202053] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.202184] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareConfig.cmake\n'}
+[23.202307] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareConfig-version.cmake\n'}
+[23.202463] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/package.xml\n'}
+[23.202611] (fairino_hardware) CommandEnded: {'returncode': 0}
+[23.204259] (-) TimerEvent: {}
+[23.288231] (fairino_hardware) JobEnded: {'identifier': 'fairino_hardware', 'rc': 0}
+[23.290711] (-) EventReactorShutdown: {}

@@ -1,0 +1,24 @@
+[0.958s] Invoking command in '/home/fst/test_fa_ws/build/ev_08_suction_gripper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/ev_08_suction_gripper -- -j6 -l6
+[1.342s] [  9%] Built target ev_08_suction_gripper__rosidl_generator_c
+[1.353s] [ 12%] Built target ev_08_suction_gripper__cpp
+[1.452s] [ 21%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_c
+[1.533s] [ 31%] Built target ev_08_suction_gripper__rosidl_typesupport_c
+[1.540s] [ 31%] Built target ament_cmake_python_copy_ev_08_suction_gripper
+[1.600s] [ 41%] Built target ev_08_suction_gripper__rosidl_typesupport_cpp
+[1.622s] [ 51%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_cpp
+[1.636s] [ 60%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_c
+[1.639s] [ 70%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_cpp
+[1.853s] [ 75%] Built target suction_node
+[1.863s] [ 75%] Built target ev_08_suction_gripper
+[2.082s] [ 78%] Built target ev_08_suction_gripper__py
+[2.287s] [ 85%] Built target ev_08_suction_gripper__rosidl_generator_py
+[2.539s] [ 90%] Built target ev_08_suction_gripper__rosidl_typesupport_c__pyext
+[2.539s] [ 95%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_c__pyext
+[2.618s] [100%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_c__pyext
+[3.114s] running egg_info
+[3.117s] writing ev_08_suction_gripper.egg-info/PKG-INFO
+[3.119s] writing dependency_links to ev_08_suction_gripper.egg-info/dependency_links.txt
+[3.121s] writing top-level names to ev_08_suction_gripper.egg-info/top_level.txt
+[3.129s] reading manifest file 'ev_08_suction_gripper.egg-info/SOURCES.txt'
+[3.131s] writing manifest file 'ev_08_suction_gripper.egg-info/SOURCES.txt'
+[3.305s] [100%] Built target ament_cmake_python_build_ev_08_suction_gripper_egg

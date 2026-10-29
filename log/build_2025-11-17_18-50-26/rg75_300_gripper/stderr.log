@@ -1,0 +1,4 @@
+gmake[1]: *** [CMakeFiles/Makefile2:424: CMakeFiles/ament_cmake_python_copy_rg75_300_gripper.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:216: CMakeFiles/rg75_300_gripper__rosidl_generator_c.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:268: CMakeFiles/rg75_300_gripper__cpp.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

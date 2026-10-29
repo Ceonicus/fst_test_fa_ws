@@ -1,0 +1,621 @@
+[0.292s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'fairino_hardware']
+[0.292s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['fairino_hardware'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffb0d2e5c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb0d2e110>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb0d2e110>>, mixin_verb=('build',))
+[0.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.910s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fst/test_fa_ws'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extensions ['ignore', 'ignore_ament_install']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'ignore'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'ignore_ament_install'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extensions ['colcon_pkg']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'colcon_pkg'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extensions ['colcon_meta']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'colcon_meta'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extensions ['ros']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'ros'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extensions ['cmake', 'python']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'cmake'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'python'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extensions ['python_setup_py']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'python_setup_py'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'ignore'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'ignore_ament_install'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extensions ['colcon_pkg']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'colcon_pkg'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extensions ['colcon_meta']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'colcon_meta'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extensions ['ros']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'ros'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extensions ['cmake', 'python']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'cmake'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'python'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extensions ['python_setup_py']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'python_setup_py'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extensions ['ignore', 'ignore_ament_install']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'ignore'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'ignore_ament_install'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extensions ['colcon_pkg']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'colcon_pkg'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extensions ['colcon_meta']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'colcon_meta'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extensions ['ros']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'ros'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extensions ['cmake', 'python']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'cmake'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'python'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extensions ['python_setup_py']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'python_setup_py'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extensions ['ignore', 'ignore_ament_install']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extension 'ignore'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extension 'ignore_ament_install'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extensions ['colcon_pkg']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extension 'colcon_pkg'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extensions ['colcon_meta']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extension 'colcon_meta'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extensions ['ros']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extension 'ros'
+[0.974s] DEBUG:colcon.colcon_core.package_identification:Package 'src/easy_handeye2/easy_handeye2' with type 'ros.ament_python' and name 'easy_handeye2'
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extension 'ignore'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extension 'ignore_ament_install'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extensions ['colcon_pkg']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extension 'colcon_pkg'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extensions ['colcon_meta']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extension 'colcon_meta'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extensions ['ros']
+[0.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extension 'ros'
+[0.982s] DEBUG:colcon.colcon_core.package_identification:Package 'src/easy_handeye2/easy_handeye2_msgs' with type 'ros.ament_cmake' and name 'easy_handeye2_msgs'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/ev_08_suction_gripper) by extensions ['ignore', 'ignore_ament_install']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/ev_08_suction_gripper) by extension 'ignore'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/ev_08_suction_gripper) by extension 'ignore_ament_install'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/ev_08_suction_gripper) by extensions ['colcon_pkg']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/ev_08_suction_gripper) by extension 'colcon_pkg'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/ev_08_suction_gripper) by extensions ['colcon_meta']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/ev_08_suction_gripper) by extension 'colcon_meta'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/ev_08_suction_gripper) by extensions ['ros']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/ev_08_suction_gripper) by extension 'ros'
+[1.029s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ev_08_suction_gripper' with type 'ros.ament_cmake' and name 'ev_08_suction_gripper'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0) by extensions ['ignore', 'ignore_ament_install']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0) by extension 'ignore'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0) by extension 'ignore_ament_install'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0) by extensions ['colcon_pkg']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0) by extension 'colcon_pkg'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0) by extensions ['colcon_meta']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0) by extension 'colcon_meta'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0) by extensions ['ros']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0) by extension 'ros'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0) by extensions ['cmake', 'python']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0) by extension 'cmake'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0) by extension 'python'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0) by extensions ['python_setup_py']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0) by extension 'python_setup_py'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino10_v6_moveit2_config) by extensions ['ignore', 'ignore_ament_install']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino10_v6_moveit2_config) by extension 'ignore'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino10_v6_moveit2_config) by extension 'ignore_ament_install'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino10_v6_moveit2_config) by extensions ['colcon_pkg']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino10_v6_moveit2_config) by extension 'colcon_pkg'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino10_v6_moveit2_config) by extensions ['colcon_meta']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino10_v6_moveit2_config) by extension 'colcon_meta'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino10_v6_moveit2_config) by extensions ['ros']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino10_v6_moveit2_config) by extension 'ros'
+[1.039s] DEBUG:colcon.colcon_core.package_identification:Package 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino10_v6_moveit2_config' with type 'ros.ament_cmake' and name 'fairino10_v6_moveit2_config'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino16_v6_moveit2_config) by extensions ['ignore', 'ignore_ament_install']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino16_v6_moveit2_config) by extension 'ignore'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino16_v6_moveit2_config) by extension 'ignore_ament_install'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino16_v6_moveit2_config) by extensions ['colcon_pkg']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino16_v6_moveit2_config) by extension 'colcon_pkg'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino16_v6_moveit2_config) by extensions ['colcon_meta']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino16_v6_moveit2_config) by extension 'colcon_meta'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino16_v6_moveit2_config) by extensions ['ros']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino16_v6_moveit2_config) by extension 'ros'
+[1.047s] DEBUG:colcon.colcon_core.package_identification:Package 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino16_v6_moveit2_config' with type 'ros.ament_cmake' and name 'fairino16_v6_moveit2_config'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino20_v6_moveit2_config) by extensions ['ignore', 'ignore_ament_install']
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino20_v6_moveit2_config) by extension 'ignore'
+[1.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino20_v6_moveit2_config) by extension 'ignore_ament_install'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino20_v6_moveit2_config) by extensions ['colcon_pkg']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino20_v6_moveit2_config) by extension 'colcon_pkg'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino20_v6_moveit2_config) by extensions ['colcon_meta']
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino20_v6_moveit2_config) by extension 'colcon_meta'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino20_v6_moveit2_config) by extensions ['ros']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino20_v6_moveit2_config) by extension 'ros'
+[1.053s] DEBUG:colcon.colcon_core.package_identification:Package 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino20_v6_moveit2_config' with type 'ros.ament_cmake' and name 'fairino20_v6_moveit2_config'
+[1.053s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino30_v6_moveit2_config) by extensions ['ignore', 'ignore_ament_install']
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino30_v6_moveit2_config) by extension 'ignore'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino30_v6_moveit2_config) by extension 'ignore_ament_install'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino30_v6_moveit2_config) by extensions ['colcon_pkg']
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino30_v6_moveit2_config) by extension 'colcon_pkg'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino30_v6_moveit2_config) by extensions ['colcon_meta']
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino30_v6_moveit2_config) by extension 'colcon_meta'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino30_v6_moveit2_config) by extensions ['ros']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino30_v6_moveit2_config) by extension 'ros'
+[1.058s] DEBUG:colcon.colcon_core.package_identification:Package 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino30_v6_moveit2_config' with type 'ros.ament_cmake' and name 'fairino30_v6_moveit2_config'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3_v6_moveit2_config) by extensions ['ignore', 'ignore_ament_install']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3_v6_moveit2_config) by extension 'ignore'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3_v6_moveit2_config) by extension 'ignore_ament_install'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3_v6_moveit2_config) by extensions ['colcon_pkg']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3_v6_moveit2_config) by extension 'colcon_pkg'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3_v6_moveit2_config) by extensions ['colcon_meta']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3_v6_moveit2_config) by extension 'colcon_meta'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3_v6_moveit2_config) by extensions ['ros']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3_v6_moveit2_config) by extension 'ros'
+[1.063s] DEBUG:colcon.colcon_core.package_identification:Package 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3_v6_moveit2_config' with type 'ros.ament_cmake' and name 'fairino3_v6_moveit2_config'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3mt_v6_moveit2_config) by extensions ['ignore', 'ignore_ament_install']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3mt_v6_moveit2_config) by extension 'ignore'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3mt_v6_moveit2_config) by extension 'ignore_ament_install'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3mt_v6_moveit2_config) by extensions ['colcon_pkg']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3mt_v6_moveit2_config) by extension 'colcon_pkg'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3mt_v6_moveit2_config) by extensions ['colcon_meta']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3mt_v6_moveit2_config) by extension 'colcon_meta'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3mt_v6_moveit2_config) by extensions ['ros']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3mt_v6_moveit2_config) by extension 'ros'
+[1.068s] DEBUG:colcon.colcon_core.package_identification:Package 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3mt_v6_moveit2_config' with type 'ros.ament_cmake' and name 'fairino3mt_v6_moveit2_config'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino5_v6_moveit2_config) by extensions ['ignore', 'ignore_ament_install']
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino5_v6_moveit2_config) by extension 'ignore'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino5_v6_moveit2_config) by extension 'ignore_ament_install'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino5_v6_moveit2_config) by extensions ['colcon_pkg']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino5_v6_moveit2_config) by extension 'colcon_pkg'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino5_v6_moveit2_config) by extensions ['colcon_meta']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino5_v6_moveit2_config) by extension 'colcon_meta'
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino5_v6_moveit2_config) by extensions ['ros']
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino5_v6_moveit2_config) by extension 'ros'
+[1.075s] DEBUG:colcon.colcon_core.package_identification:Package 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino5_v6_moveit2_config' with type 'ros.ament_cmake' and name 'fairino5_v6_moveit2_config'
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_description) by extensions ['ignore', 'ignore_ament_install']
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_description) by extension 'ignore'
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_description) by extension 'ignore_ament_install'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_description) by extensions ['colcon_pkg']
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_description) by extension 'colcon_pkg'
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_description) by extensions ['colcon_meta']
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_description) by extension 'colcon_meta'
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_description) by extensions ['ros']
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_description) by extension 'ros'
+[1.087s] DEBUG:colcon.colcon_core.package_identification:Package 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_description' with type 'ros.ament_cmake' and name 'fairino_description'
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware) by extensions ['ignore', 'ignore_ament_install']
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware) by extension 'ignore'
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware) by extension 'ignore_ament_install'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware) by extensions ['colcon_pkg']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware) by extension 'colcon_pkg'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware) by extensions ['colcon_meta']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware) by extension 'colcon_meta'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware) by extensions ['ros']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware) by extension 'ros'
+[1.092s] DEBUG:colcon.colcon_core.package_identification:Package 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware' with type 'ros.ament_cmake' and name 'fairino_hardware'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_msgs) by extension 'ignore'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_msgs) by extension 'ignore_ament_install'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_msgs) by extensions ['colcon_pkg']
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_msgs) by extension 'colcon_pkg'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_msgs) by extensions ['colcon_meta']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_msgs) by extension 'colcon_meta'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_msgs) by extensions ['ros']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_msgs) by extension 'ros'
+[1.096s] DEBUG:colcon.colcon_core.package_identification:Package 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_msgs' with type 'ros.ament_cmake' and name 'fairino_msgs'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_mtc_demo) by extensions ['ignore', 'ignore_ament_install']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_mtc_demo) by extension 'ignore'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_mtc_demo) by extension 'ignore_ament_install'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_mtc_demo) by extensions ['colcon_pkg']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_mtc_demo) by extension 'colcon_pkg'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_mtc_demo) by extensions ['colcon_meta']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_mtc_demo) by extension 'colcon_meta'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_mtc_demo) by extensions ['ros']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_mtc_demo) by extension 'ros'
+[1.101s] DEBUG:colcon.colcon_core.package_identification:Package 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_mtc_demo' with type 'ros.ament_cmake' and name 'fairino_mtc_demo'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/robot5_v6_moveit2_config) by extensions ['ignore', 'ignore_ament_install']
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/robot5_v6_moveit2_config) by extension 'ignore'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/robot5_v6_moveit2_config) by extension 'ignore_ament_install'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/robot5_v6_moveit2_config) by extensions ['colcon_pkg']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/robot5_v6_moveit2_config) by extension 'colcon_pkg'
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/robot5_v6_moveit2_config) by extensions ['colcon_meta']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/robot5_v6_moveit2_config) by extension 'colcon_meta'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/robot5_v6_moveit2_config) by extensions ['ros']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/frcobot_ros2-V3.0.0_robotV3.8.0/robot5_v6_moveit2_config) by extension 'ros'
+[1.109s] DEBUG:colcon.colcon_core.package_identification:Package 'src/frcobot_ros2-V3.0.0_robotV3.8.0/robot5_v6_moveit2_config' with type 'ros.ament_cmake' and name 'robot5_v6_moveit2_config'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_move) by extensions ['ignore', 'ignore_ament_install']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_move) by extension 'ignore'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_move) by extension 'ignore_ament_install'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_move) by extensions ['colcon_pkg']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_move) by extension 'colcon_pkg'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_move) by extensions ['colcon_meta']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_move) by extension 'colcon_meta'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_move) by extensions ['ros']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_move) by extension 'ros'
+[1.113s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_move' with type 'ros.ament_cmake' and name 'moveit_move'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor) by extensions ['ignore', 'ignore_ament_install']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor) by extension 'ignore'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor) by extension 'ignore_ament_install'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor) by extensions ['colcon_pkg']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor) by extension 'colcon_pkg'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor) by extensions ['colcon_meta']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor) by extension 'colcon_meta'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor) by extensions ['ros']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor) by extension 'ros'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor) by extensions ['cmake', 'python']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor) by extension 'cmake'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor) by extension 'python'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor) by extensions ['python_setup_py']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor) by extension 'python_setup_py'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/capabilities) by extensions ['ignore', 'ignore_ament_install']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/capabilities) by extension 'ignore'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/capabilities) by extension 'ignore_ament_install'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/capabilities) by extensions ['colcon_pkg']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/capabilities) by extension 'colcon_pkg'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/capabilities) by extensions ['colcon_meta']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/capabilities) by extension 'colcon_meta'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/capabilities) by extensions ['ros']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/capabilities) by extension 'ros'
+[1.120s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_task_constructor/capabilities' with type 'ros.ament_cmake' and name 'moveit_task_constructor_capabilities'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/core) by extensions ['ignore', 'ignore_ament_install']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/core) by extension 'ignore'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/core) by extension 'ignore_ament_install'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/core) by extensions ['colcon_pkg']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/core) by extension 'colcon_pkg'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/core) by extensions ['colcon_meta']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/core) by extension 'colcon_meta'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/core) by extensions ['ros']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/core) by extension 'ros'
+[1.124s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_task_constructor/core' with type 'ros.ament_cmake' and name 'moveit_task_constructor_core'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/demo) by extensions ['ignore', 'ignore_ament_install']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/demo) by extension 'ignore'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/demo) by extension 'ignore_ament_install'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/demo) by extensions ['colcon_pkg']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/demo) by extension 'colcon_pkg'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/demo) by extensions ['colcon_meta']
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/demo) by extension 'colcon_meta'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/demo) by extensions ['ros']
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/demo) by extension 'ros'
+[1.128s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_task_constructor/demo' with type 'ros.ament_cmake' and name 'moveit_task_constructor_demo'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/msgs) by extension 'ignore'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/msgs) by extension 'ignore_ament_install'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/msgs) by extensions ['colcon_pkg']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/msgs) by extension 'colcon_pkg'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/msgs) by extensions ['colcon_meta']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/msgs) by extension 'colcon_meta'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/msgs) by extensions ['ros']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/msgs) by extension 'ros'
+[1.130s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_task_constructor/msgs' with type 'ros.ament_cmake' and name 'moveit_task_constructor_msgs'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/rviz_marker_tools) by extensions ['ignore', 'ignore_ament_install']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/rviz_marker_tools) by extension 'ignore'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/rviz_marker_tools) by extension 'ignore_ament_install'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/rviz_marker_tools) by extensions ['colcon_pkg']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/rviz_marker_tools) by extension 'colcon_pkg'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/rviz_marker_tools) by extensions ['colcon_meta']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/rviz_marker_tools) by extension 'colcon_meta'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/rviz_marker_tools) by extensions ['ros']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/rviz_marker_tools) by extension 'ros'
+[1.134s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_task_constructor/rviz_marker_tools' with type 'ros.ament_cmake' and name 'rviz_marker_tools'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/visualization) by extensions ['ignore', 'ignore_ament_install']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/visualization) by extension 'ignore'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/visualization) by extension 'ignore_ament_install'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/visualization) by extensions ['colcon_pkg']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/visualization) by extension 'colcon_pkg'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/visualization) by extensions ['colcon_meta']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/visualization) by extension 'colcon_meta'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/visualization) by extensions ['ros']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_task_constructor/visualization) by extension 'ros'
+[1.138s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_task_constructor/visualization' with type 'ros.ament_cmake' and name 'moveit_task_constructor_visualization'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_estimater) by extensions ['ignore', 'ignore_ament_install']
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_estimater) by extension 'ignore'
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_estimater) by extension 'ignore_ament_install'
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_estimater) by extensions ['colcon_pkg']
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_estimater) by extension 'colcon_pkg'
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_estimater) by extensions ['colcon_meta']
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_estimater) by extension 'colcon_meta'
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_estimater) by extensions ['ros']
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_estimater) by extension 'ros'
+[1.141s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pose_estimater' with type 'ros.ament_python' and name 'pose_estimater'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore_ament_install'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_pkg']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_pkg'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_meta']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_meta'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ros']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ros'
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['cmake', 'python']
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'cmake'
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python'
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['python_setup_py']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python_setup_py'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ros']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ros'
+[1.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[1.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[1.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[1.163s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ros']
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ros'
+[1.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_pkg'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_meta']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_meta'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ros']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ros'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'cmake'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['python_setup_py']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python_setup_py'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/rg75_300_gripper) by extensions ['ignore', 'ignore_ament_install']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rg75_300_gripper) by extension 'ignore'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rg75_300_gripper) by extension 'ignore_ament_install'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/rg75_300_gripper) by extensions ['colcon_pkg']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/rg75_300_gripper) by extension 'colcon_pkg'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/rg75_300_gripper) by extensions ['colcon_meta']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/rg75_300_gripper) by extension 'colcon_meta'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/rg75_300_gripper) by extensions ['ros']
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/rg75_300_gripper) by extension 'ros'
+[1.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rg75_300_gripper' with type 'ros.ament_cmake' and name 'rg75_300_gripper'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_pose_estimator) by extensions ['ignore', 'ignore_ament_install']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_pose_estimator) by extension 'ignore'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_pose_estimator) by extension 'ignore_ament_install'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_pose_estimator) by extensions ['colcon_pkg']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_pose_estimator) by extension 'colcon_pkg'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_pose_estimator) by extensions ['colcon_meta']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_pose_estimator) by extension 'colcon_meta'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_pose_estimator) by extensions ['ros']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_pose_estimator) by extension 'ros'
+[1.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_pose_estimator' with type 'ros.ament_python' and name 'yolo_pose_estimator'
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'ignore'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'ignore_ament_install'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['colcon_pkg']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'colcon_pkg'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['colcon_meta']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'colcon_meta'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['ros']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'ros'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['cmake', 'python']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'cmake'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'python'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['python_setup_py']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'python_setup_py'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'ignore'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'ignore_ament_install'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['colcon_pkg']
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'colcon_pkg'
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['colcon_meta']
+[1.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'colcon_meta'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['ros']
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'ros'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['cmake', 'python']
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'cmake'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'python'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['python_setup_py']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'python_setup_py'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'ignore'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'ignore_ament_install'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['colcon_pkg']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'colcon_pkg'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['colcon_meta']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'colcon_meta'
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['ros']
+[1.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'ros'
+[1.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_ros/yolo_bringup' with type 'ros.ament_cmake' and name 'yolo_bringup'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'ignore'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'ignore_ament_install'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['colcon_pkg']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'colcon_pkg'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['colcon_meta']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'colcon_meta'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['ros']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'ros'
+[1.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_ros/yolo_msgs' with type 'ros.ament_cmake' and name 'yolo_msgs'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'ignore'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'ignore_ament_install'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['colcon_pkg']
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'colcon_pkg'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['colcon_meta']
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'colcon_meta'
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['ros']
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'ros'
+[1.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_ros/yolo_ros' with type 'ros.ament_python' and name 'yolo_ros'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(working_yolo_custom) by extensions ['ignore', 'ignore_ament_install']
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(working_yolo_custom) by extension 'ignore'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(working_yolo_custom) by extension 'ignore_ament_install'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(working_yolo_custom) by extensions ['colcon_pkg']
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(working_yolo_custom) by extension 'colcon_pkg'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(working_yolo_custom) by extensions ['colcon_meta']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(working_yolo_custom) by extension 'colcon_meta'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(working_yolo_custom) by extensions ['ros']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(working_yolo_custom) by extension 'ros'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(working_yolo_custom) by extensions ['cmake', 'python']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(working_yolo_custom) by extension 'cmake'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(working_yolo_custom) by extension 'python'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(working_yolo_custom) by extensions ['python_setup_py']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(working_yolo_custom) by extension 'python_setup_py'
+[1.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.266s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'easy_handeye2_msgs' in 'src/easy_handeye2/easy_handeye2_msgs'
+[1.266s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ev_08_suction_gripper' in 'src/ev_08_suction_gripper'
+[1.266s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fairino_description' in 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_description'
+[1.267s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fairino_msgs' in 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_msgs'
+[1.267s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'moveit_task_constructor_msgs' in 'src/moveit_task_constructor/msgs'
+[1.267s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pose_estimater' in 'src/pose_estimater'
+[1.267s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense2_camera_msgs' in 'src/realsense-ros/realsense2_camera_msgs'
+[1.267s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rg75_300_gripper' in 'src/rg75_300_gripper'
+[1.267s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rviz_marker_tools' in 'src/moveit_task_constructor/rviz_marker_tools'
+[1.267s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yolo_msgs' in 'src/yolo_ros/yolo_msgs'
+[1.267s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yolo_pose_estimator' in 'src/yolo_pose_estimator'
+[1.267s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'easy_handeye2' in 'src/easy_handeye2/easy_handeye2'
+[1.267s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fairino10_v6_moveit2_config' in 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino10_v6_moveit2_config'
+[1.267s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fairino16_v6_moveit2_config' in 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino16_v6_moveit2_config'
+[1.267s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fairino20_v6_moveit2_config' in 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino20_v6_moveit2_config'
+[1.267s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fairino30_v6_moveit2_config' in 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino30_v6_moveit2_config'
+[1.267s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fairino3_v6_moveit2_config' in 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3_v6_moveit2_config'
+[1.267s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fairino3mt_v6_moveit2_config' in 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino3mt_v6_moveit2_config'
+[1.267s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fairino5_v6_moveit2_config' in 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino5_v6_moveit2_config'
+[1.267s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'moveit_move' in 'src/moveit_move'
+[1.267s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'moveit_task_constructor_core' in 'src/moveit_task_constructor/core'
+[1.267s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense2_camera' in 'src/realsense-ros/realsense2_camera'
+[1.268s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense2_description' in 'src/realsense-ros/realsense2_description'
+[1.268s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot5_v6_moveit2_config' in 'src/frcobot_ros2-V3.0.0_robotV3.8.0/robot5_v6_moveit2_config'
+[1.268s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yolo_ros' in 'src/yolo_ros/yolo_ros'
+[1.268s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fairino_mtc_demo' in 'src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_mtc_demo'
+[1.268s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'moveit_task_constructor_capabilities' in 'src/moveit_task_constructor/capabilities'
+[1.268s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'moveit_task_constructor_visualization' in 'src/moveit_task_constructor/visualization'
+[1.268s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yolo_bringup' in 'src/yolo_ros/yolo_bringup'
+[1.268s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'moveit_task_constructor_demo' in 'src/moveit_task_constructor/demo'
+[1.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.282s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/fst/ros2_pose_estimate_ws/install
+[1.284s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 31 installed packages in /home/fst/test_fa_ws/install
+[1.288s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 55 installed packages in /home/fst/moveit_ws/install
+[1.292s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 380 installed packages in /opt/ros/humble
+[1.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'fairino_hardware' build argument 'cmake_args' from command line to 'None'
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'fairino_hardware' build argument 'cmake_target' from command line to 'None'
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'fairino_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'fairino_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'fairino_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'fairino_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[1.411s] Level 5:colcon.colcon_core.verb:set package 'fairino_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[1.411s] Level 5:colcon.colcon_core.verb:set package 'fairino_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[1.411s] Level 5:colcon.colcon_core.verb:set package 'fairino_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.411s] DEBUG:colcon.colcon_core.verb:Building package 'fairino_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fst/test_fa_ws/build/fairino_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fst/test_fa_ws/install/fairino_hardware', 'merge_install': False, 'path': '/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware', 'symlink_install': False, 'test_result_base': None}
+[1.411s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.413s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.414s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware' with build type 'ament_cmake'
+[1.414s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware'
+[1.422s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.422s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fst/test_fa_ws/build/fairino_hardware': CMAKE_PREFIX_PATH=/home/fst/test_fa_ws/install/fairino_msgs:/home/fst/test_fa_ws/install/yolo_bringup:/home/fst/test_fa_ws/install/yolo_msgs:/home/fst/test_fa_ws/install/moveit_task_constructor_visualization:/home/fst/test_fa_ws/install/moveit_task_constructor_demo:/home/fst/test_fa_ws/install/moveit_task_constructor_capabilities:/home/fst/test_fa_ws/install/fairino_mtc_demo:/home/fst/test_fa_ws/install/moveit_task_constructor_core:/home/fst/test_fa_ws/install/rviz_marker_tools:/home/fst/test_fa_ws/install/robot5_v6_moveit2_config:/home/fst/test_fa_ws/install/moveit_move:/home/fst/test_fa_ws/install/rg75_300_gripper:/home/fst/test_fa_ws/install/realsense2_description:/home/fst/test_fa_ws/install/realsense2_camera:/home/fst/test_fa_ws/install/realsense2_camera_msgs:/home/fst/test_fa_ws/install/moveit_task_constructor_msgs:/home/fst/test_fa_ws/install/fairino_hardware:/home/fst/test_fa_ws/install/fairino5_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino3mt_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino3_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino30_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino20_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino16_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino10_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino_description:/home/fst/test_fa_ws/install/ev_08_suction_gripper:/home/fst/test_fa_ws/install/easy_handeye2_msgs:/home/fst/moveit_ws/install/pilz_industrial_motion_planner_testutils:/home/fst/moveit_ws/install/moveit_runtime:/home/fst/moveit_ws/install/moveit2_tutorials:/home/fst/moveit_ws/install/moveit:/home/fst/moveit_ws/install/moveit_planners:/home/fst/moveit_ws/install/pilz_industrial_motion_planner:/home/fst/moveit_ws/install/moveit_visual_tools:/home/fst/moveit_ws/install/moveit_task_constructor_visualization:/home/fst/moveit_ws/install/moveit_task_constructor_demo:/home/fst/moveit_ws/install/moveit_task_constructor_capabilities:/home/fst/moveit_ws/install/moveit_task_constructor_core:/home/fst/moveit_ws/install/moveit_ros_control_interface:/home/fst/moveit_ws/install/moveit_plugins:/home/fst/moveit_ws/install/moveit_simple_controller_manager:/home/fst/moveit_ws/install/moveit_setup_assistant:/home/fst/moveit_ws/install/moveit_setup_srdf_plugins:/home/fst/moveit_ws/install/moveit_setup_core_plugins:/home/fst/moveit_ws/install/moveit_setup_controllers:/home/fst/moveit_ws/install/moveit_setup_app_plugins:/home/fst/moveit_ws/install/moveit_setup_framework:/home/fst/moveit_ws/install/moveit_servo:/home/fst/moveit_ws/install/moveit_ros:/home/fst/moveit_ws/install/moveit_ros_visualization:/home/fst/moveit_ws/install/moveit_hybrid_planning:/home/fst/moveit_ws/install/moveit_ros_planning_interface:/home/fst/moveit_ws/install/moveit_ros_benchmarks:/home/fst/moveit_ws/install/moveit_ros_warehouse:/home/fst/moveit_ws/install/moveit_ros_robot_interaction:/home/fst/moveit_ws/install/moveit_ros_perception:/home/fst/moveit_ws/install/moveit_resources_prbt_pg70_support:/home/fst/moveit_ws/install/moveit_resources_prbt_moveit_config:/home/fst/moveit_ws/install/moveit_ros_move_group:/home/fst/moveit_ws/install/moveit_planners_ompl:/home/fst/moveit_ws/install/moveit_ros_planning:/home/fst/moveit_ws/install/moveit_ros_occupancy_map_monitor:/home/fst/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/fst/moveit_ws/install/moveit_planners_chomp:/home/fst/moveit_ws/install/moveit_kinematics:/home/fst/moveit_ws/install/moveit_chomp_optimizer_adapter:/home/fst/moveit_ws/install/chomp_motion_planner:/home/fst/moveit_ws/install/moveit_core:/home/fst/moveit_ws/install/srdfdom:/home/fst/moveit_ws/install/rviz_marker_tools:/home/fst/moveit_ws/install/rosparam_shortcuts:/home/fst/moveit_ws/install/moveit_task_constructor_msgs:/home/fst/moveit_ws/install/moveit_resources_prbt_support:/home/fst/moveit_ws/install/moveit_resources:/home/fst/moveit_ws/install/moveit_resources_pr2_description:/home/fst/moveit_ws/install/moveit_resources_panda_moveit_config:/home/fst/moveit_ws/install/moveit_resources_panda_description:/home/fst/moveit_ws/install/moveit_resources_fanuc_moveit_config:/home/fst/moveit_ws/install/moveit_resources_fanuc_description:/home/fst/moveit_ws/install/moveit_common:/home/fst/ros2_pose_estimate_ws/install/mtc_tutorial:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_moveit_config:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_config:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_description:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble LD_LIBRARY_PATH=/home/fst/test_fa_ws/install/fairino_msgs/lib:/usr/local/cuda-12.6/lib64:/home/fst/test_fa_ws/install/yolo_msgs/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_visualization/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_demo/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_capabilities/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_core/lib:/home/fst/test_fa_ws/install/rviz_marker_tools/lib:/home/fst/test_fa_ws/install/rg75_300_gripper/lib:/home/fst/test_fa_ws/install/realsense2_camera/lib:/home/fst/test_fa_ws/install/realsense2_camera_msgs/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_msgs/lib:/home/fst/test_fa_ws/install/fairino_hardware/lib:/home/fst/test_fa_ws/install/ev_08_suction_gripper/lib:/home/fst/test_fa_ws/install/easy_handeye2_msgs/lib:/home/fst/moveit_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/fst/moveit_ws/install/pilz_industrial_motion_planner/lib:/home/fst/moveit_ws/install/moveit_visual_tools/lib:/home/fst/moveit_ws/install/moveit_task_constructor_visualization/lib:/home/fst/moveit_ws/install/moveit_task_constructor_demo/lib:/home/fst/moveit_ws/install/moveit_task_constructor_capabilities/lib:/home/fst/moveit_ws/install/moveit_task_constructor_core/lib:/home/fst/moveit_ws/install/moveit_ros_control_interface/lib:/home/fst/moveit_ws/install/moveit_simple_controller_manager/lib:/home/fst/moveit_ws/install/moveit_setup_assistant/lib:/home/fst/moveit_ws/install/moveit_setup_srdf_plugins/lib:/home/fst/moveit_ws/install/moveit_setup_core_plugins/lib:/home/fst/moveit_ws/install/moveit_setup_controllers/lib:/home/fst/moveit_ws/install/moveit_setup_app_plugins/lib:/home/fst/moveit_ws/install/moveit_setup_framework/lib:/home/fst/moveit_ws/install/moveit_servo/lib:/home/fst/moveit_ws/install/moveit_ros_visualization/lib:/home/fst/moveit_ws/install/moveit_hybrid_planning/lib:/home/fst/moveit_ws/install/moveit_ros_planning_interface/lib:/home/fst/moveit_ws/install/moveit_ros_benchmarks/lib:/home/fst/moveit_ws/install/moveit_ros_warehouse/lib:/home/fst/moveit_ws/install/moveit_ros_robot_interaction/lib:/home/fst/moveit_ws/install/moveit_ros_perception/lib:/home/fst/moveit_ws/install/moveit_ros_move_group/lib:/home/fst/moveit_ws/install/moveit_planners_ompl/lib:/home/fst/moveit_ws/install/moveit_ros_planning/lib:/home/fst/moveit_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/fst/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/fst/moveit_ws/install/moveit_planners_chomp/lib:/home/fst/moveit_ws/install/moveit_kinematics/lib:/home/fst/moveit_ws/install/moveit_chomp_optimizer_adapter/lib:/home/fst/moveit_ws/install/chomp_motion_planner/lib:/home/fst/moveit_ws/install/moveit_core/lib:/home/fst/moveit_ws/install/srdfdom/lib:/home/fst/moveit_ws/install/rviz_marker_tools/lib:/home/fst/moveit_ws/install/rosparam_shortcuts/lib:/home/fst/moveit_ws/install/moveit_task_constructor_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/fst/test_fa_ws/build/fairino_hardware -- -j6 -l6
+[1.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fst/test_fa_ws/build/fairino_hardware' returned '0': CMAKE_PREFIX_PATH=/home/fst/test_fa_ws/install/fairino_msgs:/home/fst/test_fa_ws/install/yolo_bringup:/home/fst/test_fa_ws/install/yolo_msgs:/home/fst/test_fa_ws/install/moveit_task_constructor_visualization:/home/fst/test_fa_ws/install/moveit_task_constructor_demo:/home/fst/test_fa_ws/install/moveit_task_constructor_capabilities:/home/fst/test_fa_ws/install/fairino_mtc_demo:/home/fst/test_fa_ws/install/moveit_task_constructor_core:/home/fst/test_fa_ws/install/rviz_marker_tools:/home/fst/test_fa_ws/install/robot5_v6_moveit2_config:/home/fst/test_fa_ws/install/moveit_move:/home/fst/test_fa_ws/install/rg75_300_gripper:/home/fst/test_fa_ws/install/realsense2_description:/home/fst/test_fa_ws/install/realsense2_camera:/home/fst/test_fa_ws/install/realsense2_camera_msgs:/home/fst/test_fa_ws/install/moveit_task_constructor_msgs:/home/fst/test_fa_ws/install/fairino_hardware:/home/fst/test_fa_ws/install/fairino5_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino3mt_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino3_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino30_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino20_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino16_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino10_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino_description:/home/fst/test_fa_ws/install/ev_08_suction_gripper:/home/fst/test_fa_ws/install/easy_handeye2_msgs:/home/fst/moveit_ws/install/pilz_industrial_motion_planner_testutils:/home/fst/moveit_ws/install/moveit_runtime:/home/fst/moveit_ws/install/moveit2_tutorials:/home/fst/moveit_ws/install/moveit:/home/fst/moveit_ws/install/moveit_planners:/home/fst/moveit_ws/install/pilz_industrial_motion_planner:/home/fst/moveit_ws/install/moveit_visual_tools:/home/fst/moveit_ws/install/moveit_task_constructor_visualization:/home/fst/moveit_ws/install/moveit_task_constructor_demo:/home/fst/moveit_ws/install/moveit_task_constructor_capabilities:/home/fst/moveit_ws/install/moveit_task_constructor_core:/home/fst/moveit_ws/install/moveit_ros_control_interface:/home/fst/moveit_ws/install/moveit_plugins:/home/fst/moveit_ws/install/moveit_simple_controller_manager:/home/fst/moveit_ws/install/moveit_setup_assistant:/home/fst/moveit_ws/install/moveit_setup_srdf_plugins:/home/fst/moveit_ws/install/moveit_setup_core_plugins:/home/fst/moveit_ws/install/moveit_setup_controllers:/home/fst/moveit_ws/install/moveit_setup_app_plugins:/home/fst/moveit_ws/install/moveit_setup_framework:/home/fst/moveit_ws/install/moveit_servo:/home/fst/moveit_ws/install/moveit_ros:/home/fst/moveit_ws/install/moveit_ros_visualization:/home/fst/moveit_ws/install/moveit_hybrid_planning:/home/fst/moveit_ws/install/moveit_ros_planning_interface:/home/fst/moveit_ws/install/moveit_ros_benchmarks:/home/fst/moveit_ws/install/moveit_ros_warehouse:/home/fst/moveit_ws/install/moveit_ros_robot_interaction:/home/fst/moveit_ws/install/moveit_ros_perception:/home/fst/moveit_ws/install/moveit_resources_prbt_pg70_support:/home/fst/moveit_ws/install/moveit_resources_prbt_moveit_config:/home/fst/moveit_ws/install/moveit_ros_move_group:/home/fst/moveit_ws/install/moveit_planners_ompl:/home/fst/moveit_ws/install/moveit_ros_planning:/home/fst/moveit_ws/install/moveit_ros_occupancy_map_monitor:/home/fst/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/fst/moveit_ws/install/moveit_planners_chomp:/home/fst/moveit_ws/install/moveit_kinematics:/home/fst/moveit_ws/install/moveit_chomp_optimizer_adapter:/home/fst/moveit_ws/install/chomp_motion_planner:/home/fst/moveit_ws/install/moveit_core:/home/fst/moveit_ws/install/srdfdom:/home/fst/moveit_ws/install/rviz_marker_tools:/home/fst/moveit_ws/install/rosparam_shortcuts:/home/fst/moveit_ws/install/moveit_task_constructor_msgs:/home/fst/moveit_ws/install/moveit_resources_prbt_support:/home/fst/moveit_ws/install/moveit_resources:/home/fst/moveit_ws/install/moveit_resources_pr2_description:/home/fst/moveit_ws/install/moveit_resources_panda_moveit_config:/home/fst/moveit_ws/install/moveit_resources_panda_description:/home/fst/moveit_ws/install/moveit_resources_fanuc_moveit_config:/home/fst/moveit_ws/install/moveit_resources_fanuc_description:/home/fst/moveit_ws/install/moveit_common:/home/fst/ros2_pose_estimate_ws/install/mtc_tutorial:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_moveit_config:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_config:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_description:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble LD_LIBRARY_PATH=/home/fst/test_fa_ws/install/fairino_msgs/lib:/usr/local/cuda-12.6/lib64:/home/fst/test_fa_ws/install/yolo_msgs/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_visualization/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_demo/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_capabilities/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_core/lib:/home/fst/test_fa_ws/install/rviz_marker_tools/lib:/home/fst/test_fa_ws/install/rg75_300_gripper/lib:/home/fst/test_fa_ws/install/realsense2_camera/lib:/home/fst/test_fa_ws/install/realsense2_camera_msgs/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_msgs/lib:/home/fst/test_fa_ws/install/fairino_hardware/lib:/home/fst/test_fa_ws/install/ev_08_suction_gripper/lib:/home/fst/test_fa_ws/install/easy_handeye2_msgs/lib:/home/fst/moveit_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/fst/moveit_ws/install/pilz_industrial_motion_planner/lib:/home/fst/moveit_ws/install/moveit_visual_tools/lib:/home/fst/moveit_ws/install/moveit_task_constructor_visualization/lib:/home/fst/moveit_ws/install/moveit_task_constructor_demo/lib:/home/fst/moveit_ws/install/moveit_task_constructor_capabilities/lib:/home/fst/moveit_ws/install/moveit_task_constructor_core/lib:/home/fst/moveit_ws/install/moveit_ros_control_interface/lib:/home/fst/moveit_ws/install/moveit_simple_controller_manager/lib:/home/fst/moveit_ws/install/moveit_setup_assistant/lib:/home/fst/moveit_ws/install/moveit_setup_srdf_plugins/lib:/home/fst/moveit_ws/install/moveit_setup_core_plugins/lib:/home/fst/moveit_ws/install/moveit_setup_controllers/lib:/home/fst/moveit_ws/install/moveit_setup_app_plugins/lib:/home/fst/moveit_ws/install/moveit_setup_framework/lib:/home/fst/moveit_ws/install/moveit_servo/lib:/home/fst/moveit_ws/install/moveit_ros_visualization/lib:/home/fst/moveit_ws/install/moveit_hybrid_planning/lib:/home/fst/moveit_ws/install/moveit_ros_planning_interface/lib:/home/fst/moveit_ws/install/moveit_ros_benchmarks/lib:/home/fst/moveit_ws/install/moveit_ros_warehouse/lib:/home/fst/moveit_ws/install/moveit_ros_robot_interaction/lib:/home/fst/moveit_ws/install/moveit_ros_perception/lib:/home/fst/moveit_ws/install/moveit_ros_move_group/lib:/home/fst/moveit_ws/install/moveit_planners_ompl/lib:/home/fst/moveit_ws/install/moveit_ros_planning/lib:/home/fst/moveit_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/fst/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/fst/moveit_ws/install/moveit_planners_chomp/lib:/home/fst/moveit_ws/install/moveit_kinematics/lib:/home/fst/moveit_ws/install/moveit_chomp_optimizer_adapter/lib:/home/fst/moveit_ws/install/chomp_motion_planner/lib:/home/fst/moveit_ws/install/moveit_core/lib:/home/fst/moveit_ws/install/srdfdom/lib:/home/fst/moveit_ws/install/rviz_marker_tools/lib:/home/fst/moveit_ws/install/rosparam_shortcuts/lib:/home/fst/moveit_ws/install/moveit_task_constructor_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/fst/test_fa_ws/build/fairino_hardware -- -j6 -l6
+[2.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fst/test_fa_ws/build/fairino_hardware': CMAKE_PREFIX_PATH=/home/fst/test_fa_ws/install/fairino_msgs:/home/fst/test_fa_ws/install/yolo_bringup:/home/fst/test_fa_ws/install/yolo_msgs:/home/fst/test_fa_ws/install/moveit_task_constructor_visualization:/home/fst/test_fa_ws/install/moveit_task_constructor_demo:/home/fst/test_fa_ws/install/moveit_task_constructor_capabilities:/home/fst/test_fa_ws/install/fairino_mtc_demo:/home/fst/test_fa_ws/install/moveit_task_constructor_core:/home/fst/test_fa_ws/install/rviz_marker_tools:/home/fst/test_fa_ws/install/robot5_v6_moveit2_config:/home/fst/test_fa_ws/install/moveit_move:/home/fst/test_fa_ws/install/rg75_300_gripper:/home/fst/test_fa_ws/install/realsense2_description:/home/fst/test_fa_ws/install/realsense2_camera:/home/fst/test_fa_ws/install/realsense2_camera_msgs:/home/fst/test_fa_ws/install/moveit_task_constructor_msgs:/home/fst/test_fa_ws/install/fairino_hardware:/home/fst/test_fa_ws/install/fairino5_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino3mt_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino3_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino30_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino20_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino16_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino10_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino_description:/home/fst/test_fa_ws/install/ev_08_suction_gripper:/home/fst/test_fa_ws/install/easy_handeye2_msgs:/home/fst/moveit_ws/install/pilz_industrial_motion_planner_testutils:/home/fst/moveit_ws/install/moveit_runtime:/home/fst/moveit_ws/install/moveit2_tutorials:/home/fst/moveit_ws/install/moveit:/home/fst/moveit_ws/install/moveit_planners:/home/fst/moveit_ws/install/pilz_industrial_motion_planner:/home/fst/moveit_ws/install/moveit_visual_tools:/home/fst/moveit_ws/install/moveit_task_constructor_visualization:/home/fst/moveit_ws/install/moveit_task_constructor_demo:/home/fst/moveit_ws/install/moveit_task_constructor_capabilities:/home/fst/moveit_ws/install/moveit_task_constructor_core:/home/fst/moveit_ws/install/moveit_ros_control_interface:/home/fst/moveit_ws/install/moveit_plugins:/home/fst/moveit_ws/install/moveit_simple_controller_manager:/home/fst/moveit_ws/install/moveit_setup_assistant:/home/fst/moveit_ws/install/moveit_setup_srdf_plugins:/home/fst/moveit_ws/install/moveit_setup_core_plugins:/home/fst/moveit_ws/install/moveit_setup_controllers:/home/fst/moveit_ws/install/moveit_setup_app_plugins:/home/fst/moveit_ws/install/moveit_setup_framework:/home/fst/moveit_ws/install/moveit_servo:/home/fst/moveit_ws/install/moveit_ros:/home/fst/moveit_ws/install/moveit_ros_visualization:/home/fst/moveit_ws/install/moveit_hybrid_planning:/home/fst/moveit_ws/install/moveit_ros_planning_interface:/home/fst/moveit_ws/install/moveit_ros_benchmarks:/home/fst/moveit_ws/install/moveit_ros_warehouse:/home/fst/moveit_ws/install/moveit_ros_robot_interaction:/home/fst/moveit_ws/install/moveit_ros_perception:/home/fst/moveit_ws/install/moveit_resources_prbt_pg70_support:/home/fst/moveit_ws/install/moveit_resources_prbt_moveit_config:/home/fst/moveit_ws/install/moveit_ros_move_group:/home/fst/moveit_ws/install/moveit_planners_ompl:/home/fst/moveit_ws/install/moveit_ros_planning:/home/fst/moveit_ws/install/moveit_ros_occupancy_map_monitor:/home/fst/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/fst/moveit_ws/install/moveit_planners_chomp:/home/fst/moveit_ws/install/moveit_kinematics:/home/fst/moveit_ws/install/moveit_chomp_optimizer_adapter:/home/fst/moveit_ws/install/chomp_motion_planner:/home/fst/moveit_ws/install/moveit_core:/home/fst/moveit_ws/install/srdfdom:/home/fst/moveit_ws/install/rviz_marker_tools:/home/fst/moveit_ws/install/rosparam_shortcuts:/home/fst/moveit_ws/install/moveit_task_constructor_msgs:/home/fst/moveit_ws/install/moveit_resources_prbt_support:/home/fst/moveit_ws/install/moveit_resources:/home/fst/moveit_ws/install/moveit_resources_pr2_description:/home/fst/moveit_ws/install/moveit_resources_panda_moveit_config:/home/fst/moveit_ws/install/moveit_resources_panda_description:/home/fst/moveit_ws/install/moveit_resources_fanuc_moveit_config:/home/fst/moveit_ws/install/moveit_resources_fanuc_description:/home/fst/moveit_ws/install/moveit_common:/home/fst/ros2_pose_estimate_ws/install/mtc_tutorial:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_moveit_config:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_config:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_description:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble LD_LIBRARY_PATH=/home/fst/test_fa_ws/install/fairino_msgs/lib:/usr/local/cuda-12.6/lib64:/home/fst/test_fa_ws/install/yolo_msgs/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_visualization/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_demo/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_capabilities/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_core/lib:/home/fst/test_fa_ws/install/rviz_marker_tools/lib:/home/fst/test_fa_ws/install/rg75_300_gripper/lib:/home/fst/test_fa_ws/install/realsense2_camera/lib:/home/fst/test_fa_ws/install/realsense2_camera_msgs/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_msgs/lib:/home/fst/test_fa_ws/install/fairino_hardware/lib:/home/fst/test_fa_ws/install/ev_08_suction_gripper/lib:/home/fst/test_fa_ws/install/easy_handeye2_msgs/lib:/home/fst/moveit_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/fst/moveit_ws/install/pilz_industrial_motion_planner/lib:/home/fst/moveit_ws/install/moveit_visual_tools/lib:/home/fst/moveit_ws/install/moveit_task_constructor_visualization/lib:/home/fst/moveit_ws/install/moveit_task_constructor_demo/lib:/home/fst/moveit_ws/install/moveit_task_constructor_capabilities/lib:/home/fst/moveit_ws/install/moveit_task_constructor_core/lib:/home/fst/moveit_ws/install/moveit_ros_control_interface/lib:/home/fst/moveit_ws/install/moveit_simple_controller_manager/lib:/home/fst/moveit_ws/install/moveit_setup_assistant/lib:/home/fst/moveit_ws/install/moveit_setup_srdf_plugins/lib:/home/fst/moveit_ws/install/moveit_setup_core_plugins/lib:/home/fst/moveit_ws/install/moveit_setup_controllers/lib:/home/fst/moveit_ws/install/moveit_setup_app_plugins/lib:/home/fst/moveit_ws/install/moveit_setup_framework/lib:/home/fst/moveit_ws/install/moveit_servo/lib:/home/fst/moveit_ws/install/moveit_ros_visualization/lib:/home/fst/moveit_ws/install/moveit_hybrid_planning/lib:/home/fst/moveit_ws/install/moveit_ros_planning_interface/lib:/home/fst/moveit_ws/install/moveit_ros_benchmarks/lib:/home/fst/moveit_ws/install/moveit_ros_warehouse/lib:/home/fst/moveit_ws/install/moveit_ros_robot_interaction/lib:/home/fst/moveit_ws/install/moveit_ros_perception/lib:/home/fst/moveit_ws/install/moveit_ros_move_group/lib:/home/fst/moveit_ws/install/moveit_planners_ompl/lib:/home/fst/moveit_ws/install/moveit_ros_planning/lib:/home/fst/moveit_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/fst/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/fst/moveit_ws/install/moveit_planners_chomp/lib:/home/fst/moveit_ws/install/moveit_kinematics/lib:/home/fst/moveit_ws/install/moveit_chomp_optimizer_adapter/lib:/home/fst/moveit_ws/install/chomp_motion_planner/lib:/home/fst/moveit_ws/install/moveit_core/lib:/home/fst/moveit_ws/install/srdfdom/lib:/home/fst/moveit_ws/install/rviz_marker_tools/lib:/home/fst/moveit_ws/install/rosparam_shortcuts/lib:/home/fst/moveit_ws/install/moveit_task_constructor_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/fst/test_fa_ws/build/fairino_hardware
+[2.062s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fairino_hardware)
+[2.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fst/test_fa_ws/build/fairino_hardware' returned '0': CMAKE_PREFIX_PATH=/home/fst/test_fa_ws/install/fairino_msgs:/home/fst/test_fa_ws/install/yolo_bringup:/home/fst/test_fa_ws/install/yolo_msgs:/home/fst/test_fa_ws/install/moveit_task_constructor_visualization:/home/fst/test_fa_ws/install/moveit_task_constructor_demo:/home/fst/test_fa_ws/install/moveit_task_constructor_capabilities:/home/fst/test_fa_ws/install/fairino_mtc_demo:/home/fst/test_fa_ws/install/moveit_task_constructor_core:/home/fst/test_fa_ws/install/rviz_marker_tools:/home/fst/test_fa_ws/install/robot5_v6_moveit2_config:/home/fst/test_fa_ws/install/moveit_move:/home/fst/test_fa_ws/install/rg75_300_gripper:/home/fst/test_fa_ws/install/realsense2_description:/home/fst/test_fa_ws/install/realsense2_camera:/home/fst/test_fa_ws/install/realsense2_camera_msgs:/home/fst/test_fa_ws/install/moveit_task_constructor_msgs:/home/fst/test_fa_ws/install/fairino_hardware:/home/fst/test_fa_ws/install/fairino5_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino3mt_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino3_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino30_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino20_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino16_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino10_v6_moveit2_config:/home/fst/test_fa_ws/install/fairino_description:/home/fst/test_fa_ws/install/ev_08_suction_gripper:/home/fst/test_fa_ws/install/easy_handeye2_msgs:/home/fst/moveit_ws/install/pilz_industrial_motion_planner_testutils:/home/fst/moveit_ws/install/moveit_runtime:/home/fst/moveit_ws/install/moveit2_tutorials:/home/fst/moveit_ws/install/moveit:/home/fst/moveit_ws/install/moveit_planners:/home/fst/moveit_ws/install/pilz_industrial_motion_planner:/home/fst/moveit_ws/install/moveit_visual_tools:/home/fst/moveit_ws/install/moveit_task_constructor_visualization:/home/fst/moveit_ws/install/moveit_task_constructor_demo:/home/fst/moveit_ws/install/moveit_task_constructor_capabilities:/home/fst/moveit_ws/install/moveit_task_constructor_core:/home/fst/moveit_ws/install/moveit_ros_control_interface:/home/fst/moveit_ws/install/moveit_plugins:/home/fst/moveit_ws/install/moveit_simple_controller_manager:/home/fst/moveit_ws/install/moveit_setup_assistant:/home/fst/moveit_ws/install/moveit_setup_srdf_plugins:/home/fst/moveit_ws/install/moveit_setup_core_plugins:/home/fst/moveit_ws/install/moveit_setup_controllers:/home/fst/moveit_ws/install/moveit_setup_app_plugins:/home/fst/moveit_ws/install/moveit_setup_framework:/home/fst/moveit_ws/install/moveit_servo:/home/fst/moveit_ws/install/moveit_ros:/home/fst/moveit_ws/install/moveit_ros_visualization:/home/fst/moveit_ws/install/moveit_hybrid_planning:/home/fst/moveit_ws/install/moveit_ros_planning_interface:/home/fst/moveit_ws/install/moveit_ros_benchmarks:/home/fst/moveit_ws/install/moveit_ros_warehouse:/home/fst/moveit_ws/install/moveit_ros_robot_interaction:/home/fst/moveit_ws/install/moveit_ros_perception:/home/fst/moveit_ws/install/moveit_resources_prbt_pg70_support:/home/fst/moveit_ws/install/moveit_resources_prbt_moveit_config:/home/fst/moveit_ws/install/moveit_ros_move_group:/home/fst/moveit_ws/install/moveit_planners_ompl:/home/fst/moveit_ws/install/moveit_ros_planning:/home/fst/moveit_ws/install/moveit_ros_occupancy_map_monitor:/home/fst/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/fst/moveit_ws/install/moveit_planners_chomp:/home/fst/moveit_ws/install/moveit_kinematics:/home/fst/moveit_ws/install/moveit_chomp_optimizer_adapter:/home/fst/moveit_ws/install/chomp_motion_planner:/home/fst/moveit_ws/install/moveit_core:/home/fst/moveit_ws/install/srdfdom:/home/fst/moveit_ws/install/rviz_marker_tools:/home/fst/moveit_ws/install/rosparam_shortcuts:/home/fst/moveit_ws/install/moveit_task_constructor_msgs:/home/fst/moveit_ws/install/moveit_resources_prbt_support:/home/fst/moveit_ws/install/moveit_resources:/home/fst/moveit_ws/install/moveit_resources_pr2_description:/home/fst/moveit_ws/install/moveit_resources_panda_moveit_config:/home/fst/moveit_ws/install/moveit_resources_panda_description:/home/fst/moveit_ws/install/moveit_resources_fanuc_moveit_config:/home/fst/moveit_ws/install/moveit_resources_fanuc_description:/home/fst/moveit_ws/install/moveit_common:/home/fst/ros2_pose_estimate_ws/install/mtc_tutorial:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_moveit_config:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_config:/home/fst/ros2_pose_estimate_ws/install/fairino5_v6_description:/home/fst/test_fa_ws/install/yolo_ros:/home/fst/test_fa_ws/install/yolo_pose_estimator:/home/fst/test_fa_ws/install/pose_estimater:/home/fst/test_fa_ws/install/easy_handeye2:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble LD_LIBRARY_PATH=/home/fst/test_fa_ws/install/fairino_msgs/lib:/usr/local/cuda-12.6/lib64:/home/fst/test_fa_ws/install/yolo_msgs/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_visualization/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_demo/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_capabilities/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_core/lib:/home/fst/test_fa_ws/install/rviz_marker_tools/lib:/home/fst/test_fa_ws/install/rg75_300_gripper/lib:/home/fst/test_fa_ws/install/realsense2_camera/lib:/home/fst/test_fa_ws/install/realsense2_camera_msgs/lib:/home/fst/test_fa_ws/install/moveit_task_constructor_msgs/lib:/home/fst/test_fa_ws/install/fairino_hardware/lib:/home/fst/test_fa_ws/install/ev_08_suction_gripper/lib:/home/fst/test_fa_ws/install/easy_handeye2_msgs/lib:/home/fst/moveit_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/fst/moveit_ws/install/pilz_industrial_motion_planner/lib:/home/fst/moveit_ws/install/moveit_visual_tools/lib:/home/fst/moveit_ws/install/moveit_task_constructor_visualization/lib:/home/fst/moveit_ws/install/moveit_task_constructor_demo/lib:/home/fst/moveit_ws/install/moveit_task_constructor_capabilities/lib:/home/fst/moveit_ws/install/moveit_task_constructor_core/lib:/home/fst/moveit_ws/install/moveit_ros_control_interface/lib:/home/fst/moveit_ws/install/moveit_simple_controller_manager/lib:/home/fst/moveit_ws/install/moveit_setup_assistant/lib:/home/fst/moveit_ws/install/moveit_setup_srdf_plugins/lib:/home/fst/moveit_ws/install/moveit_setup_core_plugins/lib:/home/fst/moveit_ws/install/moveit_setup_controllers/lib:/home/fst/moveit_ws/install/moveit_setup_app_plugins/lib:/home/fst/moveit_ws/install/moveit_setup_framework/lib:/home/fst/moveit_ws/install/moveit_servo/lib:/home/fst/moveit_ws/install/moveit_ros_visualization/lib:/home/fst/moveit_ws/install/moveit_hybrid_planning/lib:/home/fst/moveit_ws/install/moveit_ros_planning_interface/lib:/home/fst/moveit_ws/install/moveit_ros_benchmarks/lib:/home/fst/moveit_ws/install/moveit_ros_warehouse/lib:/home/fst/moveit_ws/install/moveit_ros_robot_interaction/lib:/home/fst/moveit_ws/install/moveit_ros_perception/lib:/home/fst/moveit_ws/install/moveit_ros_move_group/lib:/home/fst/moveit_ws/install/moveit_planners_ompl/lib:/home/fst/moveit_ws/install/moveit_ros_planning/lib:/home/fst/moveit_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/fst/moveit_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/fst/moveit_ws/install/moveit_planners_chomp/lib:/home/fst/moveit_ws/install/moveit_kinematics/lib:/home/fst/moveit_ws/install/moveit_chomp_optimizer_adapter/lib:/home/fst/moveit_ws/install/chomp_motion_planner/lib:/home/fst/moveit_ws/install/moveit_core/lib:/home/fst/moveit_ws/install/srdfdom/lib:/home/fst/moveit_ws/install/rviz_marker_tools/lib:/home/fst/moveit_ws/install/rosparam_shortcuts/lib:/home/fst/moveit_ws/install/moveit_task_constructor_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/fst/test_fa_ws/build/fairino_hardware
+[2.070s] Level 1:colcon.colcon_core.environment:checking '/home/fst/test_fa_ws/install/fairino_hardware' for CMake module files
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/fst/test_fa_ws/install/fairino_hardware' for CMake config files
+[2.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('fairino_hardware', 'cmake_prefix_path')
+[2.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/hook/cmake_prefix_path.ps1'
+[2.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/hook/cmake_prefix_path.dsv'
+[2.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/hook/cmake_prefix_path.sh'
+[2.087s] Level 1:colcon.colcon_core.environment:checking '/home/fst/test_fa_ws/install/fairino_hardware/lib'
+[2.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('fairino_hardware', 'ld_library_path_lib')
+[2.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/hook/ld_library_path_lib.ps1'
+[2.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/hook/ld_library_path_lib.dsv'
+[2.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/hook/ld_library_path_lib.sh'
+[2.095s] Level 1:colcon.colcon_core.environment:checking '/home/fst/test_fa_ws/install/fairino_hardware/bin'
+[2.095s] Level 1:colcon.colcon_core.environment:checking '/home/fst/test_fa_ws/install/fairino_hardware/lib/pkgconfig/fairino_hardware.pc'
+[2.096s] Level 1:colcon.colcon_core.environment:checking '/home/fst/test_fa_ws/install/fairino_hardware/lib/python3.10/site-packages'
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/fst/test_fa_ws/install/fairino_hardware/bin'
+[2.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/package.ps1'
+[2.100s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/package.dsv'
+[2.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/package.sh'
+[2.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/package.bash'
+[2.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/package.zsh'
+[2.109s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fst/test_fa_ws/install/fairino_hardware/share/colcon-core/packages/fairino_hardware)
+[2.110s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fairino_hardware)
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/fst/test_fa_ws/install/fairino_hardware' for CMake module files
+[2.112s] Level 1:colcon.colcon_core.environment:checking '/home/fst/test_fa_ws/install/fairino_hardware' for CMake config files
+[2.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('fairino_hardware', 'cmake_prefix_path')
+[2.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/hook/cmake_prefix_path.ps1'
+[2.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/hook/cmake_prefix_path.dsv'
+[2.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/hook/cmake_prefix_path.sh'
+[2.115s] Level 1:colcon.colcon_core.environment:checking '/home/fst/test_fa_ws/install/fairino_hardware/lib'
+[2.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('fairino_hardware', 'ld_library_path_lib')
+[2.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/hook/ld_library_path_lib.ps1'
+[2.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/hook/ld_library_path_lib.dsv'
+[2.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/hook/ld_library_path_lib.sh'
+[2.118s] Level 1:colcon.colcon_core.environment:checking '/home/fst/test_fa_ws/install/fairino_hardware/bin'
+[2.119s] Level 1:colcon.colcon_core.environment:checking '/home/fst/test_fa_ws/install/fairino_hardware/lib/pkgconfig/fairino_hardware.pc'
+[2.119s] Level 1:colcon.colcon_core.environment:checking '/home/fst/test_fa_ws/install/fairino_hardware/lib/python3.10/site-packages'
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/fst/test_fa_ws/install/fairino_hardware/bin'
+[2.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/package.ps1'
+[2.123s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/package.dsv'
+[2.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/package.sh'
+[2.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/package.bash'
+[2.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/fst/test_fa_ws/install/fairino_hardware/share/fairino_hardware/package.zsh'
+[2.127s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fst/test_fa_ws/install/fairino_hardware/share/colcon-core/packages/fairino_hardware)
+[2.128s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.129s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.129s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.129s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.148s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.148s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.148s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.191s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.192s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fst/test_fa_ws/install/local_setup.ps1'
+[2.195s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fst/test_fa_ws/install/_local_setup_util_ps1.py'
+[2.198s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fst/test_fa_ws/install/setup.ps1'
+[2.209s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fst/test_fa_ws/install/local_setup.sh'
+[2.211s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fst/test_fa_ws/install/_local_setup_util_sh.py'
+[2.212s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fst/test_fa_ws/install/setup.sh'
+[2.224s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fst/test_fa_ws/install/local_setup.bash'
+[2.225s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fst/test_fa_ws/install/setup.bash'
+[2.237s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fst/test_fa_ws/install/local_setup.zsh'
+[2.239s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fst/test_fa_ws/install/setup.zsh'

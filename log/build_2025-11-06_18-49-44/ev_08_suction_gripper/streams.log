@@ -1,0 +1,39 @@
+[0.171s] Invoking command in '/home/fst/test_fa_ws/build/ev_08_suction_gripper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/ev_08_suction_gripper -- -j6 -l6
+[1.857s] [  2%] Built target ev_08_suction_gripper__cpp
+[1.857s] [ 12%] Built target ev_08_suction_gripper__rosidl_generator_c
+[1.858s] [ 12%] Built target ament_cmake_python_copy_ev_08_suction_gripper
+[1.858s] [ 21%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_cpp
+[1.858s] [ 31%] Built target ev_08_suction_gripper__rosidl_typesupport_cpp
+[1.858s] [ 41%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_cpp
+[1.858s] [ 51%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_c
+[1.858s] [ 60%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_c
+[1.858s] [ 70%] Built target ev_08_suction_gripper__rosidl_typesupport_c
+[1.858s] [ 73%] [32mBuilding CXX object CMakeFiles/suction_node.dir/src/suction_node.cpp.o[0m
+[1.859s] [ 73%] Built target ev_08_suction_gripper
+[1.859s] [ 75%] Built target ev_08_suction_gripper__py
+[1.859s] [35m[1mConsolidate compiler generated dependencies of target ev_08_suction_gripper__rosidl_generator_py[0m
+[1.859s] gmake[2]: *** No rule to make target '/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/libfairino/lib/libfairino.so', needed by 'suction_node'.  Stop.
+[1.859s] gmake[2]: *** Waiting for unfinished jobs....
+[1.879s] [ 82%] Built target ev_08_suction_gripper__rosidl_generator_py
+[2.064s] [ 85%] [32mBuilding C object CMakeFiles/ev_08_suction_gripper__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ev_08_suction_gripper/_ev_08_suction_gripper_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.099s] [ 87%] [32mBuilding C object CMakeFiles/ev_08_suction_gripper__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ev_08_suction_gripper/_ev_08_suction_gripper_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.108s] [ 90%] [32mBuilding C object CMakeFiles/ev_08_suction_gripper__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ev_08_suction_gripper/_ev_08_suction_gripper_s.ep.rosidl_typesupport_c.c.o[0m
+[2.787s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/ev_08_suction_gripper/ev_08_suction_gripper_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[2.787s] running egg_info
+[2.787s] writing ev_08_suction_gripper.egg-info/PKG-INFO
+[2.787s] writing dependency_links to ev_08_suction_gripper.egg-info/dependency_links.txt
+[2.787s] writing top-level names to ev_08_suction_gripper.egg-info/top_level.txt
+[2.793s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/ev_08_suction_gripper/ev_08_suction_gripper_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[2.806s] reading manifest file 'ev_08_suction_gripper.egg-info/SOURCES.txt'
+[2.807s] writing manifest file 'ev_08_suction_gripper.egg-info/SOURCES.txt'
+[2.880s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ev_08_suction_gripper/ev_08_suction_gripper_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[2.965s] [ 97%] Built target ev_08_suction_gripper__rosidl_typesupport_fastrtps_c__pyext
+[3.025s] [ 97%] Built target ament_cmake_python_build_ev_08_suction_gripper_egg
+[3.148s] [ 97%] Built target ev_08_suction_gripper__rosidl_typesupport_introspection_c__pyext
+[3.173s] [ 97%] Built target ev_08_suction_gripper__rosidl_typesupport_c__pyext
+[8.332s] [01m[K/home/fst/test_fa_ws/src/ev_08_suction_gripper/src/suction_node.cpp:[m[K In member function ‘[01m[Kvoid SuctionNode::rerun()[m[K’:
+[8.332s] [01m[K/home/fst/test_fa_ws/src/ev_08_suction_gripper/src/suction_node.cpp:30:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpkg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.332s]    30 |         ROBOT_STATE_PKG [01;35m[Kpkg[m[K = {};
+[8.333s]       |                         [01;35m[K^~~[m[K
+[9.644s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/suction_node.dir/all] Error 2
+[9.645s] gmake: *** [Makefile:146: all] Error 2

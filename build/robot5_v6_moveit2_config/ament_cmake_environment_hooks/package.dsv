@@ -1,0 +1,4 @@
+source;share/robot5_v6_moveit2_config/local_setup.bash
+source;share/robot5_v6_moveit2_config/local_setup.dsv
+source;share/robot5_v6_moveit2_config/local_setup.sh
+source;share/robot5_v6_moveit2_config/local_setup.zsh

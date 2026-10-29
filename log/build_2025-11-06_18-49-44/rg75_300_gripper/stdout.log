@@ -1,0 +1,18 @@
+[  2%] Built target rg75_300_gripper__cpp
+[ 12%] Built target rg75_300_gripper__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_rg75_300_gripper
+[ 21%] Built target rg75_300_gripper__rosidl_typesupport_cpp
+[ 31%] Built target rg75_300_gripper__rosidl_typesupport_fastrtps_cpp
+[ 41%] Built target rg75_300_gripper__rosidl_typesupport_introspection_cpp
+[ 51%] Built target rg75_300_gripper__rosidl_typesupport_introspection_c
+[35m[1mConsolidate compiler generated dependencies of target gripper_node[0m
+[ 60%] Built target rg75_300_gripper__rosidl_typesupport_c
+[ 70%] Built target rg75_300_gripper__rosidl_typesupport_fastrtps_c
+[ 70%] Built target rg75_300_gripper
+running egg_info
+writing rg75_300_gripper.egg-info/PKG-INFO
+writing dependency_links to rg75_300_gripper.egg-info/dependency_links.txt
+writing top-level names to rg75_300_gripper.egg-info/top_level.txt
+reading manifest file 'rg75_300_gripper.egg-info/SOURCES.txt'
+writing manifest file 'rg75_300_gripper.egg-info/SOURCES.txt'
+[ 70%] Built target ament_cmake_python_build_rg75_300_gripper_egg

@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/fairino_hardware.dir/build.make:76: CMakeFiles/fairino_hardware.dir/src/fairino_hardware_interface3.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/fairino_hardware.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

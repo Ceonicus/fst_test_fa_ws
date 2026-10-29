@@ -1,0 +1,7 @@
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_hardware/src/fairino_hardware_interface3.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kgripper_config.hpp: No such file or directory
+    2 | #include [01;31m[K"gripper_config.hpp"[m[K  // Include for gripper constants
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/fairino_hardware.dir/build.make:76: CMakeFiles/fairino_hardware.dir/src/fairino_hardware_interface3.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/fairino_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

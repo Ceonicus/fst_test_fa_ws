@@ -1,0 +1,8 @@
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_mtc_demo/src/mtc_node.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task MTCTaskNode::_createTask()[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_mtc_demo/src/mtc_node.cpp:120:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcurrent_state_ptr[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  120 |   mtc::Stage* [01;35m[Kcurrent_state_ptr[m[K = nullptr;
+      |               [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_mtc_demo/src/mtc_node.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task MTCTaskNode::_createReverseTask()[m[K’:
+[01m[K/home/fst/test_fa_ws/src/frcobot_ros2-V3.0.0_robotV3.8.0/fairino_mtc_demo/src/mtc_node.cpp:287:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcurrent_state_ptr[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  287 |   mtc::Stage* [01;35m[Kcurrent_state_ptr[m[K = nullptr;
+      |               [01;35m[K^~~~~~~~~~~~~~~~~[m[K

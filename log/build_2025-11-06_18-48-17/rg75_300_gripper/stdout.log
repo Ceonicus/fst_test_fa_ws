@@ -1,0 +1,32 @@
+[  9%] Built target rg75_300_gripper__rosidl_generator_c
+[ 12%] Built target rg75_300_gripper__cpp
+[ 12%] Built target ament_cmake_python_copy_rg75_300_gripper
+[ 21%] Built target rg75_300_gripper__rosidl_typesupport_fastrtps_c
+[ 31%] Built target rg75_300_gripper__rosidl_typesupport_fastrtps_cpp
+[ 43%] Built target rg75_300_gripper__rosidl_typesupport_introspection_cpp
+[ 60%] Built target rg75_300_gripper__rosidl_typesupport_c
+[ 60%] Built target rg75_300_gripper__rosidl_typesupport_introspection_c
+[ 70%] Built target rg75_300_gripper__rosidl_typesupport_cpp
+[ 73%] [32mBuilding CXX object CMakeFiles/gripper_node.dir/src/gripper_node.cpp.o[0m
+[ 73%] Built target rg75_300_gripper
+[ 75%] Built target rg75_300_gripper__py
+[ 78%] [32mBuilding C object CMakeFiles/rg75_300_gripper__rosidl_generator_py.dir/rosidl_generator_py/rg75_300_gripper/msg/_gripper_state_s.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/rg75_300_gripper__rosidl_generator_py.dir/rosidl_generator_py/rg75_300_gripper/srv/_gripper_command_s.c.o[0m
+[ 82%] [32m[1mLinking C shared library rosidl_generator_py/rg75_300_gripper/librg75_300_gripper__rosidl_generator_py.so[0m
+running egg_info
+writing rg75_300_gripper.egg-info/PKG-INFO
+writing dependency_links to rg75_300_gripper.egg-info/dependency_links.txt
+writing top-level names to rg75_300_gripper.egg-info/top_level.txt
+reading manifest file 'rg75_300_gripper.egg-info/SOURCES.txt'
+writing manifest file 'rg75_300_gripper.egg-info/SOURCES.txt'
+[ 82%] Built target rg75_300_gripper__rosidl_generator_py
+[ 85%] [32mBuilding C object CMakeFiles/rg75_300_gripper__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rg75_300_gripper/_rg75_300_gripper_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/rg75_300_gripper__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rg75_300_gripper/_rg75_300_gripper_s.ep.rosidl_typesupport_c.c.o[0m
+[ 87%] Built target ament_cmake_python_build_rg75_300_gripper_egg
+[ 90%] [32mBuilding C object CMakeFiles/rg75_300_gripper__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rg75_300_gripper/_rg75_300_gripper_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 92%] [32m[1mLinking C shared library rosidl_generator_py/rg75_300_gripper/rg75_300_gripper_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 92%] Built target rg75_300_gripper__rosidl_typesupport_c__pyext
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/rg75_300_gripper/rg75_300_gripper_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/rg75_300_gripper/rg75_300_gripper_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 97%] Built target rg75_300_gripper__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target rg75_300_gripper__rosidl_typesupport_introspection_c__pyext

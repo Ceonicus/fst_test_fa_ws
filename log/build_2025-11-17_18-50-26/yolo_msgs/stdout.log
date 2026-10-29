@@ -1,0 +1,11 @@
+[  0%] Built target yolo_msgs__cpp
+[  0%] Built target ament_cmake_python_copy_yolo_msgs
+[ 12%] Built target yolo_msgs__rosidl_generator_c
+[ 24%] Built target yolo_msgs__rosidl_typesupport_cpp
+[ 36%] Built target yolo_msgs__rosidl_typesupport_fastrtps_cpp
+[ 48%] Built target yolo_msgs__rosidl_typesupport_fastrtps_c
+[ 60%] Built target yolo_msgs__rosidl_typesupport_introspection_c
+[ 72%] Built target yolo_msgs__rosidl_typesupport_introspection_cpp
+[ 84%] Built target yolo_msgs__rosidl_typesupport_c
+[ 84%] Built target yolo_msgs
+[ 85%] Built target yolo_msgs__py

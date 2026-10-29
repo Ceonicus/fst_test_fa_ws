@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-61a0a77cbbf85bdd756c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "ev_08_suction_gripper__py",
+					"jsonFile" : "directory-ev_08_suction_gripper__py-6645061e764c24aa6377.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/fst/test_fa_ws/build/ev_08_suction_gripper/ev_08_suction_gripper__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ev_08_suction_gripper",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ev_08_suction_gripper_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ev_08_suction_gripper_egg-dc4107e27b88ff7ad441.json",
+					"name" : "ament_cmake_python_build_ev_08_suction_gripper_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ev_08_suction_gripper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ev_08_suction_gripper-77a23d8f5e8c4fad2960.json",
+					"name" : "ament_cmake_python_copy_ev_08_suction_gripper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ev_08_suction_gripper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ev_08_suction_gripper-2556555454ef14927c95.json",
+					"name" : "ev_08_suction_gripper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ev_08_suction_gripper__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ev_08_suction_gripper__cpp-37e2fa4b87099239b060.json",
+					"name" : "ev_08_suction_gripper__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ev_08_suction_gripper__py::@6017b5250002b47a27e1",
+					"jsonFile" : "target-ev_08_suction_gripper__py-3923603324d8cb0bc737.json",
+					"name" : "ev_08_suction_gripper__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ev_08_suction_gripper__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ev_08_suction_gripper__rosidl_generator_c-f09f29953f24b99f2e50.json",
+					"name" : "ev_08_suction_gripper__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ev_08_suction_gripper__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ev_08_suction_gripper__rosidl_generator_py-ce5d1012e356a4d5ba6c.json",
+					"name" : "ev_08_suction_gripper__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ev_08_suction_gripper__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ev_08_suction_gripper__rosidl_typesupport_c-72cb493dc6bd1adf6101.json",
+					"name" : "ev_08_suction_gripper__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ev_08_suction_gripper__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ev_08_suction_gripper__rosidl_typesupport_c__pyext-b4f72af8cde52f0ce56f.json",
+					"name" : "ev_08_suction_gripper__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ev_08_suction_gripper__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ev_08_suction_gripper__rosidl_typesupport_cpp-186cdabc248e047d2c31.json",
+					"name" : "ev_08_suction_gripper__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ev_08_suction_gripper__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ev_08_suction_gripper__rosidl_typesupport_fastrtps_c-6cd86e54fa51363c72bb.json",
+					"name" : "ev_08_suction_gripper__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ev_08_suction_gripper__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ev_08_suction_gripper__rosidl_typesupport_fastrtps_c__pyext-94ece00ea8f62f69cd31.json",
+					"name" : "ev_08_suction_gripper__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ev_08_suction_gripper__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ev_08_suction_gripper__rosidl_typesupport_fastrtps_cpp-caf3acc9cbcb44fcea73.json",
+					"name" : "ev_08_suction_gripper__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ev_08_suction_gripper__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ev_08_suction_gripper__rosidl_typesupport_introspection_c-d919da1d9d8c7a769a81.json",
+					"name" : "ev_08_suction_gripper__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ev_08_suction_gripper__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ev_08_suction_gripper__rosidl_typesupport_introspection_c__pyext-f2ee81fae5b1f11679d1.json",
+					"name" : "ev_08_suction_gripper__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ev_08_suction_gripper__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ev_08_suction_gripper__rosidl_typesupport_introspection_cpp-829669277b3fbf51f567.json",
+					"name" : "ev_08_suction_gripper__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ev_08_suction_gripper_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ev_08_suction_gripper_uninstall-f49226b5b38850d1de83.json",
+					"name" : "ev_08_suction_gripper_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "suction_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-suction_node-0ceff22ceca20515e99b.json",
+					"name" : "suction_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b6d781e5f306657bf9f7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fst/test_fa_ws/build/ev_08_suction_gripper",
+		"source" : "/home/fst/test_fa_ws/src/ev_08_suction_gripper"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

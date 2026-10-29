@@ -1,0 +1,3 @@
+[console_scripts]
+pose_estimator = yolo_pose_estimator.pose_estimator:main
+

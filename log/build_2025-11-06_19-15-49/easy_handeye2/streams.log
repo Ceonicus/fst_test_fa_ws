@@ -1,0 +1,100 @@
+[4.637s] Invoking command in '/home/fst/test_fa_ws/src/easy_handeye2/easy_handeye2': AMENT_PREFIX_PATH=/home/fst/test_fa_ws/install/easy_handeye2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fst/test_fa_ws/install/easy_handeye2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/fst/test_fa_ws/install/easy_handeye2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fst/test_fa_ws/build/easy_handeye2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages:/home/fst/test_fa_ws/install/easy_handeye2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/easy_handeye2 build --build-base /home/fst/test_fa_ws/build/easy_handeye2/build install --record /home/fst/test_fa_ws/build/easy_handeye2/install.log --single-version-externally-managed install_data
+[7.880s] running egg_info
+[7.880s] creating ../../../build/easy_handeye2/easy_handeye2.egg-info
+[7.881s] writing ../../../build/easy_handeye2/easy_handeye2.egg-info/PKG-INFO
+[7.881s] writing dependency_links to ../../../build/easy_handeye2/easy_handeye2.egg-info/dependency_links.txt
+[7.881s] writing entry points to ../../../build/easy_handeye2/easy_handeye2.egg-info/entry_points.txt
+[7.881s] writing requirements to ../../../build/easy_handeye2/easy_handeye2.egg-info/requires.txt
+[7.881s] writing top-level names to ../../../build/easy_handeye2/easy_handeye2.egg-info/top_level.txt
+[7.881s] writing manifest file '../../../build/easy_handeye2/easy_handeye2.egg-info/SOURCES.txt'
+[7.881s] reading manifest file '../../../build/easy_handeye2/easy_handeye2.egg-info/SOURCES.txt'
+[7.881s] writing manifest file '../../../build/easy_handeye2/easy_handeye2.egg-info/SOURCES.txt'
+[7.882s] running build
+[7.882s] running build_py
+[7.882s] creating /home/fst/test_fa_ws/build/easy_handeye2/build
+[7.882s] creating /home/fst/test_fa_ws/build/easy_handeye2/build/lib
+[7.882s] creating /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2
+[7.882s] copying easy_handeye2/handeye_server_robot.py -> /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2
+[7.882s] copying easy_handeye2/handeye_calibration_commander.py -> /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2
+[7.891s] copying easy_handeye2/common_launch.py -> /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2
+[7.891s] copying easy_handeye2/handeye_rqt_calibrator.py -> /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2
+[7.895s] copying easy_handeye2/handeye_rqt_evaluator.py -> /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2
+[7.897s] copying easy_handeye2/handeye_rqt_evaluator_widget.py -> /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2
+[7.899s] copying easy_handeye2/handeye_server.py -> /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2
+[7.899s] copying easy_handeye2/handeye_calibration_backend_opencv.py -> /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2
+[7.899s] copying easy_handeye2/handeye_robot.py -> /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2
+[7.899s] copying easy_handeye2/handeye_publisher.py -> /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2
+[7.899s] copying easy_handeye2/handeye_client.py -> /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2
+[7.900s] copying easy_handeye2/handeye_sampler.py -> /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2
+[7.900s] copying easy_handeye2/handeye_calibration.py -> /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2
+[7.900s] copying easy_handeye2/__init__.py -> /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2
+[7.900s] copying easy_handeye2/handeye_rqt_calibrator_widget.py -> /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2
+[7.900s] running build_scripts
+[7.900s] creating /home/fst/test_fa_ws/build/easy_handeye2/build/scripts-3.10
+[7.900s] copying and adjusting scripts/rqt_calibrator.py -> /home/fst/test_fa_ws/build/easy_handeye2/build/scripts-3.10
+[7.901s] copying and adjusting scripts/rqt_evaluator.py -> /home/fst/test_fa_ws/build/easy_handeye2/build/scripts-3.10
+[7.901s] changing mode of /home/fst/test_fa_ws/build/easy_handeye2/build/scripts-3.10/rqt_calibrator.py from 664 to 775
+[7.901s] changing mode of /home/fst/test_fa_ws/build/easy_handeye2/build/scripts-3.10/rqt_evaluator.py from 664 to 775
+[7.901s] running install
+[7.901s] running install_lib
+[7.904s] creating /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+[7.904s] copying /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_server_robot.py -> /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+[7.905s] copying /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_calibration_commander.py -> /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+[7.905s] copying /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2/common_launch.py -> /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+[7.908s] copying /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_rqt_calibrator.py -> /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+[7.908s] copying /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_rqt_evaluator.py -> /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+[7.908s] copying /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_rqt_evaluator_widget.py -> /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+[7.908s] copying /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_server.py -> /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+[7.908s] copying /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_calibration_backend_opencv.py -> /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+[7.918s] copying /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_robot.py -> /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+[7.918s] copying /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_publisher.py -> /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+[7.918s] copying /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_client.py -> /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+[7.922s] copying /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_sampler.py -> /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+[7.922s] copying /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_calibration.py -> /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+[7.923s] copying /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2/__init__.py -> /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+[7.923s] copying /home/fst/test_fa_ws/build/easy_handeye2/build/lib/easy_handeye2/handeye_rqt_calibrator_widget.py -> /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+[7.923s] byte-compiling /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_server_robot.py to handeye_server_robot.cpython-310.pyc
+[7.923s] byte-compiling /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_calibration_commander.py to handeye_calibration_commander.cpython-310.pyc
+[7.923s] byte-compiling /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/common_launch.py to common_launch.cpython-310.pyc
+[7.923s] byte-compiling /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_rqt_calibrator.py to handeye_rqt_calibrator.cpython-310.pyc
+[7.923s] byte-compiling /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_rqt_evaluator.py to handeye_rqt_evaluator.cpython-310.pyc
+[7.924s] byte-compiling /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_rqt_evaluator_widget.py to handeye_rqt_evaluator_widget.cpython-310.pyc
+[7.924s] byte-compiling /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_server.py to handeye_server.cpython-310.pyc
+[7.924s] byte-compiling /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_calibration_backend_opencv.py to handeye_calibration_backend_opencv.cpython-310.pyc
+[7.924s] byte-compiling /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_robot.py to handeye_robot.cpython-310.pyc
+[7.924s] byte-compiling /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_publisher.py to handeye_publisher.cpython-310.pyc
+[7.924s] byte-compiling /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_client.py to handeye_client.cpython-310.pyc
+[7.924s] byte-compiling /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_sampler.py to handeye_sampler.cpython-310.pyc
+[7.924s] byte-compiling /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_calibration.py to handeye_calibration.cpython-310.pyc
+[7.925s] byte-compiling /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/__init__.py to __init__.cpython-310.pyc
+[7.925s] byte-compiling /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_rqt_calibrator_widget.py to handeye_rqt_calibrator_widget.cpython-310.pyc
+[7.925s] running install_data
+[7.925s] creating /home/fst/test_fa_ws/install/easy_handeye2/share/ament_index
+[7.925s] creating /home/fst/test_fa_ws/install/easy_handeye2/share/ament_index/resource_index
+[7.925s] creating /home/fst/test_fa_ws/install/easy_handeye2/share/ament_index/resource_index/packages
+[7.925s] copying resource/easy_handeye2 -> /home/fst/test_fa_ws/install/easy_handeye2/share/ament_index/resource_index/packages
+[7.925s] creating /home/fst/test_fa_ws/install/easy_handeye2/share/easy_handeye2/resource
+[7.925s] copying resource/rqt_handeye.ui -> /home/fst/test_fa_ws/install/easy_handeye2/share/easy_handeye2/resource
+[7.939s] copying resource/rqt_handeye_info.ui -> /home/fst/test_fa_ws/install/easy_handeye2/share/easy_handeye2/resource
+[7.942s] copying resource/rqt_handeye_evaluator.ui -> /home/fst/test_fa_ws/install/easy_handeye2/share/easy_handeye2/resource
+[7.952s] copying package.xml -> /home/fst/test_fa_ws/install/easy_handeye2/share/easy_handeye2
+[7.952s] copying plugin_evaluator.xml -> /home/fst/test_fa_ws/install/easy_handeye2/share/easy_handeye2
+[7.953s] copying plugin_calibrator.xml -> /home/fst/test_fa_ws/install/easy_handeye2/share/easy_handeye2
+[7.953s] creating /home/fst/test_fa_ws/install/easy_handeye2/share/easy_handeye2/launch
+[7.953s] copying launch/evaluate.launch.py -> /home/fst/test_fa_ws/install/easy_handeye2/share/easy_handeye2/launch
+[7.953s] copying launch/calibrate.launch.py -> /home/fst/test_fa_ws/install/easy_handeye2/share/easy_handeye2/launch
+[7.953s] copying launch/publish.launch.py -> /home/fst/test_fa_ws/install/easy_handeye2/share/easy_handeye2/launch
+[7.953s] running install_egg_info
+[7.953s] Copying ../../../build/easy_handeye2/easy_handeye2.egg-info to /home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2-0.5.0-py3.10.egg-info
+[7.953s] running install_scripts
+[7.964s] creating /home/fst/test_fa_ws/install/easy_handeye2/lib/easy_handeye2
+[7.965s] copying /home/fst/test_fa_ws/build/easy_handeye2/build/scripts-3.10/rqt_calibrator.py -> /home/fst/test_fa_ws/install/easy_handeye2/lib/easy_handeye2
+[7.965s] copying /home/fst/test_fa_ws/build/easy_handeye2/build/scripts-3.10/rqt_evaluator.py -> /home/fst/test_fa_ws/install/easy_handeye2/lib/easy_handeye2
+[7.965s] changing mode of /home/fst/test_fa_ws/install/easy_handeye2/lib/easy_handeye2/rqt_calibrator.py to 775
+[7.965s] changing mode of /home/fst/test_fa_ws/install/easy_handeye2/lib/easy_handeye2/rqt_evaluator.py to 775
+[7.966s] Installing handeye_calibration_commander script to /home/fst/test_fa_ws/install/easy_handeye2/lib/easy_handeye2
+[7.966s] Installing handeye_publisher script to /home/fst/test_fa_ws/install/easy_handeye2/lib/easy_handeye2
+[7.971s] Installing handeye_server script to /home/fst/test_fa_ws/install/easy_handeye2/lib/easy_handeye2
+[7.972s] Installing handeye_server_robot script to /home/fst/test_fa_ws/install/easy_handeye2/lib/easy_handeye2
+[7.972s] writing list of installed files to '/home/fst/test_fa_ws/build/easy_handeye2/install.log'
+[8.016s] Invoked command in '/home/fst/test_fa_ws/src/easy_handeye2/easy_handeye2' returned '0': AMENT_PREFIX_PATH=/home/fst/test_fa_ws/install/easy_handeye2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fst/test_fa_ws/install/easy_handeye2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/fst/test_fa_ws/install/easy_handeye2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fst/test_fa_ws/build/easy_handeye2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fst/test_fa_ws/install/easy_handeye2/lib/python3.10/site-packages:/home/fst/test_fa_ws/install/easy_handeye2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/easy_handeye2 build --build-base /home/fst/test_fa_ws/build/easy_handeye2/build install --record /home/fst/test_fa_ws/build/easy_handeye2/install.log --single-version-externally-managed install_data

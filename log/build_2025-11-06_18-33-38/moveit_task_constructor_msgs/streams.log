@@ -1,0 +1,163 @@
+[0.098s] Invoking command in '/home/fst/test_fa_ws/build/moveit_task_constructor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/fst/test_fa_ws/src/moveit_task_constructor/msgs -DCMAKE_INSTALL_PREFIX=/home/fst/test_fa_ws/install/moveit_task_constructor_msgs
+[0.274s] -- The C compiler identification is GNU 11.4.0
+[0.389s] -- The CXX compiler identification is GNU 11.4.0
+[0.419s] -- Detecting C compiler ABI info
+[0.745s] -- Detecting C compiler ABI info - done
+[0.764s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.793s] -- Detecting C compile features
+[0.794s] -- Detecting C compile features - done
+[0.796s] -- Detecting CXX compiler ABI info
+[1.208s] -- Detecting CXX compiler ABI info - done
+[1.220s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.220s] -- Detecting CXX compile features
+[1.221s] -- Detecting CXX compile features - done
+[1.245s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.847s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.206s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.363s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.424s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.465s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.517s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.594s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.665s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[3.129s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.183s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[4.285s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.119s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.694s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.816s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[7.828s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.992s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[7.993s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.993s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.993s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[8.136s] -- Found PythonExtra: .so  
+[9.136s] -- Configuring done
+[9.866s] -- Generating done
+[9.982s] -- Build files have been written to: /home/fst/test_fa_ws/build/moveit_task_constructor_msgs
+[10.070s] Invoked command in '/home/fst/test_fa_ws/build/moveit_task_constructor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/fst/test_fa_ws/src/moveit_task_constructor/msgs -DCMAKE_INSTALL_PREFIX=/home/fst/test_fa_ws/install/moveit_task_constructor_msgs
+[10.085s] Invoking command in '/home/fst/test_fa_ws/build/moveit_task_constructor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fst/moveit_ws/install/moveit_configs_utils:/home/fst/moveit_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fst/test_fa_ws/build/moveit_task_constructor_msgs -- -j6 -l6
+[24.018s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[24.020s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[24.037s] [  1%] Built target ament_cmake_python_copy_moveit_task_constructor_msgs
+[24.037s] running egg_info
+[24.038s] creating moveit_task_constructor_msgs.egg-info
+[24.038s] writing moveit_task_constructor_msgs.egg-info/PKG-INFO
+[24.038s] writing dependency_links to moveit_task_constructor_msgs.egg-info/dependency_links.txt
+[24.038s] writing top-level names to moveit_task_constructor_msgs.egg-info/top_level.txt
+[24.038s] writing manifest file 'moveit_task_constructor_msgs.egg-info/SOURCES.txt'
+[24.039s] reading manifest file 'moveit_task_constructor_msgs.egg-info/SOURCES.txt'
+[24.039s] writing manifest file 'moveit_task_constructor_msgs.egg-info/SOURCES.txt'
+[24.039s] [  1%] Built target ament_cmake_python_build_moveit_task_constructor_msgs_egg
+[25.091s] [  1%] Built target moveit_task_constructor_msgs__cpp
+[25.213s] [  2%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/property__functions.c.o[0m
+[25.582s] [  3%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/solution_info__functions.c.o[0m
+[25.891s] [  3%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/stage_description__functions.c.o[0m
+[26.276s] [  4%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/stage_statistics__functions.c.o[0m
+[26.646s] [  5%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/sub_solution__functions.c.o[0m
+[27.021s] [  6%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/sub_trajectory__functions.c.o[0m
+[27.519s] [  7%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/task_description__functions.c.o[0m
+[27.867s] [  8%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/task_statistics__functions.c.o[0m
+[28.175s] [  8%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__functions.c.o[0m
+[28.463s] [  9%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/srv/detail/get_solution__functions.c.o[0m
+[28.990s] [ 10%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/action/detail/execute_task_solution__functions.c.o[0m
+[29.703s] [ 11%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_task_constructor_msgs/msg/detail/solution__functions.c.o[0m
+[30.100s] [ 12%] [32m[1mLinking C shared library libmoveit_task_constructor_msgs__rosidl_generator_c.so[0m
+[30.388s] [ 12%] Built target moveit_task_constructor_msgs__rosidl_generator_c
+[30.552s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[36.876s] [ 13%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/property__type_support.cpp.o[0m
+[38.430s] [ 14%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/solution__type_support.cpp.o[0m
+[45.968s] [ 15%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/solution_info__type_support.cpp.o[0m
+[48.207s] [ 16%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/stage_description__type_support.cpp.o[0m
+[49.557s] [ 17%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support.cpp.o[0m
+[50.817s] [ 18%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support.cpp.o[0m
+[51.987s] [ 18%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support.cpp.o[0m
+[53.707s] [ 19%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/task_description__type_support.cpp.o[0m
+[54.797s] [ 20%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.cpp.o[0m
+[55.782s] [ 21%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__type_support.cpp.o[0m
+[56.695s] [ 22%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.cpp.o[0m
+[58.232s] [ 23%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.cpp.o[0m
+[60.223s] [ 24%] [32m[1mLinking CXX shared library libmoveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[60.669s] [ 24%] Built target moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp
+[60.703s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[62.609s] [ 26%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/property__type_support.cpp.o[0m
+[62.705s] [ 26%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/solution__type_support.cpp.o[0m
+[62.810s] [ 27%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/solution_info__type_support.cpp.o[0m
+[62.909s] [ 28%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/stage_description__type_support.cpp.o[0m
+[63.003s] [ 29%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/stage_statistics__type_support.cpp.o[0m
+[63.123s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/sub_solution__type_support.cpp.o[0m
+[63.337s] [ 31%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/sub_trajectory__type_support.cpp.o[0m
+[63.435s] [ 31%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/task_description__type_support.cpp.o[0m
+[63.521s] [ 32%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/task_statistics__type_support.cpp.o[0m
+[63.613s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/msg/trajectory_execution_info__type_support.cpp.o[0m
+[63.692s] [ 34%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/srv/get_solution__type_support.cpp.o[0m
+[63.807s] [ 35%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_task_constructor_msgs/action/execute_task_solution__type_support.cpp.o[0m
+[63.947s] [ 36%] [32m[1mLinking CXX shared library libmoveit_task_constructor_msgs__rosidl_typesupport_c.so[0m
+[64.058s] [ 36%] Built target moveit_task_constructor_msgs__rosidl_typesupport_c
+[64.096s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[66.641s] [ 38%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/property__type_support.c.o[0m
+[66.738s] [ 39%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/solution_info__type_support.c.o[0m
+[66.847s] [ 39%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/stage_description__type_support.c.o[0m
+[66.947s] [ 40%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support.c.o[0m
+[67.054s] [ 41%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support.c.o[0m
+[67.162s] [ 42%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support.c.o[0m
+[67.275s] [ 43%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/task_description__type_support.c.o[0m
+[67.379s] [ 44%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.c.o[0m
+[67.482s] [ 45%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__type_support.c.o[0m
+[67.586s] [ 45%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.c.o[0m
+[67.705s] [ 46%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.c.o[0m
+[67.850s] [ 47%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_task_constructor_msgs/msg/detail/solution__type_support.c.o[0m
+[67.977s] [ 48%] [32m[1mLinking C shared library libmoveit_task_constructor_msgs__rosidl_typesupport_introspection_c.so[0m
+[68.112s] [ 48%] Built target moveit_task_constructor_msgs__rosidl_typesupport_introspection_c
+[68.148s] [ 49%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[70.887s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/property__type_support_c.cpp.o[0m
+[71.621s] [ 51%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/stage_description__type_support_c.cpp.o[0m
+[72.369s] [ 52%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support_c.cpp.o[0m
+[73.118s] [ 53%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support_c.cpp.o[0m
+[73.921s] [ 54%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support_c.cpp.o[0m
+[74.671s] [ 55%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/task_description__type_support_c.cpp.o[0m
+[75.435s] [ 55%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support_c.cpp.o[0m
+[76.180s] [ 56%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__type_support_c.cpp.o[0m
+[76.923s] [ 57%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/srv/detail/get_solution__type_support_c.cpp.o[0m
+[77.695s] [ 58%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support_c.cpp.o[0m
+[78.579s] [ 58%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/solution_info__type_support_c.cpp.o[0m
+[79.315s] [ 59%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_task_constructor_msgs/msg/detail/solution__type_support_c.cpp.o[0m
+[80.060s] [ 60%] [32m[1mLinking CXX shared library libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[80.308s] [ 60%] Built target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c
+[80.345s] [ 60%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[82.958s] [ 61%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/property__type_support.cpp.o[0m
+[83.833s] [ 62%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/stage_statistics__type_support.cpp.o[0m
+[84.745s] [ 62%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/sub_solution__type_support.cpp.o[0m
+[85.681s] [ 63%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/sub_trajectory__type_support.cpp.o[0m
+[86.664s] [ 64%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/task_description__type_support.cpp.o[0m
+[87.619s] [ 65%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/task_statistics__type_support.cpp.o[0m
+[88.586s] [ 66%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/trajectory_execution_info__type_support.cpp.o[0m
+[89.529s] [ 67%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/srv/detail/dds_fastrtps/get_solution__type_support.cpp.o[0m
+[90.593s] [ 67%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/action/detail/dds_fastrtps/execute_task_solution__type_support.cpp.o[0m
+[91.935s] [ 68%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/stage_description__type_support.cpp.o[0m
+[92.895s] [ 69%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/solution_info__type_support.cpp.o[0m
+[93.968s] [ 70%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_task_constructor_msgs/msg/detail/dds_fastrtps/solution__type_support.cpp.o[0m
+[95.772s] [ 71%] [32m[1mLinking CXX shared library libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[96.051s] [ 71%] Built target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp
+[96.089s] [ 72%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[97.915s] [ 73%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/property__type_support.cpp.o[0m
+[98.484s] [ 74%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/sub_solution__type_support.cpp.o[0m
+[99.112s] [ 75%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/sub_trajectory__type_support.cpp.o[0m
+[99.773s] [ 76%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/task_description__type_support.cpp.o[0m
+[100.344s] [ 77%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/task_statistics__type_support.cpp.o[0m
+[100.901s] [ 78%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/trajectory_execution_info__type_support.cpp.o[0m
+[101.465s] [ 78%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/srv/get_solution__type_support.cpp.o[0m
+[102.097s] [ 79%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/action/execute_task_solution__type_support.cpp.o[0m
+[103.086s] [ 79%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/stage_statistics__type_support.cpp.o[0m
+[103.643s] [ 80%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/stage_description__type_support.cpp.o[0m
+[104.207s] [ 81%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/solution_info__type_support.cpp.o[0m
+[104.795s] [ 82%] [32mBuilding CXX object CMakeFiles/moveit_task_constructor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_task_constructor_msgs/msg/solution__type_support.cpp.o[0m
+[105.423s] [ 83%] [32m[1mLinking CXX shared library libmoveit_task_constructor_msgs__rosidl_typesupport_cpp.so[0m
+[105.533s] [ 83%] Built target moveit_task_constructor_msgs__rosidl_typesupport_cpp
+[105.600s] [ 83%] Built target moveit_task_constructor_msgs
+[105.672s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[110.573s] [ 84%] Built target moveit_task_constructor_msgs__py
+[110.640s] [ 85%] [32mBuilding C object CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_property_s.c.o[0m
+[110.696s] gmake[2]: *** [CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/build.make:76: CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_task_constructor_msgs/msg/_property_s.c.o] Interrupt
+[110.696s] gmake[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/moveit_task_constructor_msgs__rosidl_generator_py.dir/all] Interrupt
+[110.696s] gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,33 @@
+[  1%] [34m[1mAutomatic MOC for target moveit_task_visualization_tools[0m
+[  3%] [34m[1mAutomatic MOC for target motion_planning_tasks_utils[0m
+[  3%] Built target moveit_task_visualization_tools_autogen
+[  3%] Built target motion_planning_tasks_utils_autogen
+[  4%] [34m[1mAutomatic MOC for target gmock_main[0m
+[  6%] [34m[1mAutomatic MOC for target gmock[0m
+[  6%] Built target gmock_main_autogen
+[  6%] Built target gmock_autogen
+[ 13%] Built target motion_planning_tasks_utils
+[ 23%] Built target moveit_task_visualization_tools
+[ 27%] Built target gmock_main
+[ 33%] Built target gmock
+[ 35%] [34m[1mAutomatic MOC for target gtest[0m
+[ 36%] [34m[1mAutomatic MOC for target motion_planning_tasks_properties[0m
+[ 36%] Built target gtest_autogen
+[ 38%] [34m[1mAutomatic MOC for target gtest_main[0m
+[ 43%] Built target gtest
+[ 43%] Built target gtest_main_autogen
+[ 43%] Built target motion_planning_tasks_properties_autogen
+[ 47%] Built target gtest_main
+[ 53%] Built target motion_planning_tasks_properties
+[ 55%] [34m[1mAutomatic MOC for target moveit_task_constructor_visualization-test-merge-models[0m
+[ 55%] Built target moveit_task_constructor_visualization-test-merge-models_autogen
+[ 56%] [34m[1mAutomatic MOC for target motion_planning_tasks_rviz_plugin[0m
+[ 61%] Built target moveit_task_constructor_visualization-test-merge-models
+[ 61%] Built target motion_planning_tasks_rviz_plugin_autogen
+[ 87%] Built target motion_planning_tasks_rviz_plugin
+[ 89%] [34m[1mAutomatic MOC for target moveit_task_constructor_visualization-test-solution-models[0m
+[ 89%] Built target moveit_task_constructor_visualization-test-solution-models_autogen
+[ 90%] [34m[1mAutomatic MOC for target moveit_task_constructor_visualization-test-task_model[0m
+[ 90%] Built target moveit_task_constructor_visualization-test-task_model_autogen
+[ 95%] Built target moveit_task_constructor_visualization-test-solution-models
+[100%] Built target moveit_task_constructor_visualization-test-task_model

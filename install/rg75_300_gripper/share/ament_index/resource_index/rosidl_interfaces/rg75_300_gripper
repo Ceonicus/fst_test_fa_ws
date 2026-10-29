@@ -1,0 +1,6 @@
+msg/GripperState.idl
+msg/GripperState.msg
+srv/GripperCommand.idl
+srv/GripperCommand.srv
+srv/GripperCommand_Request.msg
+srv/GripperCommand_Response.msg

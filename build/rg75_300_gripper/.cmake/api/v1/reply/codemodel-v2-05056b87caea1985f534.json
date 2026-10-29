@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-be1b431eeeaa8d0cdc72.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "rg75_300_gripper__py",
+					"jsonFile" : "directory-rg75_300_gripper__py-eed312bdd2dbebaa9370.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/fst/test_fa_ws/build/rg75_300_gripper/rg75_300_gripper__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rg75_300_gripper",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rg75_300_gripper_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rg75_300_gripper_egg-c5783cc10984fe88a2b8.json",
+					"name" : "ament_cmake_python_build_rg75_300_gripper_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rg75_300_gripper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rg75_300_gripper-e2ef228d6f87820d90bc.json",
+					"name" : "ament_cmake_python_copy_rg75_300_gripper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_node-dc4d6e92ee3c0577dbd4.json",
+					"name" : "gripper_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rg75_300_gripper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rg75_300_gripper-ec05f9339baa786ab33c.json",
+					"name" : "rg75_300_gripper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rg75_300_gripper__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rg75_300_gripper__cpp-fd0df0359773a678cad2.json",
+					"name" : "rg75_300_gripper__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rg75_300_gripper__py::@edb53f6a41ea3d8ed9a7",
+					"jsonFile" : "target-rg75_300_gripper__py-e5fc89a57f88c9ed1a20.json",
+					"name" : "rg75_300_gripper__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rg75_300_gripper__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rg75_300_gripper__rosidl_generator_c-0d44c671e9a0e9de55d4.json",
+					"name" : "rg75_300_gripper__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rg75_300_gripper__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rg75_300_gripper__rosidl_generator_py-e31f24f3d49ca2aa410c.json",
+					"name" : "rg75_300_gripper__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rg75_300_gripper__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rg75_300_gripper__rosidl_typesupport_c-163bd156b2a848d055d9.json",
+					"name" : "rg75_300_gripper__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rg75_300_gripper__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rg75_300_gripper__rosidl_typesupport_c__pyext-67803f7a060e7f70d215.json",
+					"name" : "rg75_300_gripper__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rg75_300_gripper__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rg75_300_gripper__rosidl_typesupport_cpp-ecf35e76a3222bea5263.json",
+					"name" : "rg75_300_gripper__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rg75_300_gripper__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rg75_300_gripper__rosidl_typesupport_fastrtps_c-1e2e69b157fdb4a47ff7.json",
+					"name" : "rg75_300_gripper__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rg75_300_gripper__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rg75_300_gripper__rosidl_typesupport_fastrtps_c__pyext-f839d69d0a1fc03fcc53.json",
+					"name" : "rg75_300_gripper__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rg75_300_gripper__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rg75_300_gripper__rosidl_typesupport_fastrtps_cpp-ceb0d39dac0652a6f81d.json",
+					"name" : "rg75_300_gripper__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rg75_300_gripper__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rg75_300_gripper__rosidl_typesupport_introspection_c-7e46ad2a5025a6b41d7b.json",
+					"name" : "rg75_300_gripper__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rg75_300_gripper__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rg75_300_gripper__rosidl_typesupport_introspection_c__pyext-0a4acd47e63893d0bad3.json",
+					"name" : "rg75_300_gripper__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rg75_300_gripper__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rg75_300_gripper__rosidl_typesupport_introspection_cpp-62c85bb84e8600b67fa2.json",
+					"name" : "rg75_300_gripper__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rg75_300_gripper_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rg75_300_gripper_uninstall-73cd72847936c9da3593.json",
+					"name" : "rg75_300_gripper_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9bcf0c066e651903966f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fst/test_fa_ws/build/rg75_300_gripper",
+		"source" : "/home/fst/test_fa_ws/src/rg75_300_gripper"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

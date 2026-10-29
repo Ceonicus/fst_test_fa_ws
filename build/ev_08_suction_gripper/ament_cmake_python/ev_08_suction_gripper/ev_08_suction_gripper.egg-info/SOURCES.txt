@@ -1,0 +1,10 @@
+setup.py
+ev_08_suction_gripper/__init__.py
+ev_08_suction_gripper.egg-info/PKG-INFO
+ev_08_suction_gripper.egg-info/SOURCES.txt
+ev_08_suction_gripper.egg-info/dependency_links.txt
+ev_08_suction_gripper.egg-info/top_level.txt
+ev_08_suction_gripper/msg/__init__.py
+ev_08_suction_gripper/msg/_suction_state.py
+ev_08_suction_gripper/srv/__init__.py
+ev_08_suction_gripper/srv/_suction_command.py

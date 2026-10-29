@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ev_08_suction_gripper/srv/SuctionCommand.srv
+// generated code does not contain a copyright notice
+
+
+module ev_08_suction_gripper {
+  module srv {
+    struct SuctionCommand_Request {
+      @verbatim (language="comment", text=
+        "1=A_ON, 2=A_OFF, 3=B_ON, 4=B_OFF, 5=BOTH_ON")
+      int8 command;
+    };
+    struct SuctionCommand_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};
